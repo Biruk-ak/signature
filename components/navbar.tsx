@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun, ShoppingCart, Menu, Search } from "lucide-react"
+import { Moon, Sun, Menu, Search } from "lucide-react"
 
 export function Navbar() {
   const { theme, setTheme } = useTheme()
@@ -55,15 +55,10 @@ export function Navbar() {
             </Button>
           )}
 
-          <Button variant="ghost" size="icon" className="relative">
-            <ShoppingCart className="h-5 w-5" />
-            <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] font-bold text-primary-foreground">
-              0
-            </span>
-          </Button>
+
 
           <Button className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wide px-6">
-            Get a Quote
+            Contact Us
           </Button>
 
           <Button variant="ghost" size="icon" className="md:hidden">

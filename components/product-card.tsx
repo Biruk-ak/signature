@@ -4,12 +4,12 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ShoppingCart, Eye, Weight } from "lucide-react"
+
 
 interface ProductProps {
   id: string
   name: string
-  price: string
+
   image: string
   category: string
   specs: {
@@ -19,7 +19,7 @@ interface ProductProps {
   isNew?: boolean
 }
 
-export function ProductCard({ name, price, image, category, specs, isNew }: ProductProps) {
+export function ProductCard({ name, image, category, specs, isNew }: ProductProps) {
   return (
     <motion.div
       whileHover={{ y: -4 }}
@@ -39,14 +39,7 @@ export function ProductCard({ name, price, image, category, specs, isNew }: Prod
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
         {/* Quick Actions overlay */}
-        <div className="absolute inset-x-0 bottom-4 flex justify-center gap-3 opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-          <Button size="sm" variant="secondary" className="h-9 w-9 opacity-90 hover:opacity-100 rounded-full shadow-lg">
-            <Eye className="h-4 w-4" />
-          </Button>
-          <Button size="sm" className="h-9 w-9 opacity-90 hover:opacity-100 rounded-full bg-primary text-primary-foreground shadow-lg">
-            <ShoppingCart className="h-4 w-4" />
-          </Button>
-        </div>
+
       </div>
 
       {/* Content */}
@@ -66,7 +59,7 @@ export function ProductCard({ name, price, image, category, specs, isNew }: Prod
         </div>
 
         <div className="mt-auto flex items-center justify-between pt-3 border-t border-border/50">
-          <p className="text-base font-black tracking-tight">{price}</p>
+
           <Button
             variant="ghost"
             className="h-auto p-0 text-[10px] font-black uppercase tracking-widest text-primary hover:text-primary/80"

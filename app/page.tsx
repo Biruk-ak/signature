@@ -12,7 +12,7 @@ const FEATURED_PRODUCTS = [
     name: "Vault-X Functional Trainer",
     price: "$2,499.00",
     category: "STRENGTH MACHINES",
-    image: "/premium-dual-cable-functional-trainer-gym-machine-.jpg",
+    image: "/bags/shop_2_(2)_1920x1920.webp",
     isNew: true,
     specs: [
       { label: "Weight", value: "250lb Stack" },
@@ -24,7 +24,7 @@ const FEATURED_PRODUCTS = [
     name: "Precision Competition Plates",
     price: "$649.00",
     category: "FREE WEIGHTS",
-    image: "/color-coded-olympic-competition-bumper-plates-stac.jpg",
+    image: "/ball/wallball_8_1920x1920.webp",
     specs: [
       { label: "Weight", value: "140kg Set" },
       { label: "Material", value: "Urethane" },
@@ -35,7 +35,7 @@ const FEATURED_PRODUCTS = [
     name: "Iron Power Rack 5000",
     price: "$1,299.00",
     category: "RACKS & RIGS",
-    image: "/heavy-duty-black-steel-power-rack-with-pull-up-bar.jpg",
+    image: "/bars/shop_2_(11)_1920x1920.webp",
     specs: [
       { label: "Capacity", value: "1500lb" },
       { label: "Steel", value: "11-Gauge" },
@@ -46,7 +46,7 @@ const FEATURED_PRODUCTS = [
     name: "Adjustable Bench Pro",
     price: "$449.00",
     category: "ACCESSORIES",
-    image: "/adjustable-gym-bench-with-leather-padding-black-st.jpg",
+    image: "/centr/rig_target_produkt_02_1920x1920.webp",
     specs: [
       { label: "Positions", value: "8-Way" },
       { label: "Weight", value: "1000lb Limit" },

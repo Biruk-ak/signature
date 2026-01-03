@@ -8,6 +8,7 @@ export function Hero() {
   return (
     <section className="relative h-[90vh] min-h-[600px] w-full overflow-hidden flex items-center">
       {/* Background Image with Overlay */}
+
       <div className="absolute inset-0 z-0">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
