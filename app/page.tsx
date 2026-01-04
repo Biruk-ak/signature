@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero"
 import { ProductCard } from "@/components/product-card"
+import { ProductCarousel } from "@/components/product-carousel"
 import { Button } from "@/components/ui/button"
 import { Footer } from "@/components/footer" // Added Footer
 import { ArrowRight, Dumbbell, Grid, Settings, Layers } from "lucide-react"
@@ -9,47 +10,75 @@ import Link from "next/link"
 const FEATURED_PRODUCTS = [
   {
     id: "1",
-    name: "Vault-X Functional Trainer",
-    price: "$2,499.00",
+    name: "Vault-X Hybrid Bag",
+    price: "$199.00",
     category: "STRENGTH MACHINES",
     image: "/bags/shop_2_(2)_1920x1920.webp",
+    hoverImage: "/bags/shop_1_(2)_1920x1920.webp",
     isNew: true,
     specs: [
-      { label: "Weight", value: "250lb Stack" },
-      { label: "Footprint", value: "4ft x 6ft" },
+      { label: "Weight", value: "20kg" },
+      { label: "Handles", value: "Multi-Grip" },
     ],
   },
   {
     id: "2",
-    name: "Precision Competition Plates",
-    price: "$649.00",
+    name: "Hyrox Wall Ball",
+    price: "$129.00",
     category: "FREE WEIGHTS",
     image: "/ball/wallball_8_1920x1920.webp",
+    hoverImage: "/ball/wallball_9_1920x1920.webp",
     specs: [
-      { label: "Weight", value: "140kg Set" },
-      { label: "Material", value: "Urethane" },
+      { label: "Weight", value: "9kg" },
+      { label: "Material", value: "Reinforced" },
     ],
   },
   {
     id: "3",
-    name: "Iron Power Rack 5000",
-    price: "$1,299.00",
+    name: "Elite Power Rack",
+    price: "$1,899.00",
     category: "RACKS & RIGS",
     image: "/bars/shop_2_(11)_1920x1920.webp",
+    hoverImage: "/bars/shop_3_(11)_1920x1920.webp",
     specs: [
-      { label: "Capacity", value: "1500lb" },
-      { label: "Steel", value: "11-Gauge" },
+      { label: "Capacity", value: "2000lb" },
+      { label: "Steel", value: "7-Gauge" },
     ],
   },
   {
     id: "4",
-    name: "Adjustable Bench Pro",
-    price: "$449.00",
+    name: "Pro Utility Bench",
+    price: "$549.00",
     category: "ACCESSORIES",
     image: "/centr/rig_target_produkt_02_1920x1920.webp",
+    hoverImage: "/centr/rig_target_produkt_03_1920x1920.webp",
     specs: [
-      { label: "Positions", value: "8-Way" },
-      { label: "Weight", value: "1000lb Limit" },
+      { label: "Positions", value: "FID" },
+      { label: "Weight", value: "1000lb" },
+    ],
+  },
+  {
+    id: "5",
+    name: "Bumper Plate Set",
+    price: "$899.00",
+    category: "FREE WEIGHTS",
+    image: "/kg/shop_5_(7)_1920x1920.webp",
+    hoverImage: "/kg/shop_6_(3)_1920x1920.webp",
+    specs: [
+      { label: "Total", value: "150kg" },
+      { label: "Material", value: "Rubber" },
+    ],
+  },
+  {
+    id: "6",
+    name: "Core Training Kit",
+    price: "$349.00",
+    category: "ACCESSORIES",
+    image: "/kg/Centrxhyroxstarterkit.webp",
+    hoverImage: "/kg/shop_3_(8)_1920x1920.webp",
+    specs: [
+      { label: "Bundle", value: "Starter" },
+      { label: "Type", value: "Functional" },
     ],
   },
 ]
@@ -137,11 +166,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-            {FEATURED_PRODUCTS.map((product) => (
-              <ProductCard key={product.id} {...product} />
-            ))}
-          </div>
+          <ProductCarousel products={FEATURED_PRODUCTS} />
 
           <div className="mt-16 text-center">
             <Button

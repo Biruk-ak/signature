@@ -10,7 +10,7 @@ const CATEGORIES = [
         name: "Strength Machines",
         icon: Settings,
         desc: "Engineered for biomechanical perfection. Our selectorized and plate-loaded machines deliver smooth, consistent resistance for effective muscle isolation and growth. Built with heavy-duty steel and premium upholstery for commercial durability.",
-        image: "/equpment/gym1.jpg",
+        image: "/bars/shop_1_(11)_1920x1920.webp",
         features: ["Selectorized Stacks", "Plate Loaded", "Cable Systems", "Functional Trainers"],
     },
     {
@@ -18,7 +18,7 @@ const CATEGORIES = [
         name: "Free Weights",
         icon: Dumbbell,
         desc: "The foundation of any serious gym. From precision-calibrated competition plates to urethane-encased dumbbells, our free weights are designed for accuracy, durability, and satisfying performance. Experience the raw feel of iron.",
-        image: "/equpment/gym4.jpg",
+        image: "/bars/shop_2_(11)_1920x1920.webp",
         features: ["Dumbbells", "Barbells", "Bumper Plates", "Kettlebells"],
     },
     {
@@ -26,7 +26,7 @@ const CATEGORIES = [
         name: "Racks & Rigs",
         icon: Grid,
         desc: "The centerpiece of the modern training facility. Our modular power racks and rigs are constructed from 11-gauge steel, offering limitless customization options. Build the ultimate station for squats, bench press, and pull-ups.",
-        image: "/equpment/gym6.jpg",
+        image: "/bars/shop_3_(11)_1920x1920.webp",
         features: ["Power Racks", "Half Racks", "Wall Mount Rigs", "Smith Machines"],
     },
     {
@@ -34,7 +34,7 @@ const CATEGORIES = [
         name: "Home Gym",
         icon: Layers,
         desc: "Bring the commercial gym experience home. Our compact, high-performance equipment is designed to fit your space without compromising on quality or functionality. Train on your terms with professional-grade gear.",
-        image: "/equpment/gym3.jpg",
+        image: "/bars/shop_4_(11)_1920x1920.webp",
         features: ["All-in-One Trainers", "Compact Benches", "Adjustable Dumbbells", "Cardio Equipment"],
     },
 ]

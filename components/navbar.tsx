@@ -35,12 +35,12 @@ export function Navbar() {
             <Link href="/categories" className="hover:text-primary transition-colors">
               CATEGORIES
             </Link>
-            <Link href="/commercial" className="hover:text-primary transition-colors">
-              COMMERCIAL
+            <Link href="/products" className="hover:text-primary transition-colors">
+              PRODUCTS
             </Link>
-            <Link href="/about" className="hover:text-primary transition-colors">
+            {/* <Link href="/about" className="hover:text-primary transition-colors">
               STORY
-            </Link>
+            </Link> */}
           </div>
         </div>
 

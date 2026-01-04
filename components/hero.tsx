@@ -36,20 +36,20 @@ export function Hero() {
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-black h-14 px-8 group"
               >
-                SHOP EQUIPMENT
+                shop
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button
+              {/* <Button
                 size="lg"
                 variant="outline"
                 className="border-2 text-lg font-black h-14 px-8 hover:bg-secondary bg-transparent"
               >
                 REQUEST A QUOTE
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 1 }}
@@ -69,7 +69,7 @@ export function Hero() {
                 <p className="text-xs text-muted-foreground">Commercial delivery experts</p>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>

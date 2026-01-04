@@ -11,6 +11,7 @@ interface ProductProps {
   name: string
 
   image: string
+  hoverImage?: string
   category: string
   specs: {
     label: string
@@ -19,14 +20,14 @@ interface ProductProps {
   isNew?: boolean
 }
 
-export function ProductCard({ name, image, category, specs, isNew }: ProductProps) {
+export function ProductCard({ name, image, hoverImage, category, specs, isNew }: ProductProps) {
   return (
     <motion.div
       whileHover={{ y: -4 }}
-      className="group relative h-full flex flex-col overflow-hidden rounded-2xl bg-card border border-border/50 transition-all duration-300 hover:border-primary/50 hover:shadow-xl"
+      className="group/card relative h-full flex flex-col overflow-hidden rounded-2xl bg-card border border-border/50 transition-all duration-300 hover:border-primary/50 hover:shadow-xl"
     >
       {/* Image Container */}
-      <div className="relative aspect-[4/5] overflow-hidden bg-secondary/20">
+      <div className="relative aspect-square overflow-hidden bg-secondary/20 rounded-t-2xl">
         {isNew && (
           <Badge className="absolute left-3 top-3 z-10 bg-primary text-primary-foreground font-bold text-[10px] uppercase tracking-wider px-2 py-0.5 border-0">
             New
@@ -36,8 +37,16 @@ export function ProductCard({ name, image, category, specs, isNew }: ProductProp
           src={image || "/placeholder.svg"}
           alt={name}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className={`object-contain p-1 transition-all duration-500 ease-in-out ${hoverImage ? 'group-hover/card:opacity-0' : ''} group-hover/card:scale-105`}
         />
+        {hoverImage && (
+          <Image
+            src={hoverImage}
+            alt={`${name} secondary view`}
+            fill
+            className="object-contain p-1 transition-all duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 group-hover/card:scale-105"
+          />
+        )}
         {/* Quick Actions overlay */}
 
       </div>
