@@ -171,8 +171,8 @@ const ALL_PRODUCTS = [
     name: "Commercial Pull Up Bar",
     price: "$499.00",
     category: "FREE WEIGHTS",
-    image: "/iteams/gym19.jpg",
-    hoverImage: "/iteams/gym20.jpg",
+    image: "/rob/shop_1_(1)_1920x1920.jpg",
+    hoverImage: "/rob/shop_2_(1)_1920x1920.jpg",
     specs: [
       { label: "Type", value: "Adjustable" },
       { label: "Pad", value: "High-Density" },
@@ -183,8 +183,8 @@ const ALL_PRODUCTS = [
     name: "Commercial Pull Up Bar",
     price: "$499.00",
     category: "FREE WEIGHTS",
-    image: "/iteams/gym21.jpg",
-    hoverImage: "/iteams/gym22.jpg",
+    image: "/push/CENTR x HYROX Competition Power Sled_shop_1_1920x1920.jpg",
+    hoverImage: "/push/CENTR x HYROX Competition Power Sled_shop_2_1920x1920.jpg",
     specs: [
       { label: "Type", value: "Adjustable" },
       { label: "Pad", value: "High-Density" },
