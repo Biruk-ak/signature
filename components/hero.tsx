@@ -1,75 +1,44 @@
 "use client"
 
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
-import { ArrowRight, ShieldCheck, Truck, Trophy } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative h-[90vh] min-h-[600px] w-full overflow-hidden flex items-center">
-      {/* Background Image with Overlay */}
-
+    <section className="relative h-[60vh] min-h-[450px] w-full overflow-hidden flex items-center rounded-b-[120px] md:rounded-b-[300px]">
       <div className="absolute inset-0 z-0">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url("/dark-professional-gym-interior-with-heavy-duty-rac.webp")' }}
+        <Image
+          src="/Screenshot 2026-01-04 215733.webp"
+          alt="Hero Background"
+          fill
+          className="object-cover"
+          priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent" />
+        <div className="absolute inset-0 bg-black/20" />
       </div>
 
-      <div className="container relative z-10 mx-auto px-4">
-        <div className="max-w-3xl">
+      <div className="container relative z-10 mx-auto px-4 text-center">
+        <div className="max-w-4xl mx-auto text-white">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
-              <Trophy className="h-3 w-3" /> Professional Grade Strength
-            </div> */}
-            <h1 className="text-5xl md:text-7xl font-black tracking-tighter text-balance leading-[0.9] mb-6">
-              FORGED FOR <span className="text-primary">ELITE</span> PERFORMANCE
+            <h1 className="text-5xl md:text-8xl font-black tracking-tighter text-balance leading-[0.85] mb-6 drop-shadow-2xl uppercase">
+              LOREM <span className="text-primary">IPSUM</span> DOLOR
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground text-balance max-w-xl mb-10 leading-relaxed">
-              Equip your facility with industrial-grade machinery and precision-engineered weights. Built for those who
-              demand more from their iron.
+            <p className="text-lg md:text-2xl text-white/90 text-balance max-w-2xl mx-auto mb-10 leading-relaxed drop-shadow-md">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, .
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex justify-center">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-black h-14 px-8 group"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground text-xl font-black h-16 px-10 group rounded-2xl"
               >
-                shop
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                LOREM IPSUM
+                <ArrowRight className="ml-2 h-6 w-6 transition-transform group-hover:translate-x-1" />
               </Button>
-              {/* <Button
-                size="lg"
-                variant="outline"
-                className="border-2 text-lg font-black h-14 px-8 hover:bg-secondary bg-transparent"
-              >
-                REQUEST A QUOTE
-              </Button> */}
-            </div>
+            </div> */}
           </motion.div>
-
-          {/* <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.8, duration: 1 }}
-            className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 pt-8 border-t border-border/20"
-          >
-            <div className="flex items-center gap-3">
-              <ShieldCheck className="h-8 w-8 text-primary" />
-              <div>
-                <p className="text-sm font-bold uppercase tracking-tight">Lifetime Warranty</p>
-                <p className="text-xs text-muted-foreground">On all structural steel</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <Truck className="h-8 w-8 text-primary" />
-              <div>
-                <p className="text-sm font-bold uppercase tracking-tight">Global Logistics</p>
-                <p className="text-xs text-muted-foreground">Commercial delivery experts</p>
-              </div>
-            </div>
-          </motion.div> */}
         </div>
       </div>
     </section>

@@ -7,35 +7,35 @@ import Image from "next/image"
 const CATEGORIES = [
     {
         id: "strength",
-        name: "Strength Machines",
+        name: "LOREM IPSUM",
         icon: Settings,
-        desc: "Engineered for biomechanical perfection. Our selectorized and plate-loaded machines deliver smooth, consistent resistance for effective muscle isolation and growth. Built with heavy-duty steel and premium upholstery for commercial durability.",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_1_(11)_1920x1920.webp",
-        features: ["Selectorized Stacks", "Plate Loaded", "Cable Systems", "Functional Trainers"],
+        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
     },
     {
         id: "freeweights",
-        name: "Free Weights",
+        name: "LOREM IPSUM",
         icon: Dumbbell,
-        desc: "The foundation of any serious gym. From precision-calibrated competition plates to urethane-encased dumbbells, our free weights are designed for accuracy, durability, and satisfying performance. Experience the raw feel of iron.",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_2_(11)_1920x1920.webp",
-        features: ["Dumbbells", "Barbells", "Bumper Plates", "Kettlebells"],
+        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
     },
     {
         id: "racks",
-        name: "Racks & Rigs",
+        name: "LOREM IPSUM",
         icon: Grid,
-        desc: "The centerpiece of the modern training facility. Our modular power racks and rigs are constructed from 11-gauge steel, offering limitless customization options. Build the ultimate station for squats, bench press, and pull-ups.",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_3_(11)_1920x1920.webp",
-        features: ["Power Racks", "Half Racks", "Wall Mount Rigs", "Smith Machines"],
+        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
     },
     {
         id: "home",
-        name: "Home Gym",
+        name: "LOREM IPSUM",
         icon: Layers,
-        desc: "Bring the commercial gym experience home. Our compact, high-performance equipment is designed to fit your space without compromising on quality or functionality. Train on your terms with professional-grade gear.",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_4_(11)_1920x1920.webp",
-        features: ["All-in-One Trainers", "Compact Benches", "Adjustable Dumbbells", "Cardio Equipment"],
+        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
     },
 ]
 
@@ -46,12 +46,12 @@ export default function CategoriesPage() {
             <section className="relative py-24 bg-muted/30 overflow-hidden">
                 <div className="absolute inset-0 bg-grid-white/10" />
                 <div className="container relative z-10 px-4 mx-auto text-center">
-                    <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">Our Equipment</p>
+                    <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">LOREM IPSUM</p>
                     <h1 className="text-5xl md:text-7xl font-black tracking-tighter uppercase mb-6">
-                        Browse Categories
+                        LOREM IPSUM
                     </h1>
                     <p className="text-muted-foreground text-xl max-w-2xl mx-auto">
-                        Explore our comprehensive range of premium gym equipment, meticulously designed for performance, safety, and longevity.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
             </section>
@@ -100,7 +100,7 @@ export default function CategoriesPage() {
 
                                     <Link href={`/categories/${cat.id}`}>
                                         <Button size="lg" className="w-full sm:w-auto font-black uppercase tracking-widest group-hover:bg-primary group-hover:text-primary-foreground">
-                                            View Products <ArrowRight className="ml-2 h-4 w-4" />
+                                            LOREM IPSUM <ArrowRight className="ml-2 h-4 w-4" />
                                         </Button>
                                     </Link>
                                 </div>

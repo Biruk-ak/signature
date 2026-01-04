@@ -20,7 +20,7 @@ export function Footer() {
               Building the foundation for elite athletes and world-class facilities since 2010. Engineered for power,
               built for life.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <Link
                 href="#"
                 className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all"
@@ -45,7 +45,7 @@ export function Footer() {
               >
                 <Youtube className="h-5 w-5" />
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div>

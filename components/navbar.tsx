@@ -57,9 +57,11 @@ export function Navbar() {
 
 
 
-          <Button className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wide px-6">
-            Contact Us
-          </Button>
+          <Link href="/#contact">
+            <Button className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wide px-6">
+              Contact Us
+            </Button>
+          </Link>
 
           <Button variant="ghost" size="icon" className="md:hidden">
             <Menu className="h-6 w-6" />

@@ -30,26 +30,25 @@ export function PerformanceShowcase() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">Aesthetic Power</p>
+                        <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">LOREM IPSUM</p>
                         <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.85] mb-8">
-                            PERFORMANCE <br /> MEETS <span className="text-primary">STYLE</span>
+                            LOREM <br /> IPSUM <span className="text-primary">LOREM</span>
                         </h2>
                         <p className="text-xl text-muted-foreground mb-10 leading-relaxed font-medium max-w-xl">
-                            Our equipment doesn&apos;t just perform at the highest level—it transforms your space.
-                            Precision-engineered steel meets premium finishes to create an atmosphere of pure strength.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center gap-4 group cursor-default">
                                 <div className="h-[2px] w-12 bg-primary transition-all group-hover:w-16" />
-                                <p className="text-sm font-black uppercase tracking-widest">Industrial Design</p>
+                                <p className="text-sm font-black uppercase tracking-widest">LOREM IPSUM</p>
                             </div>
                             <div className="flex items-center gap-4 group cursor-default">
                                 <div className="h-[2px] w-12 bg-primary transition-all group-hover:w-16" />
-                                <p className="text-sm font-black uppercase tracking-widest">Premium Materials</p>
+                                <p className="text-sm font-black uppercase tracking-widest">LOREM IPSUM</p>
                             </div>
                             <div className="flex items-center gap-4 group cursor-default">
                                 <div className="h-[2px] w-12 bg-primary transition-all group-hover:w-16" />
-                                <p className="text-sm font-black uppercase tracking-widest">Elite Ergonomics</p>
+                                <p className="text-sm font-black uppercase tracking-widest">LOREM IPSUM</p>
                             </div>
                         </div>
                     </motion.div>
@@ -66,7 +65,7 @@ export function PerformanceShowcase() {
                             >
                                 <Image
                                     src={SHOWCASE_IMAGES[currentIndex]}
-                                    alt="Gym Performance Showcase"
+                                    alt="LOREM IPSUM"
                                     fill
                                     className="object-cover"
                                 />
