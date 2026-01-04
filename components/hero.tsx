@@ -12,7 +12,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url("/dark-professional-gym-interior-with-heavy-duty-rac.jpg")' }}
+          style={{ backgroundImage: 'url("/dark-professional-gym-interior-with-heavy-duty-rac.webp")' }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent" />
       </div>
