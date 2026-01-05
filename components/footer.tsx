@@ -105,15 +105,15 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-muted-foreground font-medium">
               <li className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span>1200 Industrial Way, Austin TX</span>
+                <span>Lorem, ipsum.</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary" />
-                <span>+1 (800) IRON-VLT</span>
+                <span>+Lorem, ipsum dolor.</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <span>sales@signaturefitness.com</span>
+                <span>Lorem, ipsum dolor.</span>
               </li>
             </ul>
           </div>
