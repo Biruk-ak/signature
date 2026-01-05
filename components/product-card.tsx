@@ -36,14 +36,14 @@ export function ProductCard({ id, name, image, hoverImage, category, specs, isNe
                         src={image || "/placeholder.svg"}
                         alt={name}
                         fill
-                        className={`object-contain p-6 transition-all duration-700 ease-in-out ${hoverImage ? 'group-hover/card:opacity-0' : ''} group-hover/card:scale-110`}
+                        className={`object-cover transition-all duration-700 ease-in-out ${hoverImage ? 'group-hover/card:opacity-0' : ''} group-hover/card:scale-110`}
                     />
                     {hoverImage && (
                         <Image
                             src={hoverImage}
                             alt={`${name} secondary view`}
                             fill
-                            className="object-contain p-6 transition-all duration-700 ease-in-out opacity-0 group-hover/card:opacity-100 group-hover/card:scale-110"
+                            className="object-cover transition-all duration-700 ease-in-out opacity-0 group-hover/card:opacity-100 group-hover/card:scale-110"
                         />
                     )}
                 </div>

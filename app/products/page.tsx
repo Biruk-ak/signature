@@ -36,7 +36,7 @@ export default function ProductsPage() {
                                     src={activeImage || featuredProduct.image}
                                     alt={featuredProduct.name}
                                     fill
-                                    className="object-contain p-4"
+                                    className="object-cover"
                                     priority
                                 />
                                 {featuredProduct.isNew && (
@@ -58,7 +58,7 @@ export default function ProductsPage() {
                                             src={img}
                                             alt={`${featuredProduct.name} view ${i + 1}`}
                                             fill
-                                            className="object-contain p-1.5"
+                                            className="object-cover"
                                         />
                                     </button>
                                 ))}
