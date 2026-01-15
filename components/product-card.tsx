@@ -60,9 +60,7 @@ export function ProductCard({ id, name, image, hoverImage, category, specs, isNe
 
                         {/* Specs Display */}
                         <div className="flex gap-4 text-[11px] font-bold uppercase tracking-widest text-muted-foreground/60">
-                            {specs.slice(0, 2).map((spec, i) => (
-                                <span key={i}>{spec.value}</span>
-                            ))}
+                            Product information: {name}
                         </div>
                     </div>
 

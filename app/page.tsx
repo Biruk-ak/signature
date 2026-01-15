@@ -19,9 +19,9 @@ export default function Home() {
       <section className="py-22">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-4">LOREM IPSUM</h2>
+            <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-4">CENTR x HYROX</h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Innovation meets functionality: the new CENTR x HYROX Performance-line.
             </p>
           </div>
 
@@ -42,9 +42,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="text-primary font-black uppercase tracking-[0.3em] mb-2">LOREM IPSUM</p>
+              {/* <p className="text-primary font-black uppercase tracking-[0.3em] mb-2">LOREM IPSUM</p> */}
               <h2 className="text-4xl md:text-5xl font-black tracking-tighter uppercase leading-none">
-                LOREM IPSUM
+                categories
               </h2>
             </div>
             <Link href="/categories">
@@ -52,7 +52,7 @@ export default function Home() {
                 variant="outline"
                 className="hidden md:flex border-2 font-black uppercase tracking-widest bg-transparent"
               >
-                LOREM IPSUM
+                view more
               </Button>
             </Link>
           </div>
@@ -60,21 +60,26 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2 justify-items-center max-w-3xl mx-auto">
             {[
               {
-                name: "LOREM IPSUM",
+                name: "CENTR x HYROX",
                 image: "/bars/shop_1_(11)_1920x1920.webp",
               },
               {
-                name: "LOREM IPSUM",
+                name: "SHUA",
                 image: "/ball/wallball_12_1920x1920.webp",
               },
               {
-                name: "LOREM IPSUM",
+                name: "PUSH n PULL",
                 image: "/kg/shop_6_(3)_1920x1920.webp",
               },
               {
-                name: "LOREM IPSUM",
+                name: "TRX® Suspension",
                 image: "/centr/rig_target_produkt_10_1920x1920.webp",
               },
+              {
+                name: "BlazePod",
+                image: "/centr/rig_target_produkt_10_1920x1920.webp",
+              },
+
             ].map((cat, i) => (
               <Link key={i} href="/categories" className="group flex flex-col items-center w-full">
                 <div className="relative aspect-square w-full max-w-[160px] overflow-hidden rounded-full bg-card border-2 border-border/10 transition-all duration-500 group-hover:border-primary group-hover:shadow-[0_0_40px_rgba(215,182,74,0.2)]">

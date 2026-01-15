@@ -39,7 +39,7 @@ export default function ProductPage() {
                 {/* Back Link */}
                 <Link href="/" className="inline-flex items-center gap-2 text-primary font-black uppercase tracking-widest mb-10 hover:gap-4 transition-all group text-[10px]">
                     <ArrowLeft className="w-3 h-3" />
-                    <span>LOREM IPSUM</span>
+                    <span>back</span>
                 </Link>
 
                 {/* Single Large Detail Card */}
@@ -62,7 +62,7 @@ export default function ProductPage() {
                                 />
                                 {product.isNew && (
                                     <Badge className="absolute top-0 left-0 bg-[#d7b64a] text-black font-black uppercase tracking-widest text-[10px] px-4 py-1.5 rounded-xl border-0 shadow-lg">
-                                        LOREM IPSUM
+                                        NEW
                                     </Badge>
                                 )}
                             </div>
@@ -94,9 +94,19 @@ export default function ProductPage() {
                                     {product.name}
                                 </h1>
                                 <div className="h-1 w-20 bg-[#d7b64a] mb-10" />
-                                <p className="text-lg text-muted-foreground leading-relaxed font-medium max-w-xl">
-                                    {product.description}
-                                </p>
+                                <div className="mb-10">
+                                    <h3 className="text-sm font-black uppercase tracking-widest text-foreground mb-4">
+                                        {/* @ts-ignore */}
+                                        {product.descriptionTitle || "Description"}
+                                    </h3>
+                                    <ul className="list-disc pl-5 space-y-2 text-lg text-muted-foreground font-medium max-w-xl">
+                                        {(Array.isArray(product.description) ? product.description : [product.description]).map((item, index) => (
+                                            <li key={index} className="leading-relaxed pl-2">
+                                                {item}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </div>
 
                             {/* Specifications Display */}
@@ -111,14 +121,55 @@ export default function ProductPage() {
 
                             <div className="flex flex-col sm:flex-row gap-4 mt-auto">
                                 <Button size="lg" className="h-16 flex-1 bg-[#d7b64a] hover:bg-[#d7b64a]/90 text-black text-lg font-black uppercase tracking-[0.15em] rounded-2xl shadow-xl transition-all hover:scale-[1.02]">
-                                    LOREM IPSUM
+                                    ADD TO CART
                                 </Button>
                                 <Button variant="outline" size="lg" className="h-16 flex-1 border-2 border-border font-black uppercase tracking-widest rounded-2xl">
-                                    LOREM IPSUM
+                                    CONTACT US
                                 </Button>
                             </div>
                         </div>
                     </div>
+
+                    {/* Detailed Info Section */}
+                    {/* @ts-ignore */}
+                    {(product.longDescription || product.productDetails) && (
+                        <div className="px-8 lg:px-12 pb-16 pt-8 border-t border-border/40">
+                            <div className="max-w-4xl">
+                                <h2 className="text-xl font-medium mb-8">
+                                    Product information: {product.name}
+                                </h2>
+
+                                {/* @ts-ignore */}
+                                {product.featuresTitle && (
+                                    <h3 className="text-2xl font-black mb-4">
+                                        {/* @ts-ignore */}
+                                        {product.featuresTitle}
+                                    </h3>
+                                )}
+
+                                {/* @ts-ignore */}
+                                {product.longDescription && (
+                                    <p className="text-muted-foreground leading-relaxed mb-12">
+                                        {/* @ts-ignore */}
+                                        {product.longDescription}
+                                    </p>
+                                )}
+
+                                {/* @ts-ignore */}
+                                {product.productDetails && (
+                                    <div>
+                                        <h3 className="text-xl font-medium mb-6">Product details:</h3>
+                                        <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                                            {/* @ts-ignore */}
+                                            {product.productDetails.map((detail, i) => (
+                                                <li key={i}>{detail}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    )}
                 </motion.div>
 
                 {/* More Section */}
@@ -138,8 +189,8 @@ export default function ProductPage() {
                         ))}
                     </div>
                 </section>
-            </div>
+            </div >
             <Footer />
-        </main>
+        </main >
     )
 }
