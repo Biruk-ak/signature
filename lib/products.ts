@@ -385,159 +385,316 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Diameter: 35.5 cm/14 inch"
         ]
     },
-    // {
-    //     id: "11",
-    //     name: "LOREM IPSUM",
-    //     price: "$000.00",
-    //     category: "LOREM IPSUM",
-    //     image: "/iteams/gym13.jpg",
-    //     hoverImage: "/iteams/gym14.jpg",
-    //     gallery: [
-    //         "/iteams/gym13.jpg",
-    //         "/iteams/gym14.jpg",
-    //         "/iteams/gym11.jpg",
-    //     ],
-    //     description: [
-    //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     ],
-    //     descriptionTitle: "Description",
-    //     specs: [
-    //         { label: "LOREM", value: "LOREM" },
-    //         { label: "LOREM", value: "LOREM" },
-    //     ],
-    //     longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-    //     featuresTitle: "Take your training to the next level with the Wall Balls",
-    //     productDetails: [
-    //         "Color: Black",
-    //         "Material: Outer cover made of polyvinyl chloride (PVC)",
-    //         "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-    //         "Diameter: 35.5 cm/14 inch"
-    //     ]
-    // },
-    // {
-    //     id: "12",
-    //     name: "LOREM IPSUM",
-    //     price: "$000.00",
-    //     category: "LOREM IPSUM",
-    //     image: "/push/CENTR x HYROX Competition Power Sled_shop_4_1920x1920.jpg",
-    //     hoverImage: "/push/CENTR x HYROX Competition Power Sled_shop_5_1920x1920.jpg",
-    //     gallery: [
-    //         "/push/CENTR x HYROX Competition Power Sled_shop_4_1920x1920.jpg",
-    //         "/push/CENTR x HYROX Competition Power Sled_shop_5_1920x1920.jpg",
-    //         "/push/CENTR x HYROX Competition Power Sled_shop_6_1920x1920.jpg",
-    //     ],
-    //     description: [
-    //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     ],
-    //     descriptionTitle: "Description",
-    //     specs: [
-    //         { label: "LOREM", value: "LOREM" },
-    //         { label: "LOREM", value: "LOREM" },
-    //     ],
-    //     longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-    //     featuresTitle: "Take your training to the next level with the Wall Balls",
-    //     productDetails: [
-    //         "Color: Black",
-    //         "Material: Outer cover made of polyvinyl chloride (PVC)",
-    //         "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-    //         "Diameter: 35.5 cm/14 inch"
-    //     ]
-    // },
-    // {
-    //     id: "13",
-    //     name: "LOREM IPSUM",
-    //     price: "$000.00",
-    //     category: "LOREM IPSUM",
-    //     image: "/iteams/gym17.jpg",
-    //     hoverImage: "/iteams/gym18.jpg",
-    //     gallery: [
-    //         "/iteams/gym17.jpg",
-    //         "/iteams/gym18.jpg",
-    //         "/iteams/gym15.jpg",
-    //     ],
-    //     description: [
-    //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     ],
-    //     descriptionTitle: "Description",
-    //     specs: [
-    //         { label: "LOREM", value: "LOREM" },
-    //         { label: "LOREM", value: "LOREM" },
-    //     ],
-    //     longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-    //     featuresTitle: "Take your training to the next level with the Wall Balls",
-    //     productDetails: [
-    //         "Color: Black",
-    //         "Material: Outer cover made of polyvinyl chloride (PVC)",
-    //         "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-    //         "Diameter: 35.5 cm/14 inch"
-    //     ]
-    // },
-    // {
-    //     id: "14",
-    //     name: "LOREM IPSUM",
-    //     price: "$000.00",
-    //     category: "LOREM IPSUM",
-    //     image: "/rob/shop_1_(1)_1920x1920.jpg",
-    //     hoverImage: "/rob/shop_2_(1)_1920x1920.jpg",
-    //     gallery: [
-    //         "/rob/shop_1_(1)_1920x1920.jpg",
-    //         "/rob/shop_2_(1)_1920x1920.jpg",
-    //         "/centr/rig_target_produkt_02.webp",
-    //     ],
-    //     descriptionTitle: "Description",
-    //     description: [
-    //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     ],
-    //     specs: [
-    //         { label: "LOREM", value: "LOREM" },
-    //         { label: "LOREM", value: "LOREM" },
-    //     ],
-    //     longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-    //     featuresTitle: "Take your training to the next level with the Wall Balls",
-    //     productDetails: [
-    //         "Color: Black",
-    //         "Material: Outer cover made of polyvinyl chloride (PVC)",
-    //         "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-    //         "Diameter: 35.5 cm/14 inch"
-    //     ]
-    // },
-    // {
-    //     id: "15",
-    //     name: "LOREM IPSUM",
-    //     price: "$000.00",
-    //     category: "LOREM IPSUM",
-    //     image: "/push/CENTR x HYROX Competition Power Sled_shop_1_1920x1920.jpg",
-    //     hoverImage: "/push/CENTR x HYROX Competition Power Sled_shop_2_1920x1920.jpg",
-    //     gallery: [
-    //         "/push/CENTR x HYROX Competition Power Sled_shop_1_1920x1920.jpg",
-    //         "/push/CENTR x HYROX Competition Power Sled_shop_2_1920x1920.jpg",
-    //         "/bags/shop_1_(2)_1920x1920.webp",
-    //     ],
-    //     description: [
-    //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    //     ],
-    //     descriptionTitle: "Description",
-    //     specs: [
-    //         { label: "LOREM", value: "LOREM" },
-    //         { label: "LOREM", value: "LOREM" },
-    //     ],
-    //     longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-    //     featuresTitle: "Take your training to the next level with the Wall Balls",
-    //     productDetails: [
-    //         "Color: Black",
-    //         "Material: Outer cover made of polyvinyl chloride (PVC)",
-    //         "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-    //         "Diameter: 35.5 cm/14 inch"
-    //     ]
-    // },
+    {
+        id: "11",
+        name: "BL1 BODY LIFT MULTI-GYM",
+        price: "$000.00",
+        category: "BL1 BODY LIFT MULTI-GYM",
+        image: "/BL1 BODY LIFT MULTI-GYM/BL10B_1.webp",
+        hoverImage: "/BL1 BODY LIFT MULTI-GYM/BL10B_2.webp",
+        gallery: [
+            "/BL1 BODY LIFT MULTI-GYM/BL10B_3.webp",
+            "/BL1 BODY LIFT MULTI-GYM/bl10b-banden-homegym.webp",
+            "/BL1 BODY LIFT MULTI-GYM/bl10b-homegym-ingezoomd.webp",
+            "/BL1 BODY LIFT MULTI-GYM/bl10b-stoel-homegym.webp",
+            "/BL1 BODY LIFT MULTI-GYM/bl10b-verstelling-stoel-homegym.webp",
+            "/BL1 BODY LIFT MULTI-GYM/BL10B.webp",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "12",
+        name: "Centr 2 Home Gym Functional Trainer",
+        price: "$000.00",
+        category: "Centr 2 Home Gym Functional Trainer",
+        image: "/Centr 2 Home Gym Functional Trainer/ftx3-centr-functional-trainer-home-gym.webp",
+        hoverImage: "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-008.webp",
+        gallery: [
+            "/Centr 2 Home Gym Functional Trainer/ftx3-centr-functional-trainer-home-gym.webp",
+            "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-008.webp",
+            "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-004.webp",
+            "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-007.webp",
+            // "/Centr 2 Home Gym Functional Trainer/ftx3-centr-functional-trainer-home-gym.webp",
+        ],
+        description: [
+            "Centr 2 is a premium home gym that combines the functionality of a functional trainer with the versatility of a cable machine, allowing you to perform over 100 different exercises to target every muscle group in your body.",
+            "With 2 x 165 lb weight stacks, you can easily adjust the resistance to match your fitness level and goals, whether you're a beginner or an advanced athlete.",
+            "The adjustable pulleys and attachments provide a wide range of motion and allow you to perform exercises from different angles, ensuring a comprehensive workout every time.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "13",
+        name: "Centr Runr-S",
+        price: "$000.00",
+        category: "Centr Runr-S",
+        image: "/Centr Runr-S/centr-runr-s-loopband.webp",
+        hoverImage: "/Centr Runr-S/centr-runr-s-loopband-zijkant-ingeklapt.webp",
+        gallery: [
+            "/Centr Runr-S/centr-runr-s-loopband-detail.webp",
+            "/Centr Runr-S/centr-runr-s-loopband-display.webp",
+            "/Centr Runr-S/centr-runr-s-loopband-ingeklapt.webp",
+            "/Centr Runr-S/centr-runr-s-loopband-zijkant-ingeklapt.webp",
+            "/Centr Runr-S/centr-runr-s-loopband.webp",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "14",
+        name: "Inspire 3-TIER DUMBBELL STORAGE RACK",
+        price: "$000.00",
+        category: "Inspire 3-TIER DUMBBELL STORAGE RACK",
+        image: "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
+        hoverImage: "/Inspire 3-TIER DUMBBELL STORAGE RACK/b5913bc9-7b79-4101-b305-ed422fe5b9d3_1.4a529796fdb3e94f61f4981fcdb3b38d.webp",
+        gallery: [
+            "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
+            "/Inspire 3-TIER DUMBBELL STORAGE RACK/b5913bc9-7b79-4101-b305-ed422fe5b9d3_1.4a529796fdb3e94f61f4981fcdb3b38d.webp",
+            "/Inspire 3-TIER DUMBBELL STORAGE RACK/59ce1935-2a26-41a7-bcdc-813a0a635eff_1.e04a8eba0a6cb87a4067ec312ff02158.webp",
+            "/Inspire 3-TIER DUMBBELL STORAGE RACK/inspire-dbrh-dumbbell-rek-zijkant-2.webp",
+            "/Inspire 3-TIER DUMBBELL STORAGE RACK/inspire-dbrh-dumbbell-rek-zijkant.webp",
+            "/Inspire 3-TIER DUMBBELL STORAGE RACK/9bfd184b-bb91-44b9-9725-6c8e8e00b9b5_1.d1a0c512dd5dd4f0059cb9d64c5a93e4.webp",
+        ],
+        descriptionTitle: "Description",
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "15",
+        name: "INSPIRE SERIES T7 TREADMILL",
+        price: "$000.00",
+        category: "INSPIRE SERIES T7 TREADMILL",
+        image: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp",
+        hoverImage: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-voorkant.webp",
+        gallery: [
+            "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp",
+            "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-voorkant.webp",
+            "/INSPIRE SERIES T7 TREADMILL/t7-loopband-detail-2.webp",
+            "/INSPIRE SERIES T7 TREADMILL/t7-loopband-display.webp",
+            "/INSPIRE SERIES T7 TREADMILL/t7-loopband-detail.webp",
+            "/INSPIRE SERIES T7 TREADMILL/t7-loopband-gedraaid.webp",
+            "/INSPIRE SERIES T7 TREADMILL/t7-loopband-loopoppervlak.jpg",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "16",
+        name: "M5 MULTI-GYM",
+        price: "$000.00",
+        category: "M5 MULTI-GYM",
+        image: "/M5 MULTI-GYM/m502-multi-gym_95cd76f4-45e7-494d-ba32-dc1623962c13.webp",
+        hoverImage: "/M5 MULTI-GYM/m502-multi-gym-2-weight-stacks.webp",
+        gallery: [
+            "/M5 MULTI-GYM/m502-multi-gym_95cd76f4-45e7-494d-ba32-dc1623962c13.webp",
+            "/M5 MULTI-GYM/m502-multi-gym-2-weight-stacks.webp",
+            "/M5 MULTI-GYM/m502-multi-gym-with-2-weight-stacks_69c842c5-a023-4318-a9dd-a8779c526f74.webp",
+            "/M5 MULTI-GYM/m502-multi-gym-with-2-weight-stacks-side-view.webp",
+            "/M5 MULTI-GYM/m502-multi-gym-with-2-weight-stacks.webp",
+            "/M5 MULTI-GYM/m502-multi-gym-wtih-2-weight-stacks-back-view.webp",
+            "/M5 MULTI-GYM/m502-multi-gym.webp",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "17",
+        name: "M2 MULTI-GYM",
+        price: "$000.00",
+        category: "M2 MULTI-GYM",
+        image: "/M2 MULTI-GYM/M202.webp",
+        hoverImage: "/M2 MULTI-GYM/M202_1.webp",
+        gallery: [
+            "/M2 MULTI-GYM/M202.webp",
+            "/M2 MULTI-GYM/M202_1.webp",
+            "/M2 MULTI-GYM/M202_2.webp",
+            "/M2 MULTI-GYM/M202_3.webp",
+            "/M2 MULTI-GYM/M202_4.webp",
+            "/M2 MULTI-GYM/M202_5.webp",
+            "/M2 MULTI-GYM/m202-multi-gym-donkere-afbeelding.webp",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "18",
+        name: "SCS SMITH CAGE SYSTEM",
+        price: "$000.00",
+        category: "SCS SMITH CAGE SYSTEM",
+        image: "/SCS SMITH CAGE SYSTEM/SCS202.webp",
+        hoverImage: "/SCS SMITH CAGE SYSTEM/SCS202_3.webp",
+        gallery: [
+            "/SCS SMITH CAGE SYSTEM/SCS202.webp",
+            "/SCS SMITH CAGE SYSTEM/SCS202_3.webp",
+            "/SCS SMITH CAGE SYSTEM/SCS202_2.webp",
+            "/SCS SMITH CAGE SYSTEM/3643-smith-cage-detail-01.webp",
+            "/SCS SMITH CAGE SYSTEM/3643-smith-cage-detail-08.webp",
+            "/SCS SMITH CAGE SYSTEM/3643-smith-cage-detail-02.webp",
+            "/SCS SMITH CAGE SYSTEM/3643-smith-cage-detail-03.webp",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "19",
+        name: "SF3 SMITH FUNCTIONAL TRAINER",
+        price: "$000.00",
+        category: "SF3 SMITH FUNCTIONAL TRAINER",
+        image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
+        hoverImage: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine.webp",
+        gallery: [
+            "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
+            "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine.webp",
+            "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine-bar.webp",
+            "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine-waarschuwingslabel.webp",
+            "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine-gewichten.webp",
+            "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-hoogtes.webp",
+            "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-schematische.webp",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+
+
+
 ]
