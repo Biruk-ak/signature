@@ -54,7 +54,7 @@ export function ProductCard({ id, name, image, hoverImage, category, specs, isNe
                         <p className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground mb-1">
                             {category}
                         </p>
-                        <h3 className="text-lg font-black uppercase tracking-tight leading-tight mb-2 group-hover:text-primary transition-colors">
+                        <h3 className="text-lg font-black uppercase tracking-tight leading-tight mb-2 group-hover/card:text-primary transition-colors">
                             {name}
                         </h3>
 

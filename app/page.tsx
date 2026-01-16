@@ -57,7 +57,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2 justify-items-center max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-6 md:gap-8 w-full">
             {[
               {
                 name: "CENTR x HYROX",
@@ -75,14 +75,18 @@ export default function Home() {
                 name: "TRX® Suspension",
                 image: "/centr/rig_target_produkt_10_1920x1920.webp",
               },
-              // {
-              //   name: "BlazePod",
-              //   image: "/centr/rig_target_produkt_10_1920x1920.webp",
-              // },
+              {
+                name: "BlazePod",
+                image: "/centr/rig_target_produkt_10_1920x1920.webp",
+              },
+              {
+                name: "BlazePod",
+                image: "/centr/rig_target_produkt_10_1920x1920.webp",
+              },
 
             ].map((cat, i) => (
               <Link key={i} href="/categories" className="group flex flex-col items-center w-full">
-                <div className="relative aspect-square w-full max-w-[160px] overflow-hidden rounded-full bg-card border-2 border-border/10 transition-all duration-500 group-hover:border-primary group-hover:shadow-[0_0_40px_rgba(215,182,74,0.2)]">
+                <div className="relative aspect-square w-full overflow-hidden rounded-full bg-card border-2 border-border/10 transition-all duration-500 group-hover:border-primary group-hover:shadow-[0_0_40px_rgba(215,182,74,0.2)]">
                   <div className="absolute inset-0 bg-secondary/10 group-hover:bg-transparent transition-colors duration-500" />
                   <Image
                     src={cat.image}
@@ -158,7 +162,7 @@ export default function Home() {
         </div>
       </section>
       <PerformanceShowcase />
-
+      z
       <ContactSection />
       <Footer /> {/* Added Footer to page */}
     </main>

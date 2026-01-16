@@ -7,7 +7,7 @@ import Image from "next/image"
 const CATEGORIES = [
     {
         id: "1",
-        name: "CENTR x HYROX",
+        name: "HOME GYM",
         icon: Settings,
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_1_(11)_1920x1920.webp",
@@ -15,7 +15,7 @@ const CATEGORIES = [
     },
     {
         id: "2",
-        name: "SHUA",
+        name: "CARDIO",
         icon: Dumbbell,
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_2_(11)_1920x1920.webp",
@@ -23,7 +23,7 @@ const CATEGORIES = [
     },
     {
         id: "3",
-        name: "PUSH n PULL",
+        name: "HYROXS",
         icon: Grid,
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_3_(11)_1920x1920.webp",
@@ -31,7 +31,7 @@ const CATEGORIES = [
     },
     {
         id: "4",
-        name: "TRX® Suspension",
+        name: "INSPIRE SERIES",
         icon: Layers,
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_5_(11)_1920x1920.webp",
@@ -39,7 +39,15 @@ const CATEGORIES = [
     },
     {
         id: "5",
-        name: "BlazePod",
+        name: "WEIGHT",
+        icon: Layers,
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        image: "/bars/shop_4_(11)_1920x1920.webp",
+        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
+    },
+    {
+        id: "6",
+        name: "ACCESSORIES",
         icon: Layers,
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image: "/bars/shop_4_(11)_1920x1920.webp",
@@ -54,12 +62,12 @@ export default function CategoriesPage() {
             <section className="relative py-24 bg-muted/30 overflow-hidden">
                 <div className="absolute inset-0 bg-grid-white/10" />
                 <div className="container relative z-10 px-4 mx-auto text-center">
-                    <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">LOREM IPSUM</p>
+                    {/* <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">LOREM IPSUM</p> */}
                     <h1 className="text-5xl md:text-7xl font-black tracking-tighter uppercase mb-6">
-                        LOREM IPSUM
+                        Browse Categories
                     </h1>
                     <p className="text-muted-foreground text-xl max-w-2xl mx-auto">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Bring the gym to your space.
                     </p>
                 </div>
             </section>
