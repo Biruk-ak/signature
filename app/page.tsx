@@ -28,12 +28,14 @@ export default function Home() {
           <ProductCarousel products={ALL_PRODUCTS.slice(0, 6)} />
 
           <div className="mt-16 text-center">
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-widest h-14 px-10"
-            >
-              LOREM IPSUM
-            </Button>
+            <Link href="/shop">
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-widest h-14 px-10"
+              >
+                ALL PRODUCTS
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
