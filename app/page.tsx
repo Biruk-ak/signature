@@ -75,10 +75,10 @@ export default function Home() {
                 name: "TRX® Suspension",
                 image: "/centr/rig_target_produkt_10_1920x1920.webp",
               },
-              {
-                name: "BlazePod",
-                image: "/centr/rig_target_produkt_10_1920x1920.webp",
-              },
+              // {
+              //   name: "BlazePod",
+              //   image: "/centr/rig_target_produkt_10_1920x1920.webp",
+              // },
 
             ].map((cat, i) => (
               <Link key={i} href="/categories" className="group flex flex-col items-center w-full">
