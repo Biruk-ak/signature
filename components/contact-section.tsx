@@ -28,9 +28,9 @@ export function ContactSection() {
                             viewport={{ once: true }}
                         >
                             <div className="mb-12">
-                                <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">LOREM IPSUM</p>
+                                {/* <p className="text-primary font-black uppercase tracking-[0.3em] mb-4"></p> */}
                                 <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.85] mb-8">
-                                    LOREM <br /> <span className="text-primary">IPSUM</span>
+                                    Reach  <br /> <span className="text-primary">Us</span>
                                 </h2>
                                 <p className="text-xl text-muted-foreground leading-relaxed font-medium max-w-md">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -43,8 +43,8 @@ export function ContactSection() {
                                         <MapPin className="w-6 h-6 group-hover:text-primary-foreground transition-colors" />
                                     </div>
                                     <div>
-                                        <h4 className="font-black uppercase tracking-widest text-sm mb-2">LOREM IPSUM</h4>
-                                        <p className="text-muted-foreground font-medium">LOREM IPSUM LOREM IPSUM</p>
+                                        <h4 className="font-black uppercase tracking-widest text-sm mb-2">Address</h4>
+                                        <p className="text-muted-foreground font-medium">Bole,Addis Ababa, Ethiopia</p>
                                     </div>
                                 </div>
 
@@ -53,8 +53,8 @@ export function ContactSection() {
                                         <Phone className="w-6 h-6 group-hover:text-primary-foreground transition-colors" />
                                     </div>
                                     <div>
-                                        <h4 className="font-black uppercase tracking-widest text-sm mb-2">LOREM IPSUM</h4>
-                                        <p className="text-muted-foreground font-medium">LOREM IPSUM</p>
+                                        <h4 className="font-black uppercase tracking-widest text-sm mb-2">Phone</h4>
+                                        <p className="text-muted-foreground font-medium">+251 998802898</p>
                                     </div>
                                 </div>
 
@@ -63,19 +63,19 @@ export function ContactSection() {
                                         <Mail className="w-6 h-6 group-hover:text-primary-foreground transition-colors" />
                                     </div>
                                     <div>
-                                        <h4 className="font-black uppercase tracking-widest text-sm mb-2">LOREM IPSUM</h4>
-                                        <p className="text-muted-foreground font-medium">LOREM IPSUM</p>
+                                        <h4 className="font-black uppercase tracking-widest text-sm mb-2">Email</h4>
+                                        <p className="text-muted-foreground font-medium">fitness@signaturewellnesseth.com</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="flex gap-4">
-                                {[Instagram, Facebook, Twitter, Youtube].map((Icon, i) => (
+                            {/* <div className="flex gap-4">
+                                {[Instagram].map((Icon, i) => (
                                     <Button key={i} variant="outline" size="icon" className="w-12 h-12 rounded-xl border-2 hover:bg-primary hover:border-primary hover:text-primary-foreground transition-all duration-300 shadow-none">
                                         <Icon className="w-5 h-5" />
                                     </Button>
                                 ))}
-                            </div>
+                            </div> */}
                         </motion.div>
 
                         {/* Right Column: Form */}
@@ -92,33 +92,33 @@ export function ContactSection() {
                             <form className="space-y-6 relative z-10">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div className="space-y-2">
-                                        <Label htmlFor="first-name" className="font-black uppercase tracking-widest text-[10px] ml-1">LOREM IPSUM</Label>
-                                        <Input id="first-name" placeholder="LOREM" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                                        <Label htmlFor="first-name" className="font-black uppercase tracking-widest text-[10px] ml-1">First Name</Label>
+                                        <Input id="first-name" placeholder="First Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
                                     </div>
                                     <div className="space-y-2">
-                                        <Label htmlFor="last-name" className="font-black uppercase tracking-widest text-[10px] ml-1">LOREM IPSUM</Label>
-                                        <Input id="last-name" placeholder="LOREM" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                                        <Label htmlFor="last-name" className="font-black uppercase tracking-widest text-[10px] ml-1">Last Name</Label>
+                                        <Input id="last-name" placeholder="Last Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
                                     </div>
                                 </div>
 
                                 <div className="space-y-2">
-                                    <Label htmlFor="email" className="font-black uppercase tracking-widest text-[10px] ml-1">LOREM IPSUM</Label>
-                                    <Input id="email" type="email" placeholder="LOREM" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                                    <Label htmlFor="email" className="font-black uppercase tracking-widest text-[10px] ml-1">Email</Label>
+                                    <Input id="email" type="email" placeholder="Email" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
                                 </div>
 
                                 <div className="space-y-2">
-                                    <Label htmlFor="subject" className="font-black uppercase tracking-widest text-[10px] ml-1">LOREM IPSUM</Label>
-                                    <Input id="subject" placeholder="LOREM" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                                    <Label htmlFor="subject" className="font-black uppercase tracking-widest text-[10px] ml-1">Subject</Label>
+                                    <Input id="subject" placeholder="Subject" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
                                 </div>
 
                                 <div className="space-y-2">
-                                    <Label htmlFor="message" className="font-black uppercase tracking-widest text-[10px] ml-1">LOREM IPSUM</Label>
-                                    <Textarea id="message" placeholder="LOREM IPSUM" className="min-h-[150px] bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6 py-4 resize-none" />
+                                    <Label htmlFor="message" className="font-black uppercase tracking-widest text-[10px] ml-1">Message</Label>
+                                    <Textarea id="message" placeholder="Message" className="min-h-[150px] bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6 py-4 resize-none" />
                                 </div>
 
                                 <Button className="w-full h-16 bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-[0.2em] text-lg rounded-2xl shadow-[0_10px_30px_rgba(215,182,74,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]">
                                     <Send className="w-5 h-5 mr-3" />
-                                    LOREM IPSUM
+                                    Send Message
                                 </Button>
                             </form>
                         </motion.div>
