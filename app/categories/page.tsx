@@ -8,50 +8,38 @@ const CATEGORIES = [
     {
         id: "1",
         name: "HOME GYM",
-        icon: Settings,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image: "/bars/shop_1_(11)_1920x1920.webp",
-        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
+        desc: "Build your dream fitness space with our premium selection of multi-gyms and strength equipment designed for the home.",
+        image: "/M2 MULTI-GYM/M202.webp",
     },
     {
         id: "2",
         name: "CARDIO",
-        icon: Dumbbell,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image: "/bars/shop_2_(11)_1920x1920.webp",
-        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
+        desc: "Elevate your endurance with top-tier treadmills, ellipticals, and bikes engineered for performance and reliability.",
+        image: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp",
     },
     {
         id: "3",
         name: "HYROXS",
-        icon: Grid,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        desc: "Official equipment for HYROX training. Prepare for the world series of fitness with gear built for intensity.",
         image: "/bars/shop_3_(11)_1920x1920.webp",
-        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
     },
     {
         id: "4",
         name: "INSPIRE SERIES",
-        icon: Layers,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image: "/bars/shop_5_(11)_1920x1920.webp",
-        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
+        desc: "Experience the innovation of the Inspire Series, featuring smooth cable machines and functional trainers for total body conditioning.",
+        image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
     },
     {
         id: "5",
         name: "WEIGHT",
-        icon: Layers,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image: "/bars/shop_4_(11)_1920x1920.webp",
-        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
+        desc: "From dumbbells to plates, find the essential weightlifting gear you need for strength training and muscle building.",
+        image: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg",
     },
     {
         id: "6",
         name: "ACCESSORIES",
-        icon: Layers,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image: "/bars/shop_4_(11)_1920x1920.webp",
-        features: ["LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM", "LOREM IPSUM"],
+        desc: "Complete your setup with high-quality racks, benches, and accessories to keep your gym organized and versatile.",
+        image: "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
     },
 ]
 
@@ -82,22 +70,19 @@ export default function CategoriesPage() {
                                 className={`group relative grid grid-cols-1 lg:grid-cols-2 gap-8 items-center rounded-3xl overflow-hidden bg-card border p-2 hover:border-primary/50 transition-all duration-500`}
                             >
                                 {/* Image Side */}
-                                <div className={`relative aspect-video lg:aspect-auto lg:h-[400px] rounded-2xl overflow-hidden ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
-                                    <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10" />
+                                <div className={`relative aspect-video lg:aspect-auto lg:h-[400px] rounded-2xl overflow-hidden bg-white/5 ${i % 2 === 1 ? 'lg:order-2' : ''}`}>
+                                    <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                                     <Image
                                         src={cat.image}
                                         alt={cat.name}
                                         fill
-                                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                                        className="object-contain p-8 transition-transform duration-700 group-hover:scale-105"
                                     />
                                 </div>
 
                                 {/* Content Side */}
                                 <div className={`p-6 lg:p-12 ${i % 2 === 1 ? 'lg:order-1' : ''}`}>
                                     <div className="flex items-center gap-4 mb-6">
-                                        <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                                            <cat.icon className="h-6 w-6 text-primary" />
-                                        </div>
                                         <h2 className="text-3xl font-black uppercase tracking-tighter">{cat.name}</h2>
                                     </div>
 
@@ -105,18 +90,9 @@ export default function CategoriesPage() {
                                         {cat.desc}
                                     </p>
 
-                                    <div className="grid grid-cols-2 gap-4 mb-8">
-                                        {cat.features.map((feature, j) => (
-                                            <div key={j} className="flex items-center gap-2">
-                                                <div className="h-1.5 w-1.5 rounded-full bg-primary" />
-                                                <span className="text-sm font-medium uppercase tracking-wide">{feature}</span>
-                                            </div>
-                                        ))}
-                                    </div>
-
                                     <Link href={`/categories/${cat.id}`}>
                                         <Button size="lg" className="w-full sm:w-auto font-black uppercase tracking-widest group-hover:bg-primary group-hover:text-primary-foreground">
-                                            LOREM IPSUM <ArrowRight className="ml-2 h-4 w-4" />
+                                            VIEW ALL <ArrowRight className="ml-2 h-4 w-4" />
                                         </Button>
                                     </Link>
                                 </div>

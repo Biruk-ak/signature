@@ -27,7 +27,7 @@ export default function Home() {
 
           <ProductCarousel products={ALL_PRODUCTS.slice(0, 6)} />
 
-          <div className="mt-16 text-center">
+          {/* <div className="mt-16 text-center">
             <Link href="/shop">
               <Button
                 size="lg"
@@ -36,7 +36,7 @@ export default function Home() {
                 ALL PRODUCTS
               </Button>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* Categories Section */}
@@ -62,28 +62,28 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-6 gap-6 md:gap-8 w-full">
             {[
               {
-                name: "CENTR x HYROX",
-                image: "/bars/shop_1_(11)_1920x1920.webp",
+                name: "HOME GYM",
+                image: "/M2 MULTI-GYM/M202.webp",
               },
               {
-                name: "SHUA",
-                image: "/ball/wallball_12_1920x1920.webp",
+                name: "CARDIO",
+                image: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp",
               },
               {
-                name: "PUSH n PULL",
-                image: "/kg/shop_6_(3)_1920x1920.webp",
+                name: "HYROXS",
+                image: "/bars/shop_3_(11)_1920x1920.webp",
               },
               {
-                name: "TRX® Suspension",
-                image: "/centr/rig_target_produkt_10_1920x1920.webp",
+                name: "INSPIRE SERIES",
+                image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
               },
               {
-                name: "BlazePod",
-                image: "/centr/rig_target_produkt_10_1920x1920.webp",
+                name: "WEIGHT",
+                image: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg",
               },
               {
-                name: "BlazePod",
-                image: "/centr/rig_target_produkt_10_1920x1920.webp",
+                name: "ACCESSORIES",
+                image: "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
               },
 
             ].map((cat, i) => (
@@ -97,6 +97,9 @@ export default function Home() {
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
+                <span className="mt-4 text-sm font-black uppercase tracking-wider text-center group-hover:text-primary transition-colors">
+                  {cat.name}
+                </span>
               </Link>
             ))}
           </div>

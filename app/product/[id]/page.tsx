@@ -120,9 +120,7 @@ export default function ProductPage() {
                             </div>
 
                             <div className="flex flex-col sm:flex-row gap-4 mt-auto">
-                                <Button size="lg" className="h-16 flex-1 bg-[#d7b64a] hover:bg-[#d7b64a]/90 text-black text-lg font-black uppercase tracking-[0.15em] rounded-2xl shadow-xl transition-all hover:scale-[1.02]">
-                                    ADD TO CART
-                                </Button>
+
                                 <Button variant="outline" size="lg" className="h-16 flex-1 border-2 border-border font-black uppercase tracking-widest rounded-2xl">
                                     CONTACT US
                                 </Button>
