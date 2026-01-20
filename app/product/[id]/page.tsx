@@ -109,21 +109,15 @@ export default function ProductPage() {
                                 </div>
                             </div>
 
-                            {/* Specifications Display */}
-                            <div className="grid grid-cols-2 gap-6 mb-12">
-                                {product.specs.map((spec, i) => (
-                                    <div key={i} className="flex flex-col">
-                                        <p className="text-[11px] font-black uppercase tracking-widest text-muted-foreground mb-1">{spec.label}</p>
-                                        <p className="text-lg font-bold uppercase tracking-tight">{spec.value}</p>
-                                    </div>
-                                ))}
-                            </div>
+
 
                             <div className="flex flex-col sm:flex-row gap-4 mt-auto">
 
-                                <Button variant="outline" size="lg" className="h-16 flex-1 border-2 border-border font-black uppercase tracking-widest rounded-2xl">
-                                    CONTACT US
-                                </Button>
+                                <Link href="/#contact" className="flex-1">
+                                    <Button variant="outline" size="lg" className="w-full h-16 border-2 border-border font-black uppercase tracking-widest rounded-2xl">
+                                        CONTACT US
+                                    </Button>
+                                </Link>
                             </div>
                         </div>
                     </div>
