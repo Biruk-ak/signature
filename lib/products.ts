@@ -3,7 +3,7 @@ export const ALL_PRODUCTS = [
         id: "1",
         name: "CENTR x HYROX Competition Sandbag - 10 kg (kommt unbefüllt)",
         price: "$000.00",
-        category: "Sandbags",
+        category: "HYROXS",
         image: "/bags/shop_2_(2)_1920x1920.webp",
         hoverImage: "/bags/shop_1_(2)_1920x1920.webp",
         gallery: [
@@ -42,7 +42,7 @@ export const ALL_PRODUCTS = [
         id: "2",
         name: "Centr x Hyrox Competition Wall Ball",
         price: "$000.00",
-        category: "CENTR x HYROX",
+        category: "HYROXS",
         image: "/ball/wallball_8_1920x1920.webp",
         hoverImage: "/ball/wallball_9_1920x1920.webp",
         gallery: [
@@ -75,7 +75,7 @@ export const ALL_PRODUCTS = [
         id: "3",
         name: "CENTR x HYROX Competition Interlocking Bumper Plate - 25 kg",
         price: "$000.00",
-        category: "CENTR x HYROX",
+        category: "HYROXS",
         image: "/bars/shop_2_(11)_1920x1920.webp",
         hoverImage: "/bars/shop_3_(11)_1920x1920.webp",
         gallery: [
@@ -109,7 +109,7 @@ export const ALL_PRODUCTS = [
         id: "4",
         name: "CENTR x HYROX Competition Rig Target",
         price: "$000.00",
-        category: "CENTR x HYROX",
+        category: "HYROXS",
         image: "/centr/rig_target_produkt_02_1920x1920.webp",
         hoverImage: "/centr/rig_target_produkt_03_1920x1920.webp",
         gallery: [
@@ -147,7 +147,7 @@ export const ALL_PRODUCTS = [
         id: "5",
         name: "CENTR x HYROX Competition Octo Kettlebell",
         price: "$000.00",
-        category: "CENTR x HYROX",
+        category: "WEIGHT",
         image: "/kg/shop_5_(7)_1920x1920.webp",
         hoverImage: "/kg/shop_6_(3)_1920x1920.webp",
         gallery: [
@@ -180,7 +180,7 @@ export const ALL_PRODUCTS = [
         id: "6",
         name: "CENTR x HYROX Competition Power Sled",
         price: "$000.00",
-        category: "CENTR x HYROX",
+        category: "HYROXS",
         image: "/push/CENTR x HYROX Competition Power Sled_shop_1_1920x1920.jpg",
         hoverImage: "/push/CENTR x HYROX Competition Power Sled_shop_2_1920x1920.jpg",
         gallery: [
@@ -217,7 +217,7 @@ export const ALL_PRODUCTS = [
         id: "7",
         name: "CENTR x HYROX Competition Power Rope",
         price: "$000.00",
-        category: "CENTR x HYROX",
+        category: "HYROXS",
         image: "/rob/shop_1_(1)_1920x1920.jpg",
         hoverImage: "/rob/shop_4_(1)_1920x1920.jpg",
         gallery: [
@@ -254,7 +254,7 @@ export const ALL_PRODUCTS = [
         id: "8",
         name: "CENTR x HYROX Perform Tread NMT.3",
         price: "$000.00",
-        category: "CENTR x HYROX ",
+        category: "CARDIO ",
         image: "/running machine/nmt3_shop_07_1920x1920.jpg",
         hoverImage: "/running machine/nmt3_shop_05_1920x1920.jpg",
         gallery: [
@@ -300,7 +300,7 @@ export const ALL_PRODUCTS = [
         id: "9",
         name: "CENTR x HYROX Dumbbell Urethane",
         price: "$000.00",
-        category: "CENTR x HYROX",
+        category: "WEIGHT",
         image: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg",
         hoverImage: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_2_1920x1920.jpg",
         gallery: [
@@ -337,7 +337,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "10",
         name: "Shapes HYROX insoles Size 2 EU 37-38 (pair)",
         price: "$000.00",
-        category: "HYROX",
+        category: "ACCESSORIES",
         image: "/shoe/shapes_01_1920x1920.jpg",
         hoverImage: "/shoe/shapes_02_1920x1920.jpg",
         gallery: [
@@ -389,7 +389,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "11",
         name: "BL1 BODY LIFT MULTI-GYM",
         price: "$000.00",
-        category: "BL1 BODY LIFT MULTI-GYM",
+        category: "HOME GYM",
         image: "/BL1 BODY LIFT MULTI-GYM/BL10B_1.webp",
         hoverImage: "/BL1 BODY LIFT MULTI-GYM/BL10B_2.webp",
         gallery: [
@@ -423,7 +423,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "12",
         name: "Centr 2 Home Gym Functional Trainer",
         price: "$000.00",
-        category: "Centr 2 Home Gym Functional Trainer",
+        category: "HOME GYM",
         image: "/Centr 2 Home Gym Functional Trainer/ftx3-centr-functional-trainer-home-gym.webp",
         hoverImage: "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-008.webp",
         gallery: [
@@ -456,7 +456,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "13",
         name: "Centr Runr-S",
         price: "$000.00",
-        category: "Centr Runr-S",
+        category: "CARDIO",
         image: "/Centr Runr-S/centr-runr-s-loopband.webp",
         hoverImage: "/Centr Runr-S/centr-runr-s-loopband-zijkant-ingeklapt.webp",
         gallery: [
@@ -489,7 +489,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "14",
         name: "Inspire 3-TIER DUMBBELL STORAGE RACK",
         price: "$000.00",
-        category: "Inspire 3-TIER DUMBBELL STORAGE RACK",
+        category: "ACCESSORIES",
         image: "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
         hoverImage: "/Inspire 3-TIER DUMBBELL STORAGE RACK/b5913bc9-7b79-4101-b305-ed422fe5b9d3_1.4a529796fdb3e94f61f4981fcdb3b38d.webp",
         gallery: [
@@ -523,7 +523,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "15",
         name: "INSPIRE SERIES T7 TREADMILL",
         price: "$000.00",
-        category: "INSPIRE SERIES T7 TREADMILL",
+        category: "CARDIO",
         image: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp",
         hoverImage: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-voorkant.webp",
         gallery: [
@@ -558,7 +558,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "16",
         name: "M5 MULTI-GYM",
         price: "$000.00",
-        category: "M5 MULTI-GYM",
+        category: "HOME GYM",
         image: "/M5 MULTI-GYM/m502-multi-gym_95cd76f4-45e7-494d-ba32-dc1623962c13.webp",
         hoverImage: "/M5 MULTI-GYM/m502-multi-gym-2-weight-stacks.webp",
         gallery: [
@@ -593,7 +593,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "17",
         name: "M2 MULTI-GYM",
         price: "$000.00",
-        category: "M2 MULTI-GYM",
+        category: "HOME GYM",
         image: "/M2 MULTI-GYM/M202.webp",
         hoverImage: "/M2 MULTI-GYM/M202_1.webp",
         gallery: [
@@ -628,7 +628,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "18",
         name: "SCS SMITH CAGE SYSTEM",
         price: "$000.00",
-        category: "SCS SMITH CAGE SYSTEM",
+        category: "HOME GYM",
         image: "/SCS SMITH CAGE SYSTEM/SCS202.webp",
         hoverImage: "/SCS SMITH CAGE SYSTEM/SCS202_3.webp",
         gallery: [
@@ -663,7 +663,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "19",
         name: "SF3 SMITH FUNCTIONAL TRAINER",
         price: "$000.00",
-        category: "SF3 SMITH FUNCTIONAL TRAINER",
+        category: "INSPIRE SERIES",
         image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
         hoverImage: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine.webp",
         gallery: [
@@ -674,6 +674,38 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine-gewichten.webp",
             "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-hoogtes.webp",
             "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-schematische.webp",
+        ],
+        description: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "LOREM", value: "LOREM" },
+            { label: "LOREM", value: "LOREM" },
+        ],
+        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Outer cover made of polyvinyl chloride (PVC)",
+            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+            "Diameter: 35.5 cm/14 inch"
+        ]
+    },
+    {
+        id: "20",
+        name: "Inspire FID3.2 Adjustable Bench",
+        price: "$000.00",
+        category: "INSPIRE SERIES",
+        image: "/Inspire FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-hoofdbeeld.webp",
+        hoverImage: "/Inspire FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-ingeklapt.webp",
+        gallery: [
+            "/Inspire FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-hoofdbeeld.webp",
+            "/Inspire FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-ingeklapt.webp",
+            "/Inspire FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-sfeerbeeld.jpg",
+            "/Inspire FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-zijkant.webp",
         ],
         description: [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
