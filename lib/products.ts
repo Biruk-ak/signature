@@ -1,7 +1,7 @@
 export const ALL_PRODUCTS = [
     {
         id: "1",
-        name: "CENTR x HYROX Competition Sandbag - 10 kg (kommt unbefüllt)",
+        name: "CENTR x HYROX Competition Sandbag",
         price: "$000.00",
         category: "HYROXS",
         image: "/bags/shop_2_(2)_1920x1920.webp",
@@ -16,10 +16,11 @@ export const ALL_PRODUCTS = [
         ],
         isNew: true,
         description: [
-            "Cordura®-Nylon für maximale Haltbarkeit",
-            "Doppelt genähte Nähte für Robustheit.",
-            "Sieben Nylongriffe für maximale Kontrolle bei jedem Workout.",
-            "Entwickelt für das Training im Fitnessstudio, zu Hause und im Wettkampf.",
+            "Cordura® nylon for maximum durability",
+            "Double-stitched seams for durability.",
+            "Available in three different weights.",
+            "Seven nylon handles for maximum control during every workout.",
+            "Designed for training in the gym, at home, and in competition.",
 
         ],
         descriptionTitle: "Mit erstklassigen Sandbags zum Erfolg",
@@ -353,7 +354,6 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/shoe/shapes_10_1920x1920.jpg",
             "/shoe/shapes_11_1920x1920.jpg",
             "/shoe/shapes_12_1920x1920.jpg",
-            // "/shoe/shapes_13_1920x1920.jpg",
 
 
         ],

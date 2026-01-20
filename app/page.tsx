@@ -87,7 +87,7 @@ export default function Home() {
               },
 
             ].map((cat, i) => (
-              <Link key={i} href="/categories" className="group flex flex-col items-center w-full">
+              <Link key={i} href={`/categories/${cat.name}`} className="group flex flex-col items-center w-full">
                 <div className="relative aspect-square w-full overflow-hidden rounded-full bg-card border-2 border-border/10 transition-all duration-500 group-hover:border-primary group-hover:shadow-[0_0_40px_rgba(215,182,74,0.2)]">
                   <div className="absolute inset-0 bg-secondary/10 group-hover:bg-transparent transition-colors duration-500" />
                   <Image
