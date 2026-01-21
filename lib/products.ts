@@ -304,10 +304,8 @@ export const ALL_PRODUCTS = [
         price: "$000.00",
         category: "WEIGHT",
         image: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg",
-        hoverImage: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_2_1920x1920.jpg",
+        hoverImage: "/dumbbell/meg-set-dumbbells.webp",
         gallery: [
-            // "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg",
-            // "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_3_1920x1920.jpg",
             "/dumbbell/Hexagon_4kg.webp",
             "/dumbbell/Hexagon_5kg.webp",
             "/dumbbell/Hexagon_6kg.webp",
