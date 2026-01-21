@@ -502,22 +502,24 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Frame: heavy-duty steel with matte black powder-coat finish.",
+            "Compatibility: suitable for Inspire Fitness and most standard dumbbells.",
+            "Capacity: holds approximately 10–20 pairs of dumbbells.",
+            "Dimensions: 48 × 135 × 86 cm",
+            "Weight: 40 kg",
         ],
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
+        longDescription: "The Inspire Fitness 3-Tier Dumbbell Rack keeps your dumbbells neatly organized and easy to reach, making it a must-have dumbbell storage rack for any home or studio gym. Its compact footprint and three spacious tiers provide room for 10–20 pairs of Inspire or standard dumbbells, so you can store a full dumbbell set without wasting floor space. The flared, open design lets you quickly grab and re-rack weights during your workout, while the heavy-duty steel frame with a durable matte black powder-coat finish ensures long-lasting stability and a clean, professional look in your training area.",
+        featuresTitle: "Inspire 3-Tier Dumbbell Rack – Compact Dumbbell Storage for Home & Studio Gyms",
+        // productDetails: [
+        //     "Color: Black",
+        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+        //     "Diameter: 35.5 cm/14 inch"
+        // ]
     },
     {
         id: "15",
@@ -536,23 +538,24 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/INSPIRE SERIES T7 TREADMILL/t7-loopband-loopoppervlak.jpg",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Easy to get going with innovative tool-free installation.",
+            "Spacious 20” x 55”  running surface,  speeds up to 10 mph and incline up to 12%.",
+            "Lifetime warranty on frame and motor, two years on parts.",
+            "Track your speed, time, distance and incline with one-touch controls.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
+        longDescription: "Designed with space-saving in mind, our sleek, foldable treadmill lets you go the distance from the comfort of your own home. No tools required – installation is quick and easy to do yourself. Feel the difference with the comfort of Cloud Cushion Technology, engineered to soften the impact of each stride for a smooth and supportive run. The adaptive innovation of our Natural Stride Technology senses your speed and adjusts automatically—mimicking the feel of running outside. Centr Runr is engineered with a quiet, energy-efficient, 3.0 HP brushless motor with alifetime warranty. It’s easy to control with quick keys, reaching speeds of up to 10 mph with 12% incline and has a spacious 20” x 55” running surface. Connect your heart rate device via Bluetooth and track your effort through the 5-color heart rate zone display on the console.",
+        featuresTitle: "Lace up and go – it’s time to run miles in style on the Centr Runr.",
+        // productDetails: [
+        //     "Color: Black",
+        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+        //     "Diameter: 35.5 cm/14 inch"
+        // ]
     },
     {
         id: "16",
@@ -571,22 +574,23 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/M5 MULTI-GYM/m502-multi-gym.webp",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Equipped with both fixed and free motion stations that deliver a full body workout - including 2 press arms, seated leg curl and leg extension station, free movement handles, a row station and pulleys.",
+            "With dual 215 LB weight stacks, this two-person cable gym can support both you and your workout buddy making it suitable for home or commercial gym environments.",
+            "Adjustable preacher curl station offers comfortable and ergonomic pad support, enabling you to utilize the cable system or free weights (sold separately) for preacher curls. The seated leg curl and extension stations provide stability, comfort, and safe lower body workout.",
+            "Unique L-shaped design enables the machine to fit within a corner, allowing you to maximize the square footage within your gym.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
+        longDescription: "The Inspire Fitness M5 Multi-Gym is the ultimate home or commercial fitness solution, offering a comprehensive range of exercises to sculpt and strengthen your entire body. The M5 is equipped with 2 press arms, seated leg curl and leg extension station, dual 215 lb weight stacks, free movement handles, a row station and a total of 4 pulleys. With independent weight stacks, the M5 allows for two users to work out simultaneously, making it perfect for workout partners or families. You can perform exercises like chest presses, lat pulldowns, shoulder presses, leg curls, and more with the smooth, frictionless pulley system that delivers consistent resistance. The M5 also features an adjustable press arm, which supports multiple pressing positions, targeting your chest, shoulders, and triceps with ease. Constructed with heavy-duty 11-gauge steel frame, nylon pulleys, 2000 lb. tensile strength cables and precision ball bearings - this multi-gym provides unparalleled stability and durability. This all-in-one system is designed to provide a professional-grade workouts, allowing you to push your limits and achieve your fitness goals with one robust machine.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
         productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
+            "TOTAL BODY MACHINE",
+            "TWO USERS AT ONCE",
+            "PREACHER CURL & LEG CURL STATIONS",
+            "SPACE SAVING DESIGN"
         ]
     },
     {
@@ -606,23 +610,24 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/M2 MULTI-GYM/m202-multi-gym-donkere-afbeelding.webp",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Work both arms at once, or individually with the unique press arm design that allows for independent presses.",
+            "One-of-a kind, patented, seated crunch station allows you to perform comfortable and safe weighted crunches with a fully adjustable seat pad and up to 165 lb of resistance.",
+            "Fully adjustable seated leg curl and extension station provides stability, comfort, and safe lower body workout with smooth resistance from the integrated weight stacks.",
+            "Compact footprint enables the machine to fit seamlessly into most any home gym space.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        longDescription: "The Inspire Fitness M5 Multi-Gym is the ultimate home or commercial fitness solution, offering a comprehensive range of exercises to sculpt and strengthen your entire body. The M5 is equipped with 2 press arms, seated leg curl and leg extension station, dual 215 lb weight stacks, free movement handles, a row station and a total of 4 pulleys. With independent weight stacks, the M5 allows for two users to work out simultaneously, making it perfect for workout partners or families. You can perform exercises like chest presses, lat pulldowns, shoulder presses, leg curls, and more with the smooth, frictionless pulley system that delivers consistent resistance. The M5 also features an adjustable press arm, which supports multiple pressing positions, targeting your chest, shoulders, and triceps with ease. Constructed with heavy-duty 11-gauge steel frame, nylon pulleys, 2000 lb. tensile strength cables and precision ball bearings - this multi-gym provides unparalleled stability and durability. This all-in-one system is designed to provide a professional-grade workouts, allowing you to push your limits and achieve your fitness goals with one robust machine..",
         featuresTitle: "Take your training to the next level with the Wall Balls",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
+        // productDetails: [
+        //     "Color: Black",
+        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+        //     "Diameter: 35.5 cm/14 inch"
+        // ]
     },
     {
         id: "18",
@@ -641,23 +646,24 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/SCS SMITH CAGE SYSTEM/3643-smith-cage-detail-03.webp",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Equipped with 6 total pulleys, pull up bar, power rack, and free weight smith bar.",
+            "Solid steel frame, commercial-grade cables, and a precision steel ball bearing system for home and commercial use.",
+            "Add up to an additional 50 LBS on each side for a total of 215 LBS of resistance on each weight stack. (Additional weight sold separately).",
+            "2 x Multi-Ring D Handles, 2 x Rubber D Handles, Ankle Strap, and Multi-Function Belt.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
+        longDescription: "The Inspire Fitness SCS Smith Cage System is the best of both worlds, a free weight Smith Machine and multi-pulley Functional Trainer all in one. The SCS comes with two 165 LB weight stacks, 2 adjustable wide, 2 narrow low, and 2 narrow high pulleys in addition to a Free Weight Smith Machine for controlled bar work. The full rack means you can store your own free weight bar in addition to the Smith, and with two upgradeable 165 LB weight stacks you can tackle any strength training workout. This all-in-one solution is built with a solid steel frame and commercial-grade cables and pulleys, making it suitable for both home gyms and commercial settings. A complete, 6-piece accessory kit is included - ensuring maximum workout versatility.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        // productDetails: [
+        //     "Color: Black",
+        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+        //     "Diameter: 35.5 cm/14 inch"
+        // ]
     },
     {
         id: "19",
@@ -676,23 +682,23 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-schematische.webp",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "No need for Olympic weight plates, the Smith Bar seamlessly integrates into the weight stacks for a safer and more efficient workout..",
+            "Patented design allows the smith bar to seamlessly integrate into the weight stacks allowing you to lift up to 360 lb.",
+            "Triceps Rope, Dual Hook Curl Bar, Ankle Strap, (2) D Handles, Multi-Purpose Belt, and (2) 5lb Add On Weights.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
+        longDescription: "The Inspire Fitness SF3 Smith Functional Trainer is a two-in-one home gym. Built with dual 165 lb weight stacks, 2 sliding adjustable pulleys, a pull up station, and fully integrated Smith Bar. It also comes equipped with a complete accessory package of 7 attachments, storage for your device, and storage for all of your accessories. The frictionless cable and pulley system allows for almost any dynamic movement while our innovative, integrated Selectorized Smith Bar system elevates traditional strength training to new personal bests. No plates or spotter are needed with this machine as the Smith Bar utilizes the weight stacks and has built-in safeties.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        // productDetails: [
+        //     "Color: Black",
+        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+        //     "Diameter: 35.5 cm/14 inch"
+        // ]
     },
     {
         id: "20",
