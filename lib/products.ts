@@ -334,94 +334,94 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
 
         ]
     },
-    {
-        id: "10",
-        name: "Shapes HYROX insoles Size 2 EU 37-38 (pair)",
-        price: "$000.00",
-        category: "ACCESSORIES",
-        image: "/shoe/shapes_01_1920x1920.jpg",
-        hoverImage: "/shoe/shapes_02_1920x1920.jpg",
-        gallery: [
-            "/shoe/shapes_01_1920x1920.jpg",
-            "/shoe/shapes_02_1920x1920.jpg",
-            "/shoe/shapes_03_1920x1920.jpg",
-            "/shoe/shapes_04_1920x1920.jpg",
-            "/shoe/shapes_05_1920x1920.jpg",
-            "/shoe/shapes_06_1920x1920.jpg",
-            "/shoe/shapes_07_1920x1920.jpg",
-            "/shoe/shapes_08_1920x1920.jpg",
-            "/shoe/shapes_09_1920x1920.jpg",
-            "/shoe/shapes_10_1920x1920.jpg",
-            "/shoe/shapes_11_1920x1920.jpg",
-            "/shoe/shapes_12_1920x1920.jpg",
+    // {
+    //     id: "10",
+    //     name: "Shapes HYROX insoles Size 2 EU 37-38 (pair)",
+    //     price: "$000.00",
+    //     category: "ACCESSORIES",
+    //     image: "/shoe/shapes_01_1920x1920.jpg",
+    //     hoverImage: "/shoe/shapes_02_1920x1920.jpg",
+    //     gallery: [
+    //         "/shoe/shapes_01_1920x1920.jpg",
+    //         "/shoe/shapes_02_1920x1920.jpg",
+    //         "/shoe/shapes_03_1920x1920.jpg",
+    //         "/shoe/shapes_04_1920x1920.jpg",
+    //         "/shoe/shapes_05_1920x1920.jpg",
+    //         "/shoe/shapes_06_1920x1920.jpg",
+    //         "/shoe/shapes_07_1920x1920.jpg",
+    //         "/shoe/shapes_08_1920x1920.jpg",
+    //         "/shoe/shapes_09_1920x1920.jpg",
+    //         "/shoe/shapes_10_1920x1920.jpg",
+    //         "/shoe/shapes_11_1920x1920.jpg",
+    //         "/shoe/shapes_12_1920x1920.jpg",
 
 
-        ],
-        description: [
-            "Recommended by HYROX athletes.",
-            "Ultralight: only 30 g per sole, 2.7 mm thin.",
-            "Activates the muscles from the feet to the jaw .",
-            "Rubberized surface for a secure grip in the shoe",
-            "Available in sizes 35–49 – the perfect fit for every shoe size.",
-            "Designed & manufactured in Germany",
-        ],
-        descriptionTitle: "Description",
-        specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
-        ],
-        longDescription: `Shapes HYROX insoles transform any shoe into an active companion, activating muscles from the foot to the jaw. Weighing just 30 grams and measuring only 2.7 millimeters thick, they are barely noticeable – yet they deliver a powerful effect. High-quality materials ensure maximum flexibility, while structured contact zones specifically stimulate the arch of the foot, improving stability, balance, and power transfer.
-        Thanks to their rubberized surface, the insoles stay securely in place in your shoes, whether you're doing HYROX training , running, or going about your daily routine. Shapes restores the natural feel of running by simulating uneven surfaces like sand or grass – a feature often prevented by modern shoes and hard floors. The result is not only improved performance but also noticeable relief for your joints and support for recovery.
-        Shapes HYROX insoles are suitable for athletes, leisure users, and anyone who wants to improve their stability and balance in everyday life. Simply insert them, start walking – and feel the difference.
-        Go beyond faster – more speed through optimal power transmission 
-        Go beyond better – improved stability, balance and regeneration  
-        Go beyond stronger – Activation of the entire muscle chain from the feet to the jaw
-        `,
-        featuresTitle: "The smart solution for training and everyday life!",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
-    },
+    //     ],
+    //     description: [
+    //         "Recommended by HYROX athletes.",
+    //         "Ultralight: only 30 g per sole, 2.7 mm thin.",
+    //         "Activates the muscles from the feet to the jaw .",
+    //         "Rubberized surface for a secure grip in the shoe",
+    //         "Available in sizes 35–49 – the perfect fit for every shoe size.",
+    //         "Designed & manufactured in Germany",
+    //     ],
+    //     descriptionTitle: "Description",
+    //     specs: [
+    //         { label: "LOREM", value: "LOREM" },
+    //         { label: "LOREM", value: "LOREM" },
+    //     ],
+    //     longDescription: `Shapes HYROX insoles transform any shoe into an active companion, activating muscles from the foot to the jaw. Weighing just 30 grams and measuring only 2.7 millimeters thick, they are barely noticeable – yet they deliver a powerful effect. High-quality materials ensure maximum flexibility, while structured contact zones specifically stimulate the arch of the foot, improving stability, balance, and power transfer.
+    //     Thanks to their rubberized surface, the insoles stay securely in place in your shoes, whether you're doing HYROX training , running, or going about your daily routine. Shapes restores the natural feel of running by simulating uneven surfaces like sand or grass – a feature often prevented by modern shoes and hard floors. The result is not only improved performance but also noticeable relief for your joints and support for recovery.
+    //     Shapes HYROX insoles are suitable for athletes, leisure users, and anyone who wants to improve their stability and balance in everyday life. Simply insert them, start walking – and feel the difference.
+    //     Go beyond faster – more speed through optimal power transmission 
+    //     Go beyond better – improved stability, balance and regeneration  
+    //     Go beyond stronger – Activation of the entire muscle chain from the feet to the jaw
+    //     `,
+    //     featuresTitle: "The smart solution for training and everyday life!",
+    //     productDetails: [
+    //         "Color: Black",
+    //         "Material: Outer cover made of polyvinyl chloride (PVC)",
+    //         "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+    //         "Diameter: 35.5 cm/14 inch"
+    //     ]
+    // },
     {
         id: "11",
-        name: "BL1 BODY LIFT MULTI-GYM",
+        name: "COMMERCIAL LEG EXTENSION & CURL DUAL SELECTORIZED MACHINE",
         price: "$000.00",
         category: "HOME GYM",
-        image: "/BL1 BODY LIFT MULTI-GYM/BL10B_1.webp",
+        image: "/BL1 BODY LIFT MULTI-GYM/BL10B.webp",
         hoverImage: "/BL1 BODY LIFT MULTI-GYM/BL10B_2.webp",
         gallery: [
             "/BL1 BODY LIFT MULTI-GYM/BL10B_3.webp",
             "/BL1 BODY LIFT MULTI-GYM/bl10b-banden-homegym.webp",
             "/BL1 BODY LIFT MULTI-GYM/bl10b-homegym-ingezoomd.webp",
             "/BL1 BODY LIFT MULTI-GYM/bl10b-stoel-homegym.webp",
-            "/BL1 BODY LIFT MULTI-GYM/bl10b-verstelling-stoel-homegym.webp",
+            // "/BL1 BODY LIFT MULTI-GYM/bl10b-verstelling-stoel-homegym.webp",
             "/BL1 BODY LIFT MULTI-GYM/BL10B.webp",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "A commercial-grade strength machine featuring isolated leg holsters, an adjustable seat, and dual weight stacks, expertly designed to target and strengthen your legs and glutes.",
+            // "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            // "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
+        // longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        // productDetails: [
+        //     "Color: Black",
+        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+        //     "Diameter: 35.5 cm/14 inch"
+        // ]
     },
     {
         id: "12",
-        name: "Centr 2 Home Gym Functional Trainer",
+        name: "FTX FUNCTIONAL TRAINER",
         price: "$000.00",
         category: "HOME GYM",
         image: "/Centr 2 Home Gym Functional Trainer/ftx3-centr-functional-trainer-home-gym.webp",
@@ -431,26 +431,27 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-008.webp",
             "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-004.webp",
             "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-007.webp",
-            // "/Centr 2 Home Gym Functional Trainer/ftx3-centr-functional-trainer-home-gym.webp",
+            "/Centr 2 Home Gym Functional Trainer/ftx0b-functional-trainer-met-houder.webp",
+            "/Centr 2 Home Gym Functional Trainer/ftx0b-functional-trainer-met-touw-houder.webp",
         ],
         description: [
-            "Centr 2 is a premium home gym that combines the functionality of a functional trainer with the versatility of a cable machine, allowing you to perform over 100 different exercises to target every muscle group in your body.",
-            "With 2 x 165 lb weight stacks, you can easily adjust the resistance to match your fitness level and goals, whether you're a beginner or an advanced athlete.",
-            "The adjustable pulleys and attachments provide a wide range of motion and allow you to perform exercises from different angles, ensuring a comprehensive workout every time.",
+            "COMPACT AT HOME GYM: Endless versatility with the ability to do hundreds strength training and resistance exercises in one compact, 2-pulley home gym.",
+            "SMOOTH GLIDING PULLEY SYSTEM: High-quality components that provide a friction-less feel to each push and pull of the pulleys.",
+            "5 ACCESSORIES INCLUDED: Triceps Rope, 2 x Deluxe D Handles, Dual Hook Curl Bar, Chin/Dip Belt.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
+        longDescription: "The Inspire Fitness FTX Functional Trainer is a versatile home gym machine that's compact, durable and built to last. Equipped with two 165 lb weight stacks (330 lb in total), a built-in pull up bar, 30 swiveling pulley positions, and five accessories for any functional movement this compact and durable home gym is suitable for strength training workouts at any level. Constructed of heavy-duty steel and finished with a matte black powder coat, it's one of the industry's smallest footprints in a full functional trainer. Designed for full body, versatile workouts in a sleek corner design.",
         featuresTitle: "Take your training to the next level with the Wall Balls",
-        productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
-        ]
+        // productDetails: [
+        //     "Color: Black",
+        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+        //     "Diameter: 35.5 cm/14 inch"
+        // ]
     },
     {
         id: "13",
@@ -482,7 +483,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "No Professional Setup Needed: Easy to get going with innovative tool-free installation",
             "10” Touchscreen Display:  Stay motivated with 25 pre-built programs and entertainment apps",
             "Smartphone Mirroring:Seamless mirror your smartphone to the display ",
-            "Control Your Workout:  20” x 55”  running surface,  speed up to 10 mph & incline up to 12%"
+            "Diameter: 35.5 cm/14 inch"
         ]
     },
     {
