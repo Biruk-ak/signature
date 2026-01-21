@@ -252,52 +252,52 @@ export const ALL_PRODUCTS = [
             "Weight: 12.50 kg"
         ]
     },
-    {
-        id: "8",
-        name: "CENTR x HYROX Perform Tread NMT.3",
-        price: "$000.00",
-        category: "CARDIO ",
-        image: "/running machine/nmt3_shop_07_1920x1920.jpg",
-        hoverImage: "/running machine/nmt3_shop_05_1920x1920.jpg",
-        gallery: [
-            "/running machine/nmt3_shop_07_1920x1920.jpg",
-            "/running machine/nmt3_shop_03_1920x1920.jpg",
-            "/running machine/nmt3_shop_04_1920x1920.jpg",
-            "/running machine/nmt3_shop_05_1920x1920.jpg",
-            "/running machine/nmt3_shop_06_1920x1920.jpg",
-            "/running machine/nmt3_shop_09_1920x1920.jpg",
-            "/running machine/nmt3_shop_01_1920x1920.jpg",
-            "/running machine/nmt3_shop_02_1920x1920.jpg",
-            "/running machine/nmt3_shop_08_1920x1920.jpg",
-            // "/running machine/nmt3_shop_2_06_1920x1920.jpg",
-            "/running machine/nmt3_shop_2_05_1920x1920.jpg",
-            "/running machine/nmt3_shop_2_04_1920x1920.jpg",
-        ],
-        description: [
-            "Motorless design, no power connection required.",
-            "Resistance levels for an intense workout.",
-            "Multi-position handlebars for various training options.",
-            "LED display shows real-time workout data.",
-            "Bluetooth-compatible for heart rate monitoring.",
-        ],
-        descriptionTitle: "Description",
-        specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
-        ],
-        longDescription: `The CENTR x HYROX Perform Tread NMT.3  is a motorless treadmill designed specifically for preparing for HYROX races. It allows you to effectively train push and pull exercises while increasing endurance and speed. The curved design promotes a natural running posture, while the shock-absorbing running surface made of sturdy aluminum slats with a rubber coating offers a comfortable and joint-friendly training experience.  
+    // {
+    //     id: "8",
+    //     name: "CENTR x HYROX Perform Tread NMT.3",
+    //     price: "$000.00",
+    //     category: "CARDIO ",
+    //     image: "/running machine/nmt3_shop_07_1920x1920.jpg",
+    //     hoverImage: "/running machine/nmt3_shop_05_1920x1920.jpg",
+    //     gallery: [
+    //         "/running machine/nmt3_shop_07_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_03_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_04_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_05_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_06_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_09_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_01_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_02_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_08_1920x1920.jpg",
+    //         // "/running machine/nmt3_shop_2_06_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_2_05_1920x1920.jpg",
+    //         "/running machine/nmt3_shop_2_04_1920x1920.jpg",
+    //     ],
+    //     description: [
+    //         "Motorless design, no power connection required.",
+    //         "Resistance levels for an intense workout.",
+    //         "Multi-position handlebars for various training options.",
+    //         "LED display shows real-time workout data.",
+    //         "Bluetooth-compatible for heart rate monitoring.",
+    //     ],
+    //     descriptionTitle: "Description",
+    //     specs: [
+    //         { label: "LOREM", value: "LOREM" },
+    //         { label: "LOREM", value: "LOREM" },
+    //     ],
+    //     longDescription: `The CENTR x HYROX Perform Tread NMT.3  is a motorless treadmill designed specifically for preparing for HYROX races. It allows you to effectively train push and pull exercises while increasing endurance and speed. The curved design promotes a natural running posture, while the shock-absorbing running surface made of sturdy aluminum slats with a rubber coating offers a comfortable and joint-friendly training experience.  
 
-                            The multi-position handlebars offer a wide range of training options: from normal running and walking to intensive resistance exercises. With 8 magnetic resistance levels, the workout can be customized to suit individual needs. The clear LED display provides all the important data during training, such as speed, resistance, distance, heart rate, time, and calorie consumption. The integrated Bluetooth heart rate sensor ensures precise heart rate monitoring. 
+    //                         The multi-position handlebars offer a wide range of training options: from normal running and walking to intensive resistance exercises. With 8 magnetic resistance levels, the workout can be customized to suit individual needs. The clear LED display provides all the important data during training, such as speed, resistance, distance, heart rate, time, and calorie consumption. The integrated Bluetooth heart rate sensor ensures precise heart rate monitoring. 
 
-                        Since no power connection is required, theCENTR x HYROX Perform Tread NMT.3 operates entirely through its own movement, offering maximum flexibility for training—whether at home, in the gym, or in competition.`,
-        featuresTitle: "HYROX training at the highest level: The treadmill for your success!",
-        // productDetails: [
-        //     "Color: Black",
-        //     "Material: Outer cover made of polyvinyl chloride (PVC)",
-        //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-        //     "Diameter: 35.5 cm/14 inch"
-        // ]
-    },
+    //                     Since no power connection is required, theCENTR x HYROX Perform Tread NMT.3 operates entirely through its own movement, offering maximum flexibility for training—whether at home, in the gym, or in competition.`,
+    //     featuresTitle: "HYROX training at the highest level: The treadmill for your success!",
+    //     // productDetails: [
+    //     //     "Color: Black",
+    //     //     "Material: Outer cover made of polyvinyl chloride (PVC)",
+    //     //     "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
+    //     //     "Diameter: 35.5 cm/14 inch"
+    //     // ]
+    // },
     {
         id: "9",
         name: "Hexagon Dumbbells Per Piece",
