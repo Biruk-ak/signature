@@ -714,22 +714,27 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/Inspire FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-zijkant.webp",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "The Centr Folding Workout Bench is your ultimate training partner at home. It features 7 backrest positions (from -12° decline to 80° incline) and 3 seat settings, allowing you to switch between dumbbell presses, shoulder presses, crunches, and more. The ladder-style system ensures each position is clearly marked and easy to adjust..",
+            "Extra-thick padding provides maximum comfort and stability, even during intense workouts. The heavy-duty steel frame with matte black powder coating looks professional and supports up to 500 lbs. Built-in handle and wheels make repositioning effortless.",
+
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
+        longDescription: "This bench is built to last and meets EN957 safety standards. It includes a 3-month digital Centr membership, granting access to training, nutrition, and mental coaching from a team of experts.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
         productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
+            "Adjustable backrest: 7 positions (-12°, 0°, 15°, 30°, 45°, 60°, 80°)",
+            "Adjustable seat: 3 positions (0°, 7°, 14°)",
+            "Adjustable armrests: 2 positions (0°, 15°)",
+            "Max load: 500 lbs",
+            "Dimensions: 137.2 x 59.4 x 39.4 cm (LxWxH)",
+            "Color: Matte black & chrome",
+            "Limited lifetime warranty",
+            "Weight: 29.5 kg",
+
         ]
     },
 
