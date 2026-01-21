@@ -467,22 +467,22 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/Centr Runr-S/centr-runr-s-loopband.webp",
         ],
         description: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Make every mile a personal experience with the Centr Runr-S: A sleek, foldable treadmill with a 10” touchscreen display, 25 pre-built programs and entertainment apps, and seamless smartphone mirroring.",
+            "Designed with space-saving and style in mind, Centr Runr-S lets you go the distance from your own home. No tools required – installation is quick and easy to do yourself..",
+            "Feel the difference with the comfort of Cloud Cushion Technology, engineered to soften the impact of each stride for a smooth and supportive run. The adaptive innovation of our Natural Stride Technology senses your speed and adjusts automatically—mimicking the feel of running outside.",
         ],
         descriptionTitle: "Description",
         specs: [
             { label: "LOREM", value: "LOREM" },
             { label: "LOREM", value: "LOREM" },
         ],
-        longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
-        featuresTitle: "Take your training to the next level with the Wall Balls",
+        longDescription: "Engineered with a quiet, energy-efficient, 3.0 HP brushless motor, the Centr Runr-S is easy to control with quick keys for speed and incline and has a spacious 20” x 55” running surface.  Connect your heart rate device via Bluetooth and track your effort through the 5-color heart rate zone display on the console. Stay motivated with pre-loaded apps such as Netflix, Disney+, YouTube, and more, or wirelessly mirror your device to the touchscreen.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
         productDetails: [
-            "Color: Black",
-            "Material: Outer cover made of polyvinyl chloride (PVC)",
-            "Available weights: 4 kg/8.8 lbs, 6 kg/13.2 lbs, 9 kg/19.8 lbs",
-            "Diameter: 35.5 cm/14 inch"
+            "No Professional Setup Needed: Easy to get going with innovative tool-free installation",
+            "10” Touchscreen Display:  Stay motivated with 25 pre-built programs and entertainment apps",
+            "Smartphone Mirroring:Seamless mirror your smartphone to the display ",
+            "Control Your Workout:  20” x 55”  running surface,  speed up to 10 mph & incline up to 12%"
         ]
     },
     {
