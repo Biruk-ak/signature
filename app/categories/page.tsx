@@ -6,30 +6,36 @@ import Image from "next/image"
 import { ALL_PRODUCTS } from "@/lib/products"
 
 // Metadata map for curated descriptions and optional image overrides
-const CATEGORY_METADATA: Record<string, { desc: string, image?: string }> = {
+const CATEGORY_METADATA: Record<string, { desc: string, image?: string, category?: string }> = {
     "HOME GYM": {
         desc: "Build your dream fitness space with our premium selection of multi-gyms and strength equipment designed for the home.",
-        image: "/M2 MULTI-GYM/M202.webp"
+        image: "/M2 MULTI-GYM/M202.webp",
+        category: "HOME GYM"
     },
     "CARDIO": {
         desc: "Elevate your endurance with top-tier treadmills, ellipticals, and bikes engineered for performance and reliability.",
-        image: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp"
+        image: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp",
+        category: "CARDIO"
     },
     "HYROXS": {
         desc: "Official equipment for HYROX training. Prepare for the world series of fitness with gear built for intensity.",
-        image: "/bars/shop_3_(11)_1920x1920.webp"
+        image: "/bars/shop_1_(11)_1920x1920.webp",
+        category: "HYROXS"
     },
     "INSPIRE SERIES": {
         desc: "Experience the innovation of the Inspire Series, featuring smooth cable machines and functional trainers for total body conditioning.",
-        image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp"
+        image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
+        category: "INSPIRE SERIES"
     },
     "WEIGHT": {
         desc: "From dumbbells to plates, find the essential weightlifting gear you need for strength training and muscle building.",
-        image: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg"
+        image: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg",
+        category: "WEIGHT"
     },
     "ACCESSORIES": {
         desc: "Complete your setup with high-quality racks, benches, and accessories to keep your gym organized and versatile.",
-        image: "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp"
+        image: "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
+        category: "ACCESSORIES"
     }
 }
 

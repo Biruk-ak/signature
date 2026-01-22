@@ -5,7 +5,8 @@ import { SlidersHorizontal } from "lucide-react"
 import { ALL_PRODUCTS } from "@/lib/products"
 import Link from "next/link"
 
-export default function CategoryPage({ params }: { params: { category: string } }) {
+export default async function CategoryPage(props: { params: Promise<{ category: string }> }) {
+    const params = await props.params;
     const categoryName = decodeURIComponent(params.category)
 
     // Filter products with loose matching (trim whitespace and ignore case checks)
