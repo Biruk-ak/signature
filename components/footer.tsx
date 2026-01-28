@@ -121,14 +121,7 @@ export function Footer() {
 
         <div className="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-black uppercase tracking-[0.2em] text-muted-foreground">
           <p>© 2026 Signature Wellness. All Rights Reserved.</p>
-          {/* <div className="flex gap-8">
-            <Link href="#" className="hover:text-primary transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:text-primary transition-colors">
-              Terms of Service
-            </Link>
-          </div> */}
+
         </div>
       </div>
     </footer>
