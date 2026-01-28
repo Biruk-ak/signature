@@ -69,7 +69,7 @@ export function PerformanceShowcase() {
                             >
                                 <Image
                                     src={SHOWCASE_IMAGES[currentIndex]}
-                                    alt="LOREM IPSUM"
+                                    alt="Signature Fitness Equipment"
                                     fill
                                     className="object-cover"
                                 />

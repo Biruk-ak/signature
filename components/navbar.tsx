@@ -40,9 +40,9 @@ export function Navbar() {
             <Link href="/products" className="hover:text-primary transition-colors">
               PRODUCTS
             </Link>
-            {/* <Link href="/about" className="hover:text-primary transition-colors">
-              STORY
-            </Link> */}
+            <Link href="/about" className="hover:text-primary transition-colors">
+              ABOUT US
+            </Link>
           </div>
         </div>
 
@@ -87,6 +87,10 @@ export function Navbar() {
                   </Link>
                   <Link href="/products" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
                     Products
+                    <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
+                  </Link>
+                  <Link href="/about" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
+                    About Us
                     <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
                   </Link>
                 </div>

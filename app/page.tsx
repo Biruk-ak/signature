@@ -105,29 +105,29 @@ export default function Home() {
               <div className="absolute inset-0 bg-primary/10" />
             </div>
             <div>
-              <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">LOREM IPSUM</p>
+              <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">About Signature Wellness</p>
               <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.85] mb-8">
-                LOREM <br /> IPSUM <span className="text-primary">LOREM</span> LOREM
+                Official <br /> distributor in <span className="text-primary">Addis Ababa</span>
               </h2>
-              <p className="text-xl text-background/70 mb-10 leading-relaxed font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <div className="grid grid-cols-2 gap-8 mb-10">
-                <div>
-                  <p className="text-3xl font-black text-primary">000+</p>
-                  <p className="text-sm font-bold uppercase tracking-widest text-background/50">LOREM IPSUM</p>
-                </div>
-                <div>
-                  <p className="text-3xl font-black text-primary">00H</p>
-                  <p className="text-sm font-bold uppercase tracking-widest text-background/50">LOREM IPSUM</p>
-                </div>
+              <div className="space-y-6 mb-10">
+                <p className="text-xl text-background/70 leading-relaxed font-medium">
+                  Based in Addis Ababa, Ethiopia, Signature Wellness is the official distributor of elite fitness equipment, including the premium Centr range.
+                </p>
+                <p className="text-background/60 leading-relaxed">
+                  We help athletes, trainers, studios, and fitness enthusiasts build training spaces that combine performance, design, and durability.
+                </p>
+                <p className="text-background/60 leading-relaxed italic border-l-2 border-primary/50 pl-4">
+                  From consultation to delivery, we support every step of your equipment journey.
+                </p>
               </div>
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-widest h-16 px-12 text-lg"
-              >
-                LOREM IPSUM
-              </Button>
+              <Link href="/#contact">
+                <Button
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-widest h-16 px-12 text-lg"
+                >
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -137,9 +137,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex items-end justify-between mb-16">
             <div>
-              <p className="text-primary font-black uppercase tracking-[0.3em] mb-2">LOREM IPSUM</p>
-              <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase leading-none">
-                LOREM IPSUM
+              <p className="text-primary font-black uppercase tracking-[0.3em] mb-2">Our Collection</p>
+              <h2 className="text-2xl md:text-4xl font-black tracking-tighter uppercase leading-none">
+                Curated equipment for ultimate peak performance.
               </h2>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function Home() {
         </div>
       </section>
       <PerformanceShowcase />
-      z
+
       <ContactSection />
       <Footer /> {/* Added Footer to page */}
     </main>

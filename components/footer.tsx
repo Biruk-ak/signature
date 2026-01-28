@@ -20,55 +20,35 @@ export function Footer() {
               Building the foundation for elite athletes and world-class facilities since 2010. Engineered for power,
               built for life.
             </p>
-            {/* <div className="flex gap-4">
-              <Link
-                href="#"
-                className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all"
-              >
-                <Instagram className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all"
-              >
-                <Facebook className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all"
-              >
-                <Twitter className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="p-2 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all"
-              >
-                <Youtube className="h-5 w-5" />
-              </Link>
-            </div> */}
+
           </div>
 
           <div>
             <h4 className="font-black uppercase tracking-widest text-sm mb-6">Equipment</h4>
             <ul className="space-y-4 text-sm font-bold uppercase tracking-tight text-muted-foreground">
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link href="/categories/Strength Machines" className="hover:text-primary transition-colors">
                   Strength Machines
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
-                  Free Weights
+                <Link href="/categories/Free Weights & Plates" className="hover:text-primary transition-colors">
+                  Free Weights & Plates
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
-                  Racks & Rigs
+                <Link href="/categories/Racks, Rigs & Functional Frames" className="hover:text-primary transition-colors">
+                  Racks, Rigs & Functional Frames
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
-                  Cardio Elite
+                <Link href="/categories/Cardio & Endurance" className="hover:text-primary transition-colors">
+                  Cardio & Endurance
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories/Training Accessories" className="hover:text-primary transition-colors">
+                  Training Accessories
                 </Link>
               </li>
             </ul>
@@ -78,11 +58,11 @@ export function Footer() {
             <h4 className="font-black uppercase tracking-widest text-sm mb-6">Company</h4>
             <ul className="space-y-4 text-sm font-bold uppercase tracking-tight text-muted-foreground">
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
-                  About Our Story
+                <Link href="/about" className="hover:text-primary transition-colors">
+                  About Our Company
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#" className="hover:text-primary transition-colors">
                   Commercial Design
                 </Link>
@@ -91,9 +71,9 @@ export function Footer() {
                 <Link href="#" className="hover:text-primary transition-colors">
                   Warranty Info
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link href="/#contact" className="hover:text-primary transition-colors">
                   Contact Support
                 </Link>
               </li>
