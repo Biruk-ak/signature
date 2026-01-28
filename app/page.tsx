@@ -26,17 +26,6 @@ export default function Home() {
           </div>
 
           <ProductCarousel products={ALL_PRODUCTS.slice(0, 6)} />
-
-          {/* <div className="mt-16 text-center">
-            <Link href="/shop">
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-widest h-14 px-10"
-              >
-                ALL PRODUCTS
-              </Button>
-            </Link>
-          </div> */}
         </div>
       </section>
       {/* Categories Section */}
@@ -59,30 +48,26 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-6 md:gap-8 w-full">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8 w-full">
             {[
               {
-                name: "HOME GYM",
+                name: "Strength Machines",
                 image: "/M2 MULTI-GYM/M202.webp",
               },
               {
-                name: "CARDIO",
+                name: "Cardio & Endurance",
                 image: "/INSPIRE SERIES T7 TREADMILL/inspire-series-t7-loopband-hoofdbeeld.webp",
               },
               {
-                name: "HYROXS",
-                image: "/bars/shop_3_(11)_1920x1920.webp",
-              },
-              {
-                name: "INSPIRE SERIES",
+                name: "Racks, Rigs & Functional Frames",
                 image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
               },
               {
-                name: "WEIGHT",
+                name: "Free Weights & Plates",
                 image: "/dumbbell/CENTR x HYROX Dumbbell Urethane 5 kg_1_1920x1920.jpg",
               },
               {
-                name: "ACCESSORIES",
+                name: "Training Accessories",
                 image: "/Inspire 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
               },
 

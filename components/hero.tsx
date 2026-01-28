@@ -1,43 +1,69 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative h-[60vh] min-h-[450px] w-full overflow-hidden flex items-center rounded-b-[120px] md:rounded-b-[300px]">
+    <section className="relative h-[50vh] min-h-[450px] w-full overflow-hidden flex items-center rounded-b-[40px] md:rounded-b-[100px]">
+      {/* Background Image & Overlays */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/Screenshot 2026-01-04 215733.webp"
-          alt="Hero Background"
+          src="/hero-premium.png"
+          alt="Premium Gym Environment"
           fill
-          className="object-cover"
+          className="object-cover scale-105"
           priority
         />
-        <div className="absolute inset-0 bg-black/20" />
+        {/* Cinematic Overlays */}
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.4)_100%)]" />
       </div>
 
-      <div className="container relative z-10 mx-auto px-4 text-center">
-        <div className="max-w-4xl mx-auto text-white">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            <h1 className="text-5xl md:text-8xl font-black tracking-tighter text-balance leading-[0.85] mb-6 drop-shadow-2xl uppercase">
-              LOREM <span className="text-primary">IPSUM</span> DOLOR
+      <div className="container relative z-10 mx-auto px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <h1 className="text-4xl md:text-6xl font-black tracking-tight text-white leading-[0.85] mb-6 uppercase drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
+              Performance <span className="text-primary block md:inline">Design</span> Power
             </h1>
-            <p className="text-lg md:text-2xl text-white/90 text-balance max-w-2xl mx-auto mb-10 leading-relaxed drop-shadow-md">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, .
-            </p>
 
-            {/* <div className="flex justify-center">
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground text-xl font-black h-16 px-10 group rounded-2xl"
-              >
-                LOREM IPSUM
-                <ArrowRight className="ml-2 h-6 w-6 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </div> */}
+            <div className="space-y-4 mb-8 max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl text-white/90 font-medium leading-relaxed drop-shadow-md">
+                Performance-driven equipment engineered for strength, endurance, and modern training — curated by Signature Wellness, Addis Ababa’s trusted source for elite fitness gear.
+              </p>
+              <p className="text-base md:text-lg text-white/70 font-light leading-relaxed drop-shadow-sm border-l-2 border-primary/50 pl-4 italic">
+                Official distributor of Centr and other premium brands, designed for home gyms, studios, corporate wellness spaces, and athletes who train with purpose.
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <Link href="/shop">
+                <Button
+                  size="lg"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-bold h-14 px-8 rounded-xl shadow-[0_0_20px_rgba(215,182,74,0.3)] hover:shadow-[0_0_30px_rgba(215,182,74,0.5)] transition-all duration-300 active:scale-95 group w-full sm:w-auto"
+                >
+                  SHOP ALL EQUIPMENT
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+              <Link href="/#contact">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="bg-white/10 backdrop-blur-xl border-white/20 hover:bg-white/20 text-white text-lg font-bold h-14 px-10 rounded-xl transition-all duration-300 active:scale-95 w-full sm:w-auto"
+                >
+                  CONTACT US
+                </Button>
+              </Link>
+            </div>
           </motion.div>
         </div>
       </div>

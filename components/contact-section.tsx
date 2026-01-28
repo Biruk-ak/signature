@@ -30,10 +30,10 @@ export function ContactSection() {
                             <div className="mb-12">
                                 {/* <p className="text-primary font-black uppercase tracking-[0.3em] mb-4"></p> */}
                                 <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.85] mb-8">
-                                    Reach  <br /> <span className="text-primary">Us</span>
+                                    Reach Out <br /> <span className="text-primary">to Us</span>
                                 </h2>
                                 <p className="text-xl text-muted-foreground leading-relaxed font-medium max-w-md">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Have questions? Need product guidance or a consultation for your fitness space? Our team is here to help.
                                 </p>
                             </div>
 

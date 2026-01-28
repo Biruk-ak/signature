@@ -3,6 +3,7 @@ import { ProductCard } from "@/components/product-card"
 import { Button } from "@/components/ui/button"
 import { SlidersHorizontal } from "lucide-react"
 import { ALL_PRODUCTS } from "@/lib/products"
+import { CATEGORY_METADATA } from "@/lib/category-metadata"
 import Link from "next/link"
 
 export default async function CategoryPage(props: { params: Promise<{ category: string }> }) {
@@ -13,6 +14,11 @@ export default async function CategoryPage(props: { params: Promise<{ category: 
     const categoryProducts = ALL_PRODUCTS.filter(
         (product) => product.category?.trim().toUpperCase() === categoryName.trim().toUpperCase()
     )
+
+    // Get metadata for the current category
+    const metadata = CATEGORY_METADATA[categoryName.toUpperCase()] ||
+        CATEGORY_METADATA[categoryName] ||
+        Object.values(CATEGORY_METADATA).find(m => m.category?.toUpperCase() === categoryName.toUpperCase());
 
     return (
         <main className="min-h-screen bg-background">
@@ -25,7 +31,7 @@ export default async function CategoryPage(props: { params: Promise<{ category: 
                             {categoryName}
                         </h1>
                         <p className="text-muted-foreground text-lg max-w-2xl">
-                            Explore our premium selection of {categoryName.toLowerCase()} equipment.
+                            {metadata?.desc || `Explore our premium selection of ${categoryName.toLowerCase()} equipment.`}
                         </p>
                     </div>
                 </div>

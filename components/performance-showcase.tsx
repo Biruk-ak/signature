@@ -30,25 +30,29 @@ export function PerformanceShowcase() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">LOREM IPSUM</p>
+                        <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">FEATURED COLLECTION</p>
                         <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.85] mb-8">
-                            LOREM <br /> IPSUM <span className="text-primary">LOREM</span>
+                            Featured  <br /> Performance  <span className="text-primary">Series</span>
                         </h2>
                         <p className="text-xl text-muted-foreground mb-10 leading-relaxed font-medium max-w-xl">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Explore our flagship Centr performance line where innovation meets functionality for serious training.
                         </p>
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center gap-4 group cursor-default">
                                 <div className="h-[2px] w-12 bg-primary transition-all group-hover:w-16" />
-                                <p className="text-sm font-black uppercase tracking-widest">LOREM IPSUM</p>
+                                <p className="text-sm font-black uppercase tracking-widest">Centr x HYROX Sandbag Series</p>
                             </div>
                             <div className="flex items-center gap-4 group cursor-default">
                                 <div className="h-[2px] w-12 bg-primary transition-all group-hover:w-16" />
-                                <p className="text-sm font-black uppercase tracking-widest">LOREM IPSUM</p>
+                                <p className="text-sm font-black uppercase tracking-widest">Competition Wall Ball</p>
                             </div>
                             <div className="flex items-center gap-4 group cursor-default">
                                 <div className="h-[2px] w-12 bg-primary transition-all group-hover:w-16" />
-                                <p className="text-sm font-black uppercase tracking-widest">LOREM IPSUM</p>
+                                <p className="text-sm font-black uppercase tracking-widest">Interlocking Bumper Plates</p>
+                            </div>
+                            <div className="flex items-center gap-4 group cursor-default">
+                                <div className="h-[2px] w-12 bg-primary transition-all group-hover:w-16" />
+                                <p className="text-sm font-black uppercase tracking-widest">Power Sled & Functional Tools</p>
                             </div>
                         </div>
                     </motion.div>
