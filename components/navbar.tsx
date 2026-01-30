@@ -35,7 +35,7 @@ export function Navbar() {
               ABOUT US
             </Link>
             <Link href="/shop" className="hover:text-primary transition-colors">
-              SHOP ALL
+              EXPLORE
             </Link>
             <Link href="/categories" className="hover:text-primary transition-colors">
               CATEGORIES
@@ -82,7 +82,7 @@ export function Navbar() {
                     <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
                   </Link>
                   <Link href="/shop" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
-                    Shop All
+                    Explore
                     <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
                   </Link>
                   <Link href="/categories" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
