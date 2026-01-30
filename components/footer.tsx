@@ -17,8 +17,7 @@ export function Footer() {
               />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Building the foundation for elite athletes and world-class facilities since 2010. Engineered for power,
-              built for life.
+              Building the foundation for elite athletes and world-class facilities since 2010. Engineered for power, built for life.
             </p>
 
           </div>

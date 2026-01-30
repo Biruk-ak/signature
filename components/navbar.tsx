@@ -31,6 +31,9 @@ export function Navbar() {
             </div>
           </Link>
           <div className="hidden md:flex items-center gap-6 text-sm font-medium">
+            <Link href="/about" className="hover:text-primary transition-colors">
+              ABOUT US
+            </Link>
             <Link href="/shop" className="hover:text-primary transition-colors">
               SHOP ALL
             </Link>
@@ -39,9 +42,6 @@ export function Navbar() {
             </Link>
             <Link href="/products" className="hover:text-primary transition-colors">
               PRODUCTS
-            </Link>
-            <Link href="/about" className="hover:text-primary transition-colors">
-              ABOUT US
             </Link>
           </div>
         </div>
@@ -77,6 +77,10 @@ export function Navbar() {
 
               <div className="flex flex-col h-full justify-between p-8 pt-32">
                 <div className="flex flex-col gap-8">
+                  <Link href="/about" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
+                    About Us
+                    <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
+                  </Link>
                   <Link href="/shop" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
                     Shop All
                     <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
@@ -87,10 +91,6 @@ export function Navbar() {
                   </Link>
                   <Link href="/products" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
                     Products
-                    <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
-                  </Link>
-                  <Link href="/about" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
-                    About Us
                     <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
                   </Link>
                 </div>
