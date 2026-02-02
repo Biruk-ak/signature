@@ -6,6 +6,59 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
+import { useSearchParams } from "next/navigation"
+import { useEffect, useState, Suspense } from "react"
+
+function ContactForm() {
+    const searchParams = useSearchParams()
+    const subjectParam = searchParams.get("subject")
+    const [subject, setSubject] = useState("")
+
+    useEffect(() => {
+        setSubject(subjectParam || "")
+    }, [subjectParam])
+
+    return (
+        <form className="space-y-6 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-2">
+                    <Label htmlFor="first-name" className="font-black uppercase tracking-widest text-[10px] ml-1">First Name</Label>
+                    <Input id="first-name" placeholder="First Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                </div>
+                <div className="space-y-2">
+                    <Label htmlFor="last-name" className="font-black uppercase tracking-widest text-[10px] ml-1">Last Name</Label>
+                    <Input id="last-name" placeholder="Last Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                </div>
+            </div>
+
+            <div className="space-y-2">
+                <Label htmlFor="email" className="font-black uppercase tracking-widest text-[10px] ml-1">Email</Label>
+                <Input id="email" type="email" placeholder="Email" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+            </div>
+
+            <div className="space-y-2">
+                <Label htmlFor="subject" className="font-black uppercase tracking-widest text-[10px] ml-1">Subject</Label>
+                <Input
+                    id="subject"
+                    placeholder="Subject"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
+                    className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
+                />
+            </div>
+
+            <div className="space-y-2">
+                <Label htmlFor="message" className="font-black uppercase tracking-widest text-[10px] ml-1">Message</Label>
+                <Textarea id="message" placeholder="Message" className="min-h-[150px] bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6 py-4 resize-none" />
+            </div>
+
+            <Button className="w-full h-16 bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-[0.2em] text-lg rounded-2xl shadow-[0_10px_30px_rgba(215,182,74,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]">
+                <Send className="w-5 h-5 mr-3" />
+                Send Message
+            </Button>
+        </form>
+    )
+}
 
 export function ContactSection() {
     return (
@@ -89,38 +142,9 @@ export function ContactSection() {
                             {/* Form subtle background gradient */}
                             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-[60px] -mr-16 -mt-16" />
 
-                            <form className="space-y-6 relative z-10">
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div className="space-y-2">
-                                        <Label htmlFor="first-name" className="font-black uppercase tracking-widest text-[10px] ml-1">First Name</Label>
-                                        <Input id="first-name" placeholder="First Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
-                                    </div>
-                                    <div className="space-y-2">
-                                        <Label htmlFor="last-name" className="font-black uppercase tracking-widest text-[10px] ml-1">Last Name</Label>
-                                        <Input id="last-name" placeholder="Last Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
-                                    </div>
-                                </div>
-
-                                <div className="space-y-2">
-                                    <Label htmlFor="email" className="font-black uppercase tracking-widest text-[10px] ml-1">Email</Label>
-                                    <Input id="email" type="email" placeholder="Email" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
-                                </div>
-
-                                <div className="space-y-2">
-                                    <Label htmlFor="subject" className="font-black uppercase tracking-widest text-[10px] ml-1">Subject</Label>
-                                    <Input id="subject" placeholder="Subject" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
-                                </div>
-
-                                <div className="space-y-2">
-                                    <Label htmlFor="message" className="font-black uppercase tracking-widest text-[10px] ml-1">Message</Label>
-                                    <Textarea id="message" placeholder="Message" className="min-h-[150px] bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6 py-4 resize-none" />
-                                </div>
-
-                                <Button className="w-full h-16 bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-[0.2em] text-lg rounded-2xl shadow-[0_10px_30px_rgba(215,182,74,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]">
-                                    <Send className="w-5 h-5 mr-3" />
-                                    Send Message
-                                </Button>
-                            </form>
+                            <Suspense fallback={<div className="h-96 flex items-center justify-center text-muted-foreground animate-pulse font-black uppercase tracking-widest text-xs">Loading Form...</div>}>
+                                <ContactForm />
+                            </Suspense>
                         </motion.div>
 
                     </div>

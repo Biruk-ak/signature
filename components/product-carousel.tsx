@@ -12,7 +12,6 @@ interface Product {
     category: string
     image: string
     hoverImage?: string
-    isNew?: boolean
     specs: {
         label: string
         value: string

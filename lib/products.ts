@@ -14,7 +14,6 @@ export const ALL_PRODUCTS = [
             "/bags/shop_5_(2)_1920x1920.webp",
             "/bags/shop_6_(1)_1920x1920.webp",
         ],
-        isNew: true,
         description: [
             "Cordura® nylon for maximum durability",
             "Double-stitched seams for durability.",
@@ -23,10 +22,10 @@ export const ALL_PRODUCTS = [
             "Designed for training in the gym, at home, and in competition.",
 
         ],
-        descriptionTitle: "Mit erstklassigen Sandbags zum Erfolg",
+        descriptionTitle: "Premium Performance Sandbags",
         specs: [
-            { label: "Gewicht", value: "10 kg" },
-            { label: "Farbe", value: "Rot" },
+            { label: "Weight", value: "10 kg" },
+            { label: "Color", value: "Red" },
         ],
         longDescription: "The exclusive CENTR x HYROX Competition Sandbags , designed specifically for your HYROX performance, are your versatile training partner for daily workouts. Made from Cordura® nylon and reinforced with double-stitched seams, they offer ultimate durability and longevity. Seven non-slip nylon handles and a double heavy-duty Velcro closure ensure secure handling during training. The inner filling bags feature a double Velcro® closure system to prevent sand from leaking out and moisture from penetrating. Designed specifically for athletes, these sandbags are available in three different weights to give you control over your workout—whether it's for sandbag lunges or a variety of other exercises that will push you to your limits.",
         featuresTitle: "Train like a pro with top-of-the-line sandbags for your workout.",
@@ -61,8 +60,8 @@ export const ALL_PRODUCTS = [
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "Gewicht", value: "10 kg" },
-            { label: "Farbe", value: "Rot" },
+            { label: "Weight", value: "10 kg" },
+            { label: "Color", value: "Red" },
         ],
         longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
         featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -94,8 +93,8 @@ export const ALL_PRODUCTS = [
         ],
         descriptionTitle: "Achieve your goals with first-class weight plates",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "Optimize your training with the CENTR x HYROX Competition Interlocking Bumper Plates and reach your fitness goals. These innovative competition weight plates have been specifically designed to give you a performance boost during even the most demanding workouts. Their thoughtful design allows for smooth stacking, enabling easy loading and unloading on the CENTR x HYROX Power Sled. Compared to conventional weight plates, which can cause annoying noises when hitting the ground, these weight plates are equipped with a high-quality, damage-resistant coating that effectively reduces noise and vibrations. Thanks to the weight indication on the edge, you can also keep track of your training intensity during training.s.",
         featuresTitle: "Product information: CENTR x HYROX Competition Interlocking Bumper Plate - 25 kg",
@@ -133,8 +132,8 @@ export const ALL_PRODUCTS = [
         ],
         descriptionTitle: "Product information: CENTR x HYROX Competition Rig Target",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "Set your goals and achieve them every day with the CENTR x HYROX Rig Target. The wallball target offers a practical way to train at two heights simultaneously. Made from high quality steel, it offers a robust construction to challenge your strength and endurance. Not only is it easy to assemble, but it is also precision engineered and compatible with the Perform Better Half Rack, so it can be easily attached to our Half Rack.",
         featuresTitle: "The versatile rig target for effective training",
@@ -166,8 +165,8 @@ export const ALL_PRODUCTS = [
         ],
         descriptionTitle: "The ultimate choice for effective training",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The competition kettlebell has been redesigned for a new era of functionality and proudly presents the brand new CENTR x HYROX Octo Kettlebell. This revolutionary and unique kettlebell retains the competition specifications but offers unparalleled functionality.Its unique Octo shape maximizes versatility and ensures even weight distribution, especially important for the HYROX Farmer's Carry and similar exercises.The Octo Kettlebell is made from high quality cast iron and has a robust coating. The handle is made of hard chrome-plated steel, which ensures a secure grip. This kettlebell is ideal for both daily workouts and competitions. With three different competition weights, this innovative kettlebell sets a new standard.",
         featuresTitle: "New standards for training and competition",
@@ -202,8 +201,8 @@ export const ALL_PRODUCTS = [
         ],
         descriptionTitle: "Take your training performance to a new level",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The CENTR x HYROX Competition Power Sled has been developed to make your training more effective. Every detail has been carefully considered to enable you to maximize your performance and achieve personal bests. Made from robust, commercial grade steel, the sled features five bars with marked handles to indicate correct hand placement according to competition standards. Its sleek, aerodynamic design is specially adapted to the requirements of HYROX fitness races and helps you get closer to victory with every push and pull. Thanks to the central weight plate holder, which can hold more than 150 kg/330 lbs of weight, the weight you use is easy to control. With the CENTR x HYROX Power Sled you don't just train, you become a powerful competitor yourself.",
         featuresTitle: "The ultimate competition power sled for peak performance",
@@ -238,8 +237,8 @@ export const ALL_PRODUCTS = [
         ],
         descriptionTitle: "Quality and functionality combined at the highest levels",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The CENTR x HYROX Power Rope features yellow markings every three meters over a length of 15 meters, allowing you to see your sled pulling progress at a glance. Every aspect of the rope has been specifically designed to enhance your performance, from the non-slip handles to the tightly woven fray-resistant Darcon® polyester construction. The result is a sturdy training tool that is durable and provides you with reliable quality during your workout.",
         featuresTitle: "The Power Rope is an indispensable training tool with that certain something",
@@ -331,8 +330,8 @@ export const ALL_PRODUCTS = [
         ],
         descriptionTitle: "Maximum stability and control for your training!",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: `The CENTR x HYROX urethane dumbbells are the ideal choice for demanding athletes who demand the highest quality. The double-welded construction and the robust, UV-resistant urethane coating ensure extreme durability and stability - even during intensive training sessions.
 
@@ -420,8 +419,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         // longDescription: "The CENTR x HYROX Wall Balls are designed to help you maximize your training by allowing you to fully develop and strengthen your inner power. Each ball is individually crafted, stitched and tested to maximize your grip and allow you to finish your HYROX race with power. With multiple weight options and a PVC outer shell that has been double stitched at the seams, this durable wall ball will retain its shape even when subjected to intense impact. Whether you throw it against the wall, on the ground or use it on race day, this wall ball will stand as the only obstacle between you and the finish line.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -454,8 +453,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The Inspire Fitness FTX Functional Trainer is a versatile home gym machine that's compact, durable and built to last. Equipped with two 165 lb weight stacks (330 lb in total), a built-in pull up bar, 30 swiveling pulley positions, and five accessories for any functional movement this compact and durable home gym is suitable for strength training workouts at any level. Constructed of heavy-duty steel and finished with a matte black powder coat, it's one of the industry's smallest footprints in a full functional trainer. Designed for full body, versatile workouts in a sleek corner design.",
         featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -487,8 +486,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "Engineered with a quiet, energy-efficient, 3.0 HP brushless motor, the Centr Runr-S is easy to control with quick keys for speed and incline and has a spacious 20” x 55” running surface.  Connect your heart rate device via Bluetooth and track your effort through the 5-color heart rate zone display on the console. Stay motivated with pre-loaded apps such as Netflix, Disney+, YouTube, and more, or wirelessly mirror your device to the touchscreen.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -523,8 +522,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Weight: 40 kg",
         ],
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The Inspire Fitness 3-Tier Dumbbell Rack keeps your dumbbells neatly organized and easy to reach, making it a must-have dumbbell storage rack for any home or studio gym. Its compact footprint and three spacious tiers provide room for 10–20 pairs of Inspire or standard dumbbells, so you can store a full dumbbell set without wasting floor space. The flared, open design lets you quickly grab and re-rack weights during your workout, while the heavy-duty steel frame with a durable matte black powder-coat finish ensures long-lasting stability and a clean, professional look in your training area.",
         featuresTitle: "Inspire 3-Tier Dumbbell Rack – Compact Dumbbell Storage for Home & Studio Gyms",
@@ -559,8 +558,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "Designed with space-saving in mind, our sleek, foldable treadmill lets you go the distance from the comfort of your own home. No tools required – installation is quick and easy to do yourself. Feel the difference with the comfort of Cloud Cushion Technology, engineered to soften the impact of each stride for a smooth and supportive run. The adaptive innovation of our Natural Stride Technology senses your speed and adjusts automatically—mimicking the feel of running outside. Centr Runr is engineered with a quiet, energy-efficient, 3.0 HP brushless motor with alifetime warranty. It’s easy to control with quick keys, reaching speeds of up to 10 mph with 12% incline and has a spacious 20” x 55” running surface. Connect your heart rate device via Bluetooth and track your effort through the 5-color heart rate zone display on the console.",
         featuresTitle: "Lace up and go – it’s time to run miles in style on the Centr Runr.",
@@ -595,8 +594,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The Inspire Fitness M5 Multi-Gym is the ultimate home or commercial fitness solution, offering a comprehensive range of exercises to sculpt and strengthen your entire body. The M5 is equipped with 2 press arms, seated leg curl and leg extension station, dual 215 lb weight stacks, free movement handles, a row station and a total of 4 pulleys. With independent weight stacks, the M5 allows for two users to work out simultaneously, making it perfect for workout partners or families. You can perform exercises like chest presses, lat pulldowns, shoulder presses, leg curls, and more with the smooth, frictionless pulley system that delivers consistent resistance. The M5 also features an adjustable press arm, which supports multiple pressing positions, targeting your chest, shoulders, and triceps with ease. Constructed with heavy-duty 11-gauge steel frame, nylon pulleys, 2000 lb. tensile strength cables and precision ball bearings - this multi-gym provides unparalleled stability and durability. This all-in-one system is designed to provide a professional-grade workouts, allowing you to push your limits and achieve your fitness goals with one robust machine.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -631,8 +630,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The Inspire Fitness M5 Multi-Gym is the ultimate home or commercial fitness solution, offering a comprehensive range of exercises to sculpt and strengthen your entire body. The M5 is equipped with 2 press arms, seated leg curl and leg extension station, dual 215 lb weight stacks, free movement handles, a row station and a total of 4 pulleys. With independent weight stacks, the M5 allows for two users to work out simultaneously, making it perfect for workout partners or families. You can perform exercises like chest presses, lat pulldowns, shoulder presses, leg curls, and more with the smooth, frictionless pulley system that delivers consistent resistance. The M5 also features an adjustable press arm, which supports multiple pressing positions, targeting your chest, shoulders, and triceps with ease. Constructed with heavy-duty 11-gauge steel frame, nylon pulleys, 2000 lb. tensile strength cables and precision ball bearings - this multi-gym provides unparalleled stability and durability. This all-in-one system is designed to provide a professional-grade workouts, allowing you to push your limits and achieve your fitness goals with one robust machine..",
         featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -667,8 +666,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The Inspire Fitness SCS Smith Cage System is the best of both worlds, a free weight Smith Machine and multi-pulley Functional Trainer all in one. The SCS comes with two 165 LB weight stacks, 2 adjustable wide, 2 narrow low, and 2 narrow high pulleys in addition to a Free Weight Smith Machine for controlled bar work. The full rack means you can store your own free weight bar in addition to the Smith, and with two upgradeable 165 LB weight stacks you can tackle any strength training workout. This all-in-one solution is built with a solid steel frame and commercial-grade cables and pulleys, making it suitable for both home gyms and commercial settings. A complete, 6-piece accessory kit is included - ensuring maximum workout versatility.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -702,8 +701,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "The Inspire Fitness SF3 Smith Functional Trainer is a two-in-one home gym. Built with dual 165 lb weight stacks, 2 sliding adjustable pulleys, a pull up station, and fully integrated Smith Bar. It also comes equipped with a complete accessory package of 7 attachments, storage for your device, and storage for all of your accessories. The frictionless cable and pulley system allows for almost any dynamic movement while our innovative, integrated Selectorized Smith Bar system elevates traditional strength training to new personal bests. No plates or spotter are needed with this machine as the Smith Bar utilizes the weight stacks and has built-in safeties.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",
@@ -734,8 +733,8 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         ],
         descriptionTitle: "Description",
         specs: [
-            { label: "LOREM", value: "LOREM" },
-            { label: "LOREM", value: "LOREM" },
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
         ],
         longDescription: "This bench is built to last and meets EN957 safety standards. It includes a 3-month digital Centr membership, granting access to training, nutrition, and mental coaching from a team of experts.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",

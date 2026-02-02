@@ -98,7 +98,7 @@ export default function Home() {
             <div className="relative aspect-video rounded-3xl overflow-hidden bg-muted group">
               <Image
                 src="/massive-luxury-commercial-gym-layout-with-racks-an.jpg"
-                alt="LOREM IPSUM"
+                alt="Signature Wellness Distribution"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -120,12 +120,12 @@ export default function Home() {
                   From consultation to delivery, we support every step of your equipment journey.
                 </p>
               </div>
-              <Link href="/#contact">
+              <Link href="/about">
                 <Button
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-widest h-16 px-12 text-lg"
                 >
-                  Contact Us
+                  About Us
                 </Button>
               </Link>
             </div>

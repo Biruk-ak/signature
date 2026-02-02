@@ -36,9 +36,9 @@ export function Hero() {
             </h1>
 
             <div className="space-y-4 mb-8 max-w-2xl mx-auto">
-              <p className="text-lg md:text-xl text-white/90 font-medium leading-relaxed drop-shadow-md">
+              {/* <p className="text-lg md:text-xl text-white/90 font-medium leading-relaxed drop-shadow-md">
                 Performance-driven equipment engineered for strength, endurance, and modern training — curated by Signature Wellness, Addis Ababa’s trusted source for elite fitness gear.
-              </p>
+              </p> */}
               <p className="text-base md:text-lg text-white/70 font-light leading-relaxed drop-shadow-sm border-l-2 border-primary/50 pl-4 italic">
                 Official distributor of Centr and other premium brands, designed for home gyms, studios, corporate wellness spaces, and athletes who train with purpose.
               </p>
@@ -50,7 +50,7 @@ export function Hero() {
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-bold h-14 px-8 rounded-xl shadow-[0_0_20px_rgba(215,182,74,0.3)] hover:shadow-[0_0_30px_rgba(215,182,74,0.5)] transition-all duration-300 active:scale-95 group w-full sm:w-auto"
                 >
-                  SHOP ALL EQUIPMENT
+                  EXPLORE
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>

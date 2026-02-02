@@ -14,7 +14,7 @@ export default function ShopPage() {
                     <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
                         <p className="text-primary font-black uppercase tracking-[0.3em] mb-4">Complete Catalog</p>
                         <h1 className="text-5xl md:text-6xl font-black tracking-tighter uppercase mb-6">
-                            Shop Equipment
+                            EXPLORE
                         </h1>
                         <p className="text-muted-foreground text-lg max-w-2xl">
                             Equip your facility with the industry's most durable and biomechanically precise machinery.

@@ -15,10 +15,9 @@ interface ProductProps {
         label: string
         value: string
     }[]
-    isNew?: boolean
 }
 
-export function ProductCard({ id, name, image, hoverImage, category, specs, isNew }: ProductProps) {
+export function ProductCard({ id, name, image, hoverImage, category, specs }: ProductProps) {
     return (
         <Link href={`/product/${id}`} className="block h-full">
             <motion.div
@@ -27,11 +26,6 @@ export function ProductCard({ id, name, image, hoverImage, category, specs, isNe
             >
                 {/* Image Container */}
                 <div className="relative aspect-square overflow-hidden bg-secondary/5">
-                    {isNew && (
-                        <Badge className="absolute left-4 top-4 z-10 bg-[#d7b64a] text-black font-black text-[10px] uppercase tracking-widest px-3 py-1 rounded-lg border-0">
-                            NEW
-                        </Badge>
-                    )}
                     <Image
                         src={image || "/placeholder.svg"}
                         alt={name}

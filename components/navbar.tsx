@@ -40,7 +40,7 @@ export function Navbar() {
             <Link href="/categories" className="hover:text-primary transition-colors">
               CATEGORIES
             </Link>
-            <Link href="/products" className="hover:text-primary transition-colors">
+            <Link href="/product/1" className="hover:text-primary transition-colors">
               PRODUCTS
             </Link>
           </div>
@@ -89,7 +89,7 @@ export function Navbar() {
                     Categories
                     <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
                   </Link>
-                  <Link href="/products" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
+                  <Link href="/product/1" onClick={() => setIsOpen(false)} className="group flex items-center justify-between text-4xl font-black uppercase tracking-tighter text-foreground/80 hover:text-primary transition-colors duration-500">
                     Products
                     <ArrowRight className="w-8 h-8 opacity-0 -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 text-primary" />
                   </Link>

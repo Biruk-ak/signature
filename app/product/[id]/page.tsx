@@ -20,10 +20,10 @@ export default function ProductPage() {
     if (!product) {
         return (
             <div className="flex flex-col items-center justify-center min-h-screen bg-background text-center px-4">
-                <h1 className="text-4xl font-black uppercase mb-4 text-sm">LOREM IPSUM</h1>
+                <h1 className="text-4xl font-black uppercase mb-4 text-sm">Product Not Found</h1>
                 <Link href="/">
                     <Button variant="outline" className="border-2 font-black uppercase tracking-widest text-[10px] h-10 px-6">
-                        LOREM IPSUM
+                        Back to Home
                     </Button>
                 </Link>
             </div>
@@ -60,11 +60,6 @@ export default function ProductPage() {
                                     className="object-cover"
                                     priority
                                 />
-                                {product.isNew && (
-                                    <Badge className="absolute top-0 left-0 bg-[#d7b64a] text-black font-black uppercase tracking-widest text-[10px] px-4 py-1.5 rounded-xl border-0 shadow-lg">
-                                        NEW
-                                    </Badge>
-                                )}
                             </div>
 
                             {/* Smaller Thumbnails */}
@@ -113,7 +108,7 @@ export default function ProductPage() {
 
                             <div className="flex flex-col sm:flex-row gap-4 mt-auto">
 
-                                <Link href="/#contact" className="flex-1">
+                                <Link href={`/?subject=${encodeURIComponent(product.name)}#contact`} className="flex-1">
                                     <Button variant="outline" size="lg" className="w-full h-16 border-2 border-border font-black uppercase tracking-widest rounded-2xl">
                                         CONTACT US
                                     </Button>
@@ -168,9 +163,9 @@ export default function ProductPage() {
                 <section className="pt-16 border-t border-border/20">
                     <div className="flex items-end justify-between mb-12">
                         <div>
-                            <p className="text-[#d7b64a] font-black uppercase tracking-[0.3em] mb-2 text-xs">LOREM IPSUM</p>
+                            <p className="text-[#d7b64a] font-black uppercase tracking-[0.3em] mb-2 text-xs">Discovery</p>
                             <h2 className="text-4xl font-black tracking-tighter uppercase leading-none">
-                                LOREM IPSUM
+                                More Products
                             </h2>
                         </div>
                     </div>
