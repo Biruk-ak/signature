@@ -126,7 +126,7 @@
 
   html {
     font-size: 85%;
-    /* Scale down elements proportionally */
+    scroll-behavior: smooth;
   }
 
   body {
