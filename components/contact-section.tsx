@@ -13,27 +13,75 @@ function ContactForm() {
     const searchParams = useSearchParams()
     const subjectParam = searchParams.get("subject")
     const [subject, setSubject] = useState("")
+    const [formData, setFormData] = useState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        message: ""
+    })
+    const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
 
     useEffect(() => {
         setSubject(subjectParam || "")
     }, [subjectParam])
 
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { id, value } = e.target
+        const fieldName = id.replace(/-([a-z])/g, (g) => g[1].toUpperCase())
+        setFormData(prev => ({ ...prev, [fieldName]: value }))
+    }
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault()
+
+        const mailtoLink = `mailto:birukaklilu0110@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+            `Name: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+        )}`
+
+        window.location.href = mailtoLink
+
+        setStatus("success")
+        setTimeout(() => setStatus("idle"), 3000)
+    }
+
     return (
-        <form className="space-y-6 relative z-10">
+        <form className="space-y-6 relative z-10" onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                     <Label htmlFor="first-name" className="font-black uppercase tracking-widest text-[10px] ml-1">First Name</Label>
-                    <Input id="first-name" placeholder="First Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                    <Input
+                        id="first-name"
+                        placeholder="First Name"
+                        required
+                        value={formData.firstName}
+                        onChange={handleChange}
+                        className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
+                    />
                 </div>
                 <div className="space-y-2">
                     <Label htmlFor="last-name" className="font-black uppercase tracking-widest text-[10px] ml-1">Last Name</Label>
-                    <Input id="last-name" placeholder="Last Name" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                    <Input
+                        id="last-name"
+                        placeholder="Last Name"
+                        required
+                        value={formData.lastName}
+                        onChange={handleChange}
+                        className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
+                    />
                 </div>
             </div>
 
             <div className="space-y-2">
                 <Label htmlFor="email" className="font-black uppercase tracking-widest text-[10px] ml-1">Email</Label>
-                <Input id="email" type="email" placeholder="Email" className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6" />
+                <Input
+                    id="email"
+                    type="email"
+                    placeholder="Email"
+                    required
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
+                />
             </div>
 
             <div className="space-y-2">
@@ -41,6 +89,7 @@ function ContactForm() {
                 <Input
                     id="subject"
                     placeholder="Subject"
+                    required
                     value={subject}
                     onChange={(e) => setSubject(e.target.value)}
                     className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
@@ -49,13 +98,35 @@ function ContactForm() {
 
             <div className="space-y-2">
                 <Label htmlFor="message" className="font-black uppercase tracking-widest text-[10px] ml-1">Message</Label>
-                <Textarea id="message" placeholder="Message" className="min-h-[150px] bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6 py-4 resize-none" />
+                <Textarea
+                    id="message"
+                    placeholder="Message"
+                    required
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="min-h-[150px] bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6 py-4 resize-none"
+                />
             </div>
 
-            <Button className="w-full h-16 bg-primary hover:bg-primary/90 text-primary-foreground font-black uppercase tracking-[0.2em] text-lg rounded-2xl shadow-[0_10px_30px_rgba(215,182,74,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]">
-                <Send className="w-5 h-5 mr-3" />
-                Send Message
+            <Button
+                type="submit"
+                disabled={status === "loading"}
+                className={`w-full h-16 ${status === "success" ? "bg-green-600 hover:bg-green-700" : "bg-primary hover:bg-primary/90"} text-primary-foreground font-black uppercase tracking-[0.2em] text-lg rounded-2xl shadow-[0_10px_30px_rgba(215,182,74,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]`}
+            >
+                {status === "loading" ? (
+                    "Sending..."
+                ) : status === "success" ? (
+                    "Message Sent!"
+                ) : (
+                    <>
+                        <Send className="w-5 h-5 mr-3" />
+                        Send Message
+                    </>
+                )}
             </Button>
+            {status === "error" && (
+                <p className="text-red-500 text-xs text-center font-bold uppercase tracking-widest">Something went wrong. Please try again.</p>
+            )}
         </form>
     )
 }
@@ -117,7 +188,7 @@ export function ContactSection() {
                                     </div>
                                     <div>
                                         <h4 className="font-black uppercase tracking-widest text-sm mb-2">Email</h4>
-                                        <p className="text-muted-foreground font-medium">fitness@signaturewellnesseth.com</p>
+                                        <p className="text-muted-foreground font-medium">birukaklilu0110@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
