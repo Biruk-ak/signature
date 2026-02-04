@@ -9,66 +9,90 @@ import { Label } from "@/components/ui/label"
 import { useSearchParams } from "next/navigation"
 import { useEffect, useState, Suspense } from "react"
 
+import emailjs from "@emailjs/browser"
+
 function ContactForm() {
     const searchParams = useSearchParams()
     const subjectParam = searchParams.get("subject")
-    const [subject, setSubject] = useState("")
+
+    // EmailJS Placeholders - Replace these with your actual IDs
+    const SERVICE_ID = "YOUR_SERVICE_ID"
+    const TEMPLATE_ID = "YOUR_TEMPLATE_ID"
+    const PUBLIC_KEY = "YOUR_PUBLIC_KEY"
+
     const [formData, setFormData] = useState({
-        firstName: "",
-        lastName: "",
-        email: "",
+        full_name: "",
+        email_id: "",
+        subject: "",
         message: ""
     })
     const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
 
     useEffect(() => {
-        setSubject(subjectParam || "")
+        if (subjectParam) {
+            setFormData(prev => ({ ...prev, subject: subjectParam }))
+        }
     }, [subjectParam])
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { id, value } = e.target
-        const fieldName = id.replace(/-([a-z])/g, (g) => g[1].toUpperCase())
+        // Map input IDs to state keys
+        const fieldName = id === "full-name" ? "full_name" : id === "email" ? "email_id" : id
         setFormData(prev => ({ ...prev, [fieldName]: value }))
     }
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
+        setStatus("loading")
 
-        const mailtoLink = `mailto:birukaklilu0110@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-            `Name: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-        )}`
+        try {
+            const result = await emailjs.send(
+                SERVICE_ID,
+                TEMPLATE_ID,
+                {
+                    full_name: formData.full_name,
+                    email_id: formData.email_id,
+                    subject: formData.subject,
+                    message: formData.message,
+                    to_email: "birukaklilu0110@gmail.com" // Destination email
+                },
+                PUBLIC_KEY
+            )
 
-        window.location.href = mailtoLink
-
-        setStatus("success")
-        setTimeout(() => setStatus("idle"), 3000)
+            if (result.status === 200) {
+                alert("Message sent successfully!")
+                setStatus("success")
+                // Reset form fields only after successful send
+                setFormData({
+                    full_name: "",
+                    email_id: "",
+                    subject: "",
+                    message: ""
+                })
+                setTimeout(() => setStatus("idle"), 3000)
+            } else {
+                throw new Error("Failed to send message")
+            }
+        } catch (error) {
+            console.error("EmailJS Error:", error)
+            alert("Error sending message. Please try again later.")
+            setStatus("error")
+            setTimeout(() => setStatus("idle"), 5000)
+        }
     }
 
     return (
         <form className="space-y-6 relative z-10" onSubmit={handleSubmit}>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="space-y-2">
-                    <Label htmlFor="first-name" className="font-black uppercase tracking-widest text-[10px] ml-1">First Name</Label>
-                    <Input
-                        id="first-name"
-                        placeholder="First Name"
-                        required
-                        value={formData.firstName}
-                        onChange={handleChange}
-                        className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
-                    />
-                </div>
-                <div className="space-y-2">
-                    <Label htmlFor="last-name" className="font-black uppercase tracking-widest text-[10px] ml-1">Last Name</Label>
-                    <Input
-                        id="last-name"
-                        placeholder="Last Name"
-                        required
-                        value={formData.lastName}
-                        onChange={handleChange}
-                        className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
-                    />
-                </div>
+            <div className="space-y-2">
+                <Label htmlFor="full-name" className="font-black uppercase tracking-widest text-[10px] ml-1">Full Name</Label>
+                <Input
+                    id="full-name"
+                    placeholder="Full Name"
+                    required
+                    value={formData.full_name}
+                    onChange={handleChange}
+                    className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
+                />
             </div>
 
             <div className="space-y-2">
@@ -78,7 +102,7 @@ function ContactForm() {
                     type="email"
                     placeholder="Email"
                     required
-                    value={formData.email}
+                    value={formData.email_id}
                     onChange={handleChange}
                     className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
                 />
@@ -90,8 +114,8 @@ function ContactForm() {
                     id="subject"
                     placeholder="Subject"
                     required
-                    value={subject}
-                    onChange={(e) => setSubject(e.target.value)}
+                    value={formData.subject}
+                    onChange={handleChange}
                     className="h-14 bg-secondary/50 border-2 border-transparent focus-visible:border-primary focus-visible:ring-0 transition-all rounded-2xl px-6"
                 />
             </div>
@@ -130,6 +154,7 @@ function ContactForm() {
         </form>
     )
 }
+
 
 export function ContactSection() {
     return (
