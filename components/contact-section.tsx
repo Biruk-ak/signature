@@ -29,6 +29,9 @@ function ContactForm() {
     const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
 
     useEffect(() => {
+        // Initialize EmailJS with public key
+        emailjs.init(PUBLIC_KEY)
+
         if (subjectParam) {
             setFormData(prev => ({ ...prev, subject: subjectParam }))
         }
@@ -55,8 +58,7 @@ function ContactForm() {
                     subject: formData.subject,
                     message: formData.message,
                     to_email: "birukaklilu0110@gmail.com" // Destination email
-                },
-                PUBLIC_KEY
+                }
             )
 
             if (result.status === 200) {
@@ -73,9 +75,10 @@ function ContactForm() {
             } else {
                 throw new Error("Failed to send message")
             }
-        } catch (error) {
+        } catch (error: any) {
             console.error("EmailJS Error:", error)
-            alert("Error sending message. Please try again later.")
+            const errorMessage = error?.text || error?.message || "Error sending message. Please try again later."
+            alert(errorMessage)
             setStatus("error")
             setTimeout(() => setStatus("idle"), 5000)
         }
