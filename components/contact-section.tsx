@@ -15,10 +15,10 @@ function ContactForm() {
     const searchParams = useSearchParams()
     const subjectParam = searchParams.get("subject")
 
-    // EmailJS Placeholders - Replace these with your actual IDs
-    const SERVICE_ID = "YOUR_SERVICE_ID"
-    const TEMPLATE_ID = "YOUR_TEMPLATE_ID"
-    const PUBLIC_KEY = "YOUR_PUBLIC_KEY"
+    // EmailJS Credentials
+    const SERVICE_ID = "service_shiogjj"
+    const TEMPLATE_ID = "template_glaif5l"
+    const PUBLIC_KEY = "6HPVKxVIlu6GJwnOb"
 
     const [formData, setFormData] = useState({
         full_name: "",
