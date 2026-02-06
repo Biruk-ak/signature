@@ -9,16 +9,21 @@ import { Label } from "@/components/ui/label"
 import { useSearchParams } from "next/navigation"
 import { useEffect, useState, Suspense } from "react"
 
-import emailjs from "@emailjs/browser"
+// ============================================
+// COMMENTED OUT: EmailJS Implementation
+// ============================================
+// import emailjs from "@emailjs/browser"
 
 function ContactForm() {
     const searchParams = useSearchParams()
     const subjectParam = searchParams.get("subject")
 
-    // EmailJS Credentials
-    const SERVICE_ID = "service_shiogjj"
-    const TEMPLATE_ID = "template_glaif5l"
-    const PUBLIC_KEY = "6HPVKxVIlu6GJwnOb"
+    // ============================================
+    // COMMENTED OUT: EmailJS Credentials
+    // ============================================
+    // const SERVICE_ID = "service_shiogjj"
+    // const TEMPLATE_ID = "template_glaif5l"
+    // const PUBLIC_KEY = "6HPVKxVIlu6GJwnOb"
 
     const [formData, setFormData] = useState({
         full_name: "",
@@ -29,8 +34,10 @@ function ContactForm() {
     const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
 
     useEffect(() => {
-        // Initialize EmailJS with public key
-        emailjs.init(PUBLIC_KEY)
+        // ============================================
+        // COMMENTED OUT: EmailJS Initialization
+        // ============================================
+        // emailjs.init(PUBLIC_KEY)
 
         if (subjectParam) {
             setFormData(prev => ({ ...prev, subject: subjectParam }))
@@ -49,19 +56,25 @@ function ContactForm() {
         setStatus("loading")
 
         try {
-            const result = await emailjs.send(
-                SERVICE_ID,
-                TEMPLATE_ID,
-                {
+            // ============================================
+            // NEW: Nodemailer API Endpoint Call
+            // ============================================
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
                     full_name: formData.full_name,
                     email_id: formData.email_id,
                     subject: formData.subject,
                     message: formData.message,
-                    to_email: "birukaklilu0110@gmail.com" // Destination email
-                }
-            )
+                }),
+            })
 
-            if (result.status === 200) {
+            const data = await response.json()
+
+            if (response.ok) {
                 alert("Message sent successfully!")
                 setStatus("success")
                 // Reset form fields only after successful send
@@ -73,11 +86,40 @@ function ContactForm() {
                 })
                 setTimeout(() => setStatus("idle"), 3000)
             } else {
-                throw new Error("Failed to send message")
+                throw new Error(data.error || "Failed to send message")
             }
+
+            // ============================================
+            // COMMENTED OUT: EmailJS Send Implementation
+            // ============================================
+            // const result = await emailjs.send(
+            //     SERVICE_ID,
+            //     TEMPLATE_ID,
+            //     {
+            //         full_name: formData.full_name,
+            //         email_id: formData.email_id,
+            //         subject: formData.subject,
+            //         message: formData.message,
+            //         to_email: "birukaklilu0110@gmail.com"
+            //     }
+            // )
+            //
+            // if (result.status === 200) {
+            //     alert("Message sent successfully!")
+            //     setStatus("success")
+            //     setFormData({
+            //         full_name: "",
+            //         email_id: "",
+            //         subject: "",
+            //         message: ""
+            //     })
+            //     setTimeout(() => setStatus("idle"), 3000)
+            // } else {
+            //     throw new Error("Failed to send message")
+            // }
         } catch (error: any) {
-            console.error("EmailJS Error:", error)
-            const errorMessage = error?.text || error?.message || "Error sending message. Please try again later."
+            console.error("Email Error:", error)
+            const errorMessage = error?.message || "Error sending message. Please try again later."
             alert(errorMessage)
             setStatus("error")
             setTimeout(() => setStatus("idle"), 5000)
