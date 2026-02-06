@@ -79,7 +79,7 @@ export function Hero() {
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-            className="w-full md:w-auto"
+            className="w-full md:w-auto mt-5"
           >
             <Link href="/shop">
               <div className="group relative">
