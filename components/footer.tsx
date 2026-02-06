@@ -17,7 +17,9 @@ export function Footer() {
               />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Building the foundation for elite athletes and world-class facilities since 2010. Engineered for power, built for life.
+              Signature Wellness
+              Premium Fitness Equipment Distributor- Addis Ababa, Ethiopia
+              Official Partner of Centr and Curated Elite Fitness Brands
             </p>
 
           </div>
