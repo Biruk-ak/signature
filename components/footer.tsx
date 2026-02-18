@@ -28,13 +28,13 @@ export function Footer() {
             <h4 className="font-black uppercase tracking-widest text-sm mb-6">Equipment</h4>
             <ul className="space-y-4 text-sm font-bold uppercase tracking-tight text-muted-foreground">
               <li>
-                <Link href="/categories/Strength Machines" className="hover:text-primary transition-colors">
-                  Strength Machines
+                <Link href="/categories/Functional machine" className="hover:text-primary transition-colors">
+                  Functional machine
                 </Link>
               </li>
               <li>
-                <Link href="/categories/Free Weights & Plates" className="hover:text-primary transition-colors">
-                  Free Weights & Plates
+                <Link href="/categories/Weights" className="hover:text-primary transition-colors">
+                  Weights
                 </Link>
               </li>
               <li>
@@ -48,8 +48,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/categories/Training Accessories" className="hover:text-primary transition-colors">
-                  Training Accessories
+                <Link href="/categories/Accessories" className="hover:text-primary transition-colors">
+                  Accessories
                 </Link>
               </li>
             </ul>
