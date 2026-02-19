@@ -500,7 +500,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
     },
     {
         id: "14",
-        name: "center 3-TIER DUMBBELL STORAGE RACK",
+        name: "centr 3-TIER DUMBBELL STORAGE RACK",
         price: "$000.00",
         category: "Accessories",
         image: "/center 3-TIER DUMBBELL STORAGE RACK/3a74e507-285f-4173-ab5b-43d918ba137c_1.2fb849f4b6e43f3a0550205b5e1bc0d2.webp",
@@ -536,7 +536,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
     },
     {
         id: "15",
-        name: "CENTER SERIES T7 TREADMILL",
+        name: "CENTR SERIES T7 TREADMILL",
         price: "$000.00",
         category: "Cardio & Endurance",
         image: "/CENTER SERIES T7 TREADMILL/t7-loopband-hoofdbeeld.webp",
@@ -715,7 +715,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
     },
     {
         id: "20",
-        name: "center FID3.2 Adjustable Bench",
+        name: "centr FID3.2 Adjustable Bench",
         price: "$000.00",
         category: "Racks, Rigs & Functional Frames",
         image: "/center FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-hoofdbeeld.webp",
