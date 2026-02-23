@@ -97,7 +97,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative aspect-video rounded-3xl overflow-hidden bg-muted group">
               <Image
-                src="/massive-luxury-commercial-gym-layout-with-racks-an.jpg"
+                src="/gym.webp"
                 alt="Signature Wellness Distribution"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
