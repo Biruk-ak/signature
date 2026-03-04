@@ -718,6 +718,42 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         name: "centr FID3.2 Adjustable Bench",
         price: "$000.00",
         category: "Racks, Rigs & Functional Frames",
+        image: "/Ankle Strap Attachment/centr-ankle-strap-199769.webp",
+        hoverImage: "/Ankle Strap Attachment/centr-ankle-strap-389822.webp",
+        gallery: [
+            "/Ankle Strap Attachment/centr-ankle-strap-199769.webp",
+            "/Ankle Strap Attachment/centr-ankle-strap-389822.webp",
+            "/Ankle Strap Attachment/centr-ankle-strap-824637.webp",
+            // "/center FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-zijkant.webp",
+        ],
+        description: [
+            "Adjustable nylon ankle cuff strap with high-density foam padding.",
+            "Heavy-duty D-ring for secure attachment to any cable pulley.",
+            "Universal fit for Centr home gyms and most cable machines.",
+            "Lightweight, easy to store, and versatile for multiple leg exercises"
+
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Step up your fitness routine with the Centr Ankle Strap for Home Gyms and Functional Trainers, ideal for hamstring curls, glute kickbacks & inner-thigh cable exercises. It's your go-to accessory to amp up those lower-body workouts and supercharge your training. This ankle strap gives your ankles the support they need during even the toughest workouts. Plus, this ankle strap attachment fits all ankle sizes snugly, ensuring a comfortable and secure fit for everyone. With its universal compatibility, you can easily connect it to most cable machines, functional trainers, and resistance bands, opening up a world of workout possibilities. And thanks to its sturdy design and secure closure system, it stays firmly in place no matter how intense your session gets.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Material: Nylon",
+            "Dimensions (W x L): 2 in x 25 in (4 cm x 63 cm)",
+            "Weight: 1 lbs (0.5 kgs)",
+            "Dimensions: 137.2 x 59.4 x 39.4 cm (LxWxH)",
+
+        ]
+    },
+    {
+        id: "21",
+        name: "Ankle Strap Attachment",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
         image: "/center FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-hoofdbeeld.webp",
         hoverImage: "/center FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-ingeklapt.webp",
         gallery: [
@@ -747,9 +783,73 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Color: Matte black & chrome",
             "Limited lifetime warranty",
             "Weight: 29.5 kg",
-
         ]
     },
+    {
+        id: "22",
+        name: "Ankle Strap Attachment",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Centr Triceps Rope/centr-triceps-rope-252912.webp",
+        hoverImage: "/Centr Triceps Rope/centr-triceps-rope-441896.webp",
+        gallery: [
+            "/Centr Triceps Rope/centr-triceps-rope-252912.webp",
+            "/Centr Triceps Rope/centr-triceps-rope-441896.webp",
+            "/Centr Triceps Rope/centr-triceps-rope-622690.webp",
+        ],
+        description: [
+            "27″ heavy-duty braided nylon rope with plastic end caps.",
+            "Universal D-ring attachment fits most cable pulleys and functional trainers.",
+            "2 lb weight for optimal whip and control.",
+            "Textured grips for secure handling under load.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Centr Triceps Rope is ideal for tricep push-downs, hammer curls and face pulls. Ready to take the plunge and elevate your fitness journey? Upgrade your home gym setup today with this rope for triceps and unleash the power of superior workouts right from the comfort of your home. With the Centr Triceps Extension Rope, you're in control of your workout journey, limited only by your imagination.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Weight: 2 lbs",
+            "Material: Heavy duty braided nylon rope",
+            "Dimensions (W X L): 2 in x 26 in",
+        ]
+    },
+    {
+        id: "23",
+        name: "Ankle Strap Attachment",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Centr Triceps Rope/centr-triceps-rope-252912.webp",
+        hoverImage: "/Centr Triceps Rope/centr-triceps-rope-441896.webp",
+        gallery: [
+            "/Sports Handle/centr-sport-handle-538046.webp",
+            "/Sports Handle/Sports Handle.webp",
+        ],
+        description: [
+            "Sport-focused training – Ideal for golf swings, baseball swings, and other rotational exercises.",
+            "Muscle targeting – Isolate and strengthen key muscle groups with cable resistance.",
+            "Durable build – High-quality materials for long-lasting performance.",
+            "Versatile compatibility – Works with all Centr Home Gyms and most cable machines.",
+            "Performance upgrade – Enhance your functional and sport-specific workouts.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Perfect your golf swing, baseball swing, and other sport-specific movements with the Centr Sport Handle. Designed for versatility, it also targets specific muscle groups, making it an essential add-on for strength, power, and mobility training on any cable resistance system. Crafted from high-quality, durable materials, the Sport Handle is built to withstand intense workouts while delivering smooth, controlled movement. Compatible with all Centr Home Gyms and most cable machines, it’s the upgrade your functional training routine has been missing.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Weight: 1 lbs (.5 kgs)",
+            "Dimensions (W X L): 2 in x 17 in",
+        ]
+    },
+
+
 
 
 
