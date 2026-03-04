@@ -751,7 +751,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
     },
     {
         id: "21",
-        name: "Ankle Strap Attachment",
+        name: "Centr Flat, Incline, Decline Workout Bench",
         price: "$000.00",
         category: "Racks, Rigs & Functional Frames",
         image: "/center FID3.2 Adjustable Bench/centr-verstelbare-trainingsbank-flb22-hoofdbeeld.webp",
@@ -819,11 +819,11 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
     },
     {
         id: "23",
-        name: "Ankle Strap Attachment",
+        name: "Sports Handle",
         price: "$000.00",
         category: "Racks, Rigs & Functional Frames",
-        image: "/Centr Triceps Rope/centr-triceps-rope-252912.webp",
-        hoverImage: "/Centr Triceps Rope/centr-triceps-rope-441896.webp",
+        image: "/Sports Handle/centr-sport-handle-538046.webp",
+        hoverImage: "/Sports Handle/Sports Handle.webp",
         gallery: [
             "/Sports Handle/centr-sport-handle-538046.webp",
             "/Sports Handle/Sports Handle.webp",
@@ -846,6 +846,37 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Color: Black",
             "Weight: 1 lbs (.5 kgs)",
             "Dimensions (W X L): 2 in x 17 in",
+        ]
+    },
+    {
+        id: "24",
+        name: "Dual Hook Straight Bar",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Dual Hook Straight Bar/centr-dual-hook-straight-bar-312996.webp",
+        hoverImage: "/Dual Hook Straight Bar/centr-dual-hook-straight-bar-722440.webp",
+        gallery: [
+            "/Dual Hook Straight Bar/centr-dual-hook-straight-bar-312996.webp",
+            "/Dual Hook Straight Bar/centr-dual-hook-straight-bar-722440.webp",
+            "/Dual Hook Straight Bar/dual-hook-straight-bar-193995.webp",
+        ],
+        description: [
+            " Dual Hook Straight Bar is made of high-quality materials to withstand tough workouts without sacrificing performance.",
+            " Works with any Centr Home Gym and most cable machine with 2 pulleys.",
+
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Centr Dual Hook Straight Bar for Home Gyms and Functional Trainers can boost your upper body workouts! This essential addition will elevate your home gym or functional training setup with unrivaled performance and adaptability. This straight bar's double hook design lets you maximize your home gym or Functional Trainer's durability, adaptability, and efficiency with every session. Thanks to its universal connection design, this straight bar easily connects to most 2-pulley cable machines, functional trainers, and resistance bands, offering endless training options for targeted upper ad lower body exercises. With a strengthened design and optimum weight distribution, the Centr Dual Hook Straight Bar reduces wobbling and shaking during lifts for a consistent workout. Upgrade your training routine and experience the Centr difference today!",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Dimensions: 4 in x 44 in",
+            "Color: Silver",
+            "Required Pulleys: 2",
+            "Weight: 5 lbs",
         ]
     },
 
