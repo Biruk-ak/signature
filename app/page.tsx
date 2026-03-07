@@ -1,5 +1,5 @@
 import { Hero } from "@/components/hero"
-import { ProductCard } from "@/components/product-card"
+import { ProductList } from "@/components/product-list"
 import { ProductCarousel } from "@/components/product-carousel"
 import { PerformanceShowcase } from "@/components/performance-showcase"
 import { Button } from "@/components/ui/button"
@@ -144,11 +144,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 md:gap-x-8 md:gap-y-12">
-            {ALL_PRODUCTS.slice(6).map((product) => (
-              <ProductCard key={product.id} {...product} />
-            ))}
-          </div>
+          <ProductList products={ALL_PRODUCTS.slice(6)} />
         </div>
       </section>
       <PerformanceShowcase />

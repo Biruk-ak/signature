@@ -46,11 +46,11 @@ export default function ShopPage() {
                         ))}
                     </div>
 
-                    <div className="mt-20 text-center">
+                    {/* <div className="mt-20 text-center">
                         <Button variant="outline" size="lg" className="border-2 font-black uppercase tracking-widest px-10 h-14">
                             Load More Products
                         </Button>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
