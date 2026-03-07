@@ -879,6 +879,170 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Weight: 5 lbs",
         ]
     },
+    {
+        id: "25",
+        name: "Double D Low Row Handle",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Double D Low Row Handle/double-d-low-row-handle-352524.webp",
+        hoverImage: "/Double D Low Row Handle/double-d-low-row-handle-692858.webp",
+        gallery: [
+            "/Double D Low Row Handle/double-d-low-row-handle-352524.webp",
+            "/Double D Low Row Handle/double-d-low-row-handle-692858.webp",
+        ],
+        description: [
+            "Dual-grip design for neutral wrist position and muscle engagement",
+            "Solid steel construction with textured, non-slip handles",
+            "Universal D-ring attachment fits Centr and most cable pulley systems",
+            "Versatile for rows, pull-downs, landmine squats and more.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Centr Double D Low Row Handle is perfect for d handle rows, seated cable rows and lat pulldowns.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        // productDetails: [
+        //     "Dimensions: 4 in x 44 in",
+        //     "Color: Silver",
+        //     "Required Pulleys: 2",
+        //     "Weight: 5 lbs",
+        // ]
+    },
+    {
+        id: "26",
+        name: "Preacher Curl Attachment",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Preacher Curl Attachment/preacher-curl-attachment-421007.webp",
+        // hoverImage: "/Preacher Curl Attachment/preacher-curl-attachment-744007.webp",
+        gallery: [
+            "/Preacher Curl Attachment/preacher-curl-attachment-421007.webp",
+            // "/Preacher Curl Attachment/preacher-curl-attachment-744007.webp",
+        ],
+        description: [
+            "PREACHER CURL BENCH ATTACHMENT: The Preacher Curl Attachment attaches to the SCS-WB & FIDB benches. Use the attachment to comfortably execute single or double hand curl exercises",
+            "HEAVY-DUTY STEEL: This preacher curl bench attachment is made of heavy-duty steel and double stitched foam pads",
+            "BUILT IN BAR RACK: The built-in bar rack works nice for easy storage between sets",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Inspire Fitness Preacher Curl Attachment attaches to the SCS-WB, FIDB & FID7 benches. Use the attachment to comfortably execute single or double hand curl exercises. The built-in bar rack works nice for easy storage between sets.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Heavy-duty steel",
+            "Color: Matte Black",
+            "Finish :  Electrostatic powder coat",
+            "Weight:21 lbs",
+            "Dims:(W X L X H) 14 in x 8 in x 28 in",
+            "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "27",
+        name: "Rubber Grip D Handles",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Rubber Grip D Handles/rubber-grip-d-handles-4117885.webp",
+        hoverImage: "/Rubber Grip D Handles/rubber-grip-d-handles-3148332.webp",
+        gallery: [
+            "/Rubber Grip D Handles/rubber-grip-d-handles-3148332.webp",
+            "/Rubber Grip D Handles/rubber-grip-d-handles-4117885.webp",
+            "/Rubber Grip D Handles/rubber-grip-d-handles-4359254.webp",
+        ],
+        // description: [
+        //     "PREACHER CURL BENCH ATTACHMENT: The Preacher Curl Attachment attaches to the SCS-WB & FIDB benches. Use the attachment to comfortably execute single or double hand curl exercises",
+        //     "HEAVY-DUTY STEEL: This preacher curl bench attachment is made of heavy-duty steel and double stitched foam pads",
+        //     "BUILT IN BAR RACK: The built-in bar rack works nice for easy storage between sets",
+        // ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Inspire Fitness Rubber Grip D Handles are crafted for durability and comfort during a variety of cable machine exercises. These handles are made from high-quality, long-lasting nylon and rubber which will support you throughout your workouts. Sold in pairs, the handles are lightweight and easy to store, move, or attach wherever you need them. Use the handle for D-grip lat pulldowns, as well as cable flies, single-arm rows, triceps pushdowns, bicep curls, and lateral lifts more. The Rubber Grid D Handle attachment has a universal design allowing you to connect to most cable machines and functional trainers for endless training options.",
+        featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Heavy-duty steel",
+            "Color: Matte Black",
+            "Finish :  Electrostatic powder coat",
+            "Weight:21 lbs",
+            "Dims:(W X L X H) 14 in x 8 in x 28 in",
+            "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "28",
+        name: "Leg Extension / Curl Attachment",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Leg Extension  Curl Attachment/leg-extension-curl-attachment-419622.webp",
+        // hoverImage: "/Rubber Grip D Handles/rubber-grip-d-handles-3148332.webp",
+        gallery: [
+            "/Leg Extension  Curl Attachment/leg-extension-curl-attachment-419622.webp",
+            // "/Rubber Grip D Handles/rubber-grip-d-handles-4117885.webp",
+            // "/Rubber Grip D Handles/rubber-grip-d-handles-4359254.webp",
+        ],
+        description: [
+            "Compatible with the following benches: Inspire Fitness SCS bench, FT1 bench and Inspire Series FID7 PRO bench",
+            "Compatible with the following home gyms: Inspire Fitness FT2 Functional Trainer and Inspire Series FT2 PRO Smith Functional Trainer",
+            // "BUILT IN BAR RACK: The built-in bar rack works nice for easy storage between sets",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Leg Extension/Curl Attachment is built to elevate your leg workouts and effectively targets your quadriceps, hamstrings, and glutes. Made from high quality steel and durable padded cushions, this attachment is designed to integrate seamlessly into your Inspire Fitness bench thus increasing your workout variety. With a built-in weight horn, you can increase resistance and build strength by adding weight plates to the attachment. You can also integrate this attachment into your Functional Trainer's weight stack, with the Leg Conversion Kit (sold separately), for added resistance.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Heavy-duty steel",
+            "Color: Matte Black",
+            "Finish :  Electrostatic powder coat",
+            "Weight:25 lbs",
+            "Dims (W X L X H): 21 in x 20 in x (Max) 32 in",
+            "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "29",
+        name: "Leg Locks",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Leg Lock/leg-lock-5782231.webp",
+        hoverImage: "/Leg Lock/leg-lock-7192079.webp",
+        gallery: [
+            "/Leg Lock/leg-lock-5782231.webp",
+            "/Leg Lock/leg-lock-7192079.webp",
+            // "/Rubber Grip D Handles/rubber-grip-d-handles-4359254.webp",
+        ],
+        description: [
+            "Compatible with the following benches: Inspire Fitness SCS bench, FT1 bench and Inspire Series FID7 PRO bench",
+            "Compatible with the following home gyms: Inspire Fitness FT2 Functional Trainer and Inspire Series FT2 PRO Smith Functional Trainer",
+            // "BUILT IN BAR RACK: The built-in bar rack works nice for easy storage between sets",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Leg Extension/Curl Attachment is built to elevate your leg workouts and effectively targets your quadriceps, hamstrings, and glutes. Made from high quality steel and durable padded cushions, this attachment is designed to integrate seamlessly into your Inspire Fitness bench thus increasing your workout variety. With a built-in weight horn, you can increase resistance and build strength by adding weight plates to the attachment. You can also integrate this attachment into your Functional Trainer's weight stack, with the Leg Conversion Kit (sold separately), for added resistance.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Heavy-duty steel",
+            "Color: Matte Black",
+            "Finish :  Electrostatic powder coat",
+            "Weight:25 lbs",
+            "Dims (W X L X H): 21 in x 20 in x (Max) 32 in",
+            "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+
+
 
 
 
