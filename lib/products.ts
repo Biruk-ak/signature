@@ -715,7 +715,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
     },
     {
         id: "20",
-        name: "centr FID3.2 Adjustable Bench",
+        name: "Ankle Strap Attachment",
         price: "$000.00",
         category: "Racks, Rigs & Functional Frames",
         image: "/Ankle Strap Attachment/centr-ankle-strap-199769.webp",
@@ -745,7 +745,6 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Material: Nylon",
             "Dimensions (W x L): 2 in x 25 in (4 cm x 63 cm)",
             "Weight: 1 lbs (0.5 kgs)",
-            "Dimensions: 137.2 x 59.4 x 39.4 cm (LxWxH)",
 
         ]
     },
@@ -1030,15 +1029,301 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             { label: "Warranty", value: "2 Years" },
             { label: "Build", value: "Premium" },
         ],
-        longDescription: "The Leg Extension/Curl Attachment is built to elevate your leg workouts and effectively targets your quadriceps, hamstrings, and glutes. Made from high quality steel and durable padded cushions, this attachment is designed to integrate seamlessly into your Inspire Fitness bench thus increasing your workout variety. With a built-in weight horn, you can increase resistance and build strength by adding weight plates to the attachment. You can also integrate this attachment into your Functional Trainer's weight stack, with the Leg Conversion Kit (sold separately), for added resistance.",
+        longDescription: "The Leg Lock attachment works with the SCS-WB & FIDB Benches. Attaching to the end of the bench, it can be used as place to put your feet for a variety of exercises that require the added stability.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            // "Frame: Silvers",
+            "Color: Matte Black",
+            // "Finish :  Electrostatic powder coat",
+            "Weight:7 lbs",
+            "Dims (W X L X H): 17 in x 14 in",
+            // "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "30",
+        name: "Dual Hook Curl Bar",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Dual Hook Curl Bar/centr-dual-hook-curl-bar-552517.webp",
+        hoverImage: "/Dual Hook Curl Bar/centr-dual-hook-curl-bar-453278.webp",
+        gallery: [
+            "/Dual Hook Curl Bar/centr-dual-hook-curl-bar-552517.webp",
+            "/Dual Hook Curl Bar/centr-dual-hook-curl-bar-453278.webp",
+            // "/Rubber Grip D Handles/rubber-grip-d-handles-4359254.webp",
+        ],
+        description: [
+            "Dual D-ring hooks for secure attachment to 2-pulley systems",
+            "Curved, knurled grips for ergonomic comfort and maximum control",
+            "Solid steel construction with silver powder-coat finish for durability",
+            "Versatile for curls, extensions, upright rows and more",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Centr Dual Hook Curl Bar lets you train with confidence and is perfect for cable bicep curls, tricep push-downs and arm-focused pulley exercises.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Required Pulleys: 2",
+            "Color: Silver",
+            // "Finish :  Electrostatic powder coat",
+            "Weight:5 lbs",
+            "Dims (W X L X H): 4 in x 45 in",
+            // "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "31",
+        name: "Aluminum EZ Curl Bar",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Aluminum EZ Curl Bar/aluminum-ez-curl-bar-761964.webp",
+        hoverImage: "/Aluminum EZ Curl Bar/aluminum-ez-curl-bar-185222.webp",
+        gallery: [
+            "/Aluminum EZ Curl Bar/aluminum-ez-curl-bar-761964.webp",
+            "/Aluminum EZ Curl Bar/aluminum-ez-curl-bar-185222.webp",
+            // "/Rubber Grip D Handles/rubber-grip-d-handles-4359254.webp",
+        ],
+        description: [
+            "Angled grip positions reduce wrist strain and target muscle isolation",
+            "Anodized aluminum construction for a lightweight yet durable feel",
+            "Universal carabiner loop fits any standard cable pulley or carabiner",
+            "Textured grip zones ensure secure hold even during high-rep sets",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "This Cable curl bar is perfect for cable curls, tricep push-downs and hammer-grip pulls.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Material: Anodized aluminum",
+            "Color: Silver",
+            // "Finish :  Electrostatic powder coat",
+            "Weight:2 lbs",
+            "Dims (W X L X H):  3 in x 24 in (8 cm x 61 cm)",
+            // "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "32",
+        name: "Revolving Straight Bar",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Revolving Straight Bar/revolving-straight-bar-398474.webp",
+        hoverImage: "/Revolving Straight Bar/revolving-straight-bar-428683.webp",
+        gallery: [
+            "/Revolving Straight Bar/revolving-straight-bar-398474.webp",
+            "/Revolving Straight Bar/revolving-straight-bar-428683.webp",
+            // "/Rubber Grip D Handles/rubber-grip-d-handles-4359254.webp",
+        ],
+        description: [
+            "360° revolving center for natural wrist alignment and reduced strain",
+            "Ergonomic, knurled handles for secure grip and comfort",
+            "Solid steel construction with powder-coat finish for durability",
+            "Universal D-ring hooks fit most cable machines and functional trainers",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Ideal for seated cable rows, lat pulldowns and tricep pushdowns. The Centr Revolving Straight Bar lets you train with confidence.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            // "Material: Anodized aluminum",
+            "Color: Black",
+            // "Finish :  Electrostatic powder coat",
+            "Weight:2 lbs",
+            "Dims (W X L X H): 3 in x 19 in",
+            // "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "33",
+        name: "Bumper Plate and Bar Storage Tree",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Bumper Plate and Bar Storage Tree/bumper-plate-and-bar-storage-tree-8752741.webp",
+        hoverImage: "/Bumper Plate and Bar Storage Tree/bumper-plate-and-bar-storage-tree-9577389.webp",
+        gallery: [
+            "/Bumper Plate and Bar Storage Tree/bumper-plate-and-bar-storage-tree-8752741.webp",
+            "/Bumper Plate and Bar Storage Tree/bumper-plate-and-bar-storage-tree-9577389.webp",
+            // "/Rubber Grip D Handles/rubber-grip-d-handles-4359254.webp",
+        ],
+        description: [
+            "Keep your home gym organized with the Inspire Series Bumper Plate and Barbell Storage Tree",
+            //     "Ergonomic, knurled handles for secure grip and comfort",
+            //     "Solid steel construction with powder-coat finish for durability",
+            //     "Universal D-ring hooks fit most cable machines and functional trainers",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "This space-saving weight tree has a 700 LB capacity to hold plenty of bumper and Olympic plates, so you don't have to waste time searching for what you need. Featuring six chrome weight pegs, your weight plates are always easily accessible. The base also has two vertical sleeves for storing two Olympic barbells. This is the perfect companion to any home gym set-up.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            // "Material: Anodized aluminum",
+            "Color: Matte black, powder coat finish",
+            "Weight Horns: 1`` chrome plated",
+            "Weight Capacity: 700 LB (317 KB)",
+            "DIMS(W X L X H): 21 in x 25 in x 55 in",
+            "Weight: 50 LB",
+            // "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "34",
+        name: "Leg Press for Multi-Gyms",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Leg Press for Multi-Gyms/leg-press-for-multi-gyms-2560929.webp",
+        hoverImage: "/Leg Press for Multi-Gyms/leg-press-for-multi-gyms-9355012.webp",
+        gallery: [
+            "/Leg Press for Multi-Gyms/leg-press-for-multi-gyms-2560929.webp",
+            "/Leg Press for Multi-Gyms/leg-press-for-multi-gyms-3253776.webp",
+            "/Leg Press for Multi-Gyms/leg-press-for-multi-gyms-9355012.webp",
+        ],
+        description: [
+            "Keep your home gym organized with the Inspire Series Bumper Plate and Barbell Storage Tree",
+            //     "Ergonomic, knurled handles for secure grip and comfort",
+            //     "Solid steel construction with powder-coat finish for durability",
+            //     "Universal D-ring hooks fit most cable machines and functional trainers",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "This space-saving weight tree has a 700 LB capacity to hold plenty of bumper and Olympic plates, so you don't have to waste time searching for what you need. Featuring six chrome weight pegs, your weight plates are always easily accessible. The base also has two vertical sleeves for storing two Olympic barbells. This is the perfect companion to any home gym set-up.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            // "Material: Anodized aluminum",
+            "Color: Matte black, powder coat finish",
+            "Weight Horns: 1`` chrome plated",
+            "Weight Capacity: 700 LB (317 KB)",
+            "DIMS(W X L X H): 21 in x 25 in x 55 in",
+            "Weight: 50 LB",
+            // "Pads: Closed cell foam, double stitched high grade Naugahyde"
+        ]
+    },
+    {
+        id: "35",
+        name: "Centr FID7 PRO Adjustable Bench",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Inspire Series FID7 PRO Adjustable Bench/aboutus.webp",
+        hoverImage: "/Inspire Series FID7 PRO Adjustable Bench/inspire-series-fid7-pro-adjustable-bench-408865.webp",
+        gallery: [
+            "/Inspire Series FID7 PRO Adjustable Bench/aboutus.webp",
+            "/Inspire Series FID7 PRO Adjustable Bench/inspire-series-fid7-pro-adjustable-bench-408865.webp",
+            "/Inspire Series FID7 PRO Adjustable Bench/inspire-series-fid7-pro-adjustable-bench-436326.webp",
+        ],
+        description: [
+            "Six back-pad, six mid-pad and four seat-pad adjustments for tailored support",
+            "Split back pad (0°–75°) reduces neck stress and improves shoulder clearance",
+            "Built-in transport wheels for easy repositioning and storage",
+            "Commercial-grade injection-molded pads and heavy-duty steel frame",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Unlock unparalleled versatility with the Inspire Series FID7 PRO Adjustable Bench by Centr. This industry-defining workout bench allows for maximum customization delivered by a unique design is ideal for for bench presses, incline rows and full-range strength routines. offering six back pad, six mid-pad and four seat pad adjustments. The inspire adjustable bench split back pad (adjusting from 0° to 75° degrees) provides superior support and optimal comfort including lower back support that reduces neck stress in shoulder presses, improved shoulder blade clearance when performing bench movements, and so much more.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",
         productDetails: [
             "Frame: Heavy-duty steel",
-            "Color: Matte Black",
-            "Finish :  Electrostatic powder coat",
-            "Weight:25 lbs",
-            "Dims (W X L X H): 21 in x 20 in x (Max) 32 in",
-            "Pads: Closed cell foam, double stitched high grade Naugahyde"
+            "Color: Matte black",
+            "Finish: Electrostatic Powder Coat",
+            "Back Pad: Adjustments 6",
+            "Mid Pad: Adjustments 6",
+            "Seat Pad: Adjustments 4",
+            "Included Accessories: Leg Lock Attachment",
+            "Maximum User Weight: 1000 lb (453.6 kg)",
+            "Available Add-Ons: Preacher Curl Attachment, Leg Curl/Leg Extension Attachment, Leg Conversion Kit",
+            "Muscle Groups: All",
+            "DIMS (W X L X H): 58.4” L x 17.4” H (max 42.7”) x 26.8” W (148.3 cm L x 44.2 cm H (max 108.5 cm) x 68.1 cm W)",
+            "Weight: 67.5 lb (30 kg)",
+        ]
+    },
+    {
+        id: "36",
+        name: "SCS Weight Bench",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/SCS Weight Bench/scs-weight-bench-4094105.webp",
+        hoverImage: "/SCS Weight Bench/scs-weight-bench-7800267.webp",
+        gallery: [
+            "/SCS Weight Bench/scs-weight-bench-4094105.webp",
+            "/SCS Weight Bench/scs-weight-bench-7800267.webp",
+            "/SCS Weight Bench/scs-weight-bench-4957957.webp",
+            "/SCS Weight Bench/scs-weight-bench-9616718.webp",
+        ],
+        description: [
+            "It provides the support and flexibility needed for effective workouts.",
+
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Inspire Fitness SCS Weight Bench offers versatile strength training with its sturdy steel construction and durable, double-stitched upholstery. Adjustable to flat, incline, and decline positions, it’s perfect for exercises like chest presses and rows. The bench also includes a leg hold-down bar for added stability during core workouts and is compatible with the Inspire Fitness Leg Extension attachment for expanded leg training options. Ideal for any fitness routine.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Heavy-duty steel",
+            "Color: Matte black & chrome",
+            "Finish: Electrostatic Powder Coat",
+            "Bench Pads: Closed cell foam, single stitched high grade Naugahyde",
+            "Seat Positions: 4 seat & 5 back",
+            "Optional Add Ons: Preacher Curl, Leg Ext/Curl Attachments",
+            "Transport Wheels: Rear",
+            "Weight Capacity: 1,000 lbs",
+            "DIMS(W X L X H): 26 in x 72 in x (Max) 47 in (66 cm x 183 cm x 120 cm)",
+            "Weight: 75 lbs",
+        ]
+    },
+    {
+        id: "37",
+        name: "Heart Rate Strap",
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Heart Rate Strap/heart-rate-strap-1797748.webp",
+        hoverImage: "/Heart Rate Strap/heart-rate-strap-4585576.webp",
+        gallery: [
+            "/Heart Rate Strap/heart-rate-strap-1797748.webp",
+            "/Heart Rate Strap/heart-rate-strap-4585576.webp",
+            "/Heart Rate Strap/heart-rate-strap-6266484.webp",
+            "/Heart Rate Strap/heart-rate-strap-7329796.webp",
+        ],
+        description: [
+            "Perfect for activities like running, cycling, and weightlifting, the Inspire Series Heart Rate Strap provides real-time heart rate data, enabling you to track and optimize your performance.",
+
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The strap is made from flexible, moisture-resistant fabric, ensuring comfort and longevity, even during prolonged sessions. Its adjustable design accommodates a variety of body types, making it easy to wear and customize for an ideal fit. With the Inspire Fitness Heart Rate Strap, you can elevate your workout routine and make data-driven decisions to enhance your fitness journey.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Wireless Connection: Bluetooth 4.0 & ANT+",
+            "Water Resistance: IP67 waterproof in 1m water depth at room temperature",
+            "Communication Distance: BT 4.0 = 10 m / 33 ft. // ANT+ = 6 m / 20 ft.",
+            "Sensor Dims(W x H x D): 2.6 in x 1.5 in x .6 in (66mm x 38mm x 14.5mm)",
+            "Strap Length: 25.6 in - 37.4 in (65 cm - 95 cm)",
+            "Strap: Adjustable, washable, Velcro closure",
+            "Battery: CR2032 3V (1 battery included)",
+            "Battery Length: 300 hours",
+            "Weight: 1.94 oz (55 g)",
         ]
     },
 
