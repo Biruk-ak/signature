@@ -682,7 +682,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "19",
         name: "SF3 SMITH FUNCTIONAL TRAINER",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Functional machine",
         image: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-productafbeelding.webp",
         hoverImage: "/SF3 SMITH FUNCTIONAL TRAINER/sf32pk-smith-machine.webp",
         gallery: [
@@ -717,7 +717,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "20",
         name: "Ankle Strap Attachment",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Ankle Strap Attachment/centr-ankle-strap-199769.webp",
         hoverImage: "/Ankle Strap Attachment/centr-ankle-strap-389822.webp",
         gallery: [
@@ -788,7 +788,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "22",
         name: "Ankle Strap Attachment",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Centr Triceps Rope/centr-triceps-rope-252912.webp",
         hoverImage: "/Centr Triceps Rope/centr-triceps-rope-441896.webp",
         gallery: [
@@ -820,7 +820,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "23",
         name: "Sports Handle",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Sports Handle/centr-sport-handle-538046.webp",
         hoverImage: "/Sports Handle/Sports Handle.webp",
         gallery: [
@@ -851,7 +851,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "24",
         name: "Dual Hook Straight Bar",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Dual Hook Straight Bar/centr-dual-hook-straight-bar-312996.webp",
         hoverImage: "/Dual Hook Straight Bar/centr-dual-hook-straight-bar-722440.webp",
         gallery: [
@@ -882,7 +882,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "25",
         name: "Double D Low Row Handle",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Double D Low Row Handle/double-d-low-row-handle-352524.webp",
         hoverImage: "/Double D Low Row Handle/double-d-low-row-handle-692858.webp",
         gallery: [
@@ -913,7 +913,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "26",
         name: "Preacher Curl Attachment",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Preacher Curl Attachment/preacher-curl-attachment-421007.webp",
         // hoverImage: "/Preacher Curl Attachment/preacher-curl-attachment-744007.webp",
         gallery: [
@@ -945,7 +945,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "27",
         name: "Rubber Grip D Handles",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Rubber Grip D Handles/rubber-grip-d-handles-4117885.webp",
         hoverImage: "/Rubber Grip D Handles/rubber-grip-d-handles-3148332.webp",
         gallery: [
@@ -978,7 +978,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "28",
         name: "Leg Extension / Curl Attachment",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Leg Extension  Curl Attachment/leg-extension-curl-attachment-419622.webp",
         // hoverImage: "/Rubber Grip D Handles/rubber-grip-d-handles-3148332.webp",
         gallery: [
@@ -1011,7 +1011,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "29",
         name: "Leg Locks",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Leg Lock/leg-lock-5782231.webp",
         hoverImage: "/Leg Lock/leg-lock-7192079.webp",
         gallery: [
@@ -1044,7 +1044,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "30",
         name: "Dual Hook Curl Bar",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Dual Hook Curl Bar/centr-dual-hook-curl-bar-552517.webp",
         hoverImage: "/Dual Hook Curl Bar/centr-dual-hook-curl-bar-453278.webp",
         gallery: [
@@ -1078,7 +1078,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "31",
         name: "Aluminum EZ Curl Bar",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Aluminum EZ Curl Bar/aluminum-ez-curl-bar-761964.webp",
         hoverImage: "/Aluminum EZ Curl Bar/aluminum-ez-curl-bar-185222.webp",
         gallery: [
@@ -1112,7 +1112,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "32",
         name: "Revolving Straight Bar",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Revolving Straight Bar/revolving-straight-bar-398474.webp",
         hoverImage: "/Revolving Straight Bar/revolving-straight-bar-428683.webp",
         gallery: [
@@ -1146,7 +1146,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "33",
         name: "Bumper Plate and Bar Storage Tree",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Bumper Plate and Bar Storage Tree/bumper-plate-and-bar-storage-tree-8752741.webp",
         hoverImage: "/Bumper Plate and Bar Storage Tree/bumper-plate-and-bar-storage-tree-9577389.webp",
         gallery: [
@@ -1293,7 +1293,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "37",
         name: "Heart Rate Strap",
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Heart Rate Strap/heart-rate-strap-1797748.webp",
         hoverImage: "/Heart Rate Strap/heart-rate-strap-4585576.webp",
         gallery: [
@@ -1312,6 +1312,46 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             { label: "Build", value: "Premium" },
         ],
         longDescription: "The strap is made from flexible, moisture-resistant fabric, ensuring comfort and longevity, even during prolonged sessions. Its adjustable design accommodates a variety of body types, making it easy to wear and customize for an ideal fit. With the Inspire Fitness Heart Rate Strap, you can elevate your workout routine and make data-driven decisions to enhance your fitness journey.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Wireless Connection: Bluetooth 4.0 & ANT+",
+            "Water Resistance: IP67 waterproof in 1m water depth at room temperature",
+            "Communication Distance: BT 4.0 = 10 m / 33 ft. // ANT+ = 6 m / 20 ft.",
+            "Sensor Dims(W x H x D): 2.6 in x 1.5 in x .6 in (66mm x 38mm x 14.5mm)",
+            "Strap Length: 25.6 in - 37.4 in (65 cm - 95 cm)",
+            "Strap: Adjustable, washable, Velcro closure",
+            "Battery: CR2032 3V (1 battery included)",
+            "Battery Length: 300 hours",
+            "Weight: 1.94 oz (55 g)",
+        ]
+    },
+    {
+        id: "38",
+        name: "M3 Multi-Gym",
+        price: "$000.00",
+        category: "Functional machine",
+        image: "/M3 Multi-Gym/m3-multi-gym-2071846.webp",
+        hoverImage: "/M3 Multi-Gym/m3-multi-gym-4450111.webp",
+        gallery: [
+            "/M3 Multi-Gym/m3-multi-gym-2071846.webp",
+            "/M3 Multi-Gym/m3-multi-gym-4450111.webp",
+            "/M3 Multi-Gym/m3-multi-gym-7088886.webp",
+            "/M3 Multi-Gym/m3-multi-gym-7259159.webp",
+            "/M3 Multi-Gymm3-multi-gym-9689187.webp"
+        ],
+        description: [
+            "INDEPENDENT ARMS: Work both arms at once, or individually with the unique press arm design that allows for independent presses.",
+            "BUILT-IN CRUNCH BENCH:One-of-a kind, patented, seated crunch station allows you to perform comfortable and safe weighted crunches with a fully adjustable seat pad and up to 215 lb of resistance",
+            "LEG CURL STATION:Fully adjustable seated leg curl and extension station provides stability, comfort, and safe lower body workout with smooth resistance from the integrated weight stacks",
+            "SPACE SAVING DESIGN:Compact footprint enables the machine to fit seamlessly into most any home gym space",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Inspire Fitness M3 Multi-Gym brings the feel of a commercial gym into your home with a range of features designed to work every major muscle group. The M3 is built with independent press arms, 4 pulleys, a seated leg curl and leg extension station, seated ab crunch bench, free movement handles and a 215lb weight stack. It delivers the ultimate full body strength and functional fitness workout. Constructed from heavy-duty steel, the M3 ensures long-lasting durability and stability throughout intense workouts. Its precision-engineered pulleys and cables deliver a smooth and frictionless feel with every push and pull. The adjustable press arms are independent, allowing for single or alternating upper body work. And the ergonomic seat and back pad supports multiple exercise positions to enable optimal positioning and comfort while you work out. The seat also doubles as a seated and weighted ab crunch bench. This multi-gym is designed for those who value quality, functionality, and efficiency, making it a valuable addition to any fitness space. And, at just 40 inches wide and 73 inches long, this compact footprint fits seamlessly into home gyms.",
         // featuresTitle: "Take your training to the next level with the Wall Balls",
         productDetails: [
             "Color: Black",
