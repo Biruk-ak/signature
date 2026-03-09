@@ -1718,7 +1718,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "47",
         name: `Black Steel Lat Bar`,
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Accessories",
         image: "/Black Steel Lat Bar/black-steel-lat-bar-998957.webp",
         // hoverImage: "/Black Steel Lat Bar/black-steel-lat-bar-511059.webp",
         gallery: [
