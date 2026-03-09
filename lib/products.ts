@@ -1,3 +1,5 @@
+import { Handle } from "vaul";
+
 export const ALL_PRODUCTS = [
     {
         id: "1",
@@ -1338,7 +1340,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "/M3 Multi-Gym/m3-multi-gym-4450111.webp",
             "/M3 Multi-Gym/m3-multi-gym-7088886.webp",
             "/M3 Multi-Gym/m3-multi-gym-7259159.webp",
-            "/M3 Multi-Gymm3-multi-gym-9689187.webp"
+            "/M3 Multi-Gym/m3-multi-gym-9689187.webp"
         ],
         description: [
             "INDEPENDENT ARMS: Work both arms at once, or individually with the unique press arm design that allows for independent presses.",
@@ -1355,22 +1357,393 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         // featuresTitle: "Take your training to the next level with the Wall Balls",
         productDetails: [
             "Color: Black",
-            "Wireless Connection: Bluetooth 4.0 & ANT+",
-            "Water Resistance: IP67 waterproof in 1m water depth at room temperature",
-            "Communication Distance: BT 4.0 = 10 m / 33 ft. // ANT+ = 6 m / 20 ft.",
-            "Sensor Dims(W x H x D): 2.6 in x 1.5 in x .6 in (66mm x 38mm x 14.5mm)",
-            "Strap Length: 25.6 in - 37.4 in (65 cm - 95 cm)",
-            "Strap: Adjustable, washable, Velcro closure",
-            "Battery: CR2032 3V (1 battery included)",
-            "Battery Length: 300 hours",
-            "Weight: 1.94 oz (55 g)",
+            "Frame: Heavy-duty steel",
+            "Finish: Electrostatic Powder Coat",
+            "Weight Stacks: 215 lbs. (98 kgs)",
+            "Included Accessories: EZ Curl Bar, Ankle Strap, Extension Chain, & 4 x D Handles",
+            "Available Add Ons: Leg Press, Triceps Rope, Abdominal Bar, Multi-Ring D Handles, Double D Low Row Handle, Sport Handle",
+            "Resistance Ratio: High, Mid & Lower pulleys 2:1, Leg Ext 1:1, Leg Curl 4:3, Leg Press 1:2, Press Arm 2:1.2",
+            "Muscle Groups: All",
+            "DIMS(W X L X H): 40 in x 73 in x (Min) 81 in (Max) 84 in (102 cm x 186 cm x 206/214 cm)",
+            "Weight: 523 lbs. (238 kgs)",
+            "Press Arm Pivot Points: 1½ inch precision steel ball bearings",
+            "Other Pivot Points: Oil Impregnated brass bushings",
+            "With Optional Leg Press: 74 in x 73 in x (Min) 81 in (Max) 84 in (188 cm x 186 cm x 206/214 cm)",
+            "Weight Stack Shroud: Choose from black, tan, burgundy, or navy"
         ]
     },
-
-
-
-
-
+    {
+        id: "39",
+        name: "Official Hyrox Perform Tread",
+        price: "$000.00",
+        category: "Cardio & Endurance",
+        image: "/Official Hyrox Perform Tread/official-hyrox-perform-tread-3157585.webp",
+        hoverImage: "/Official Hyrox Perform Tread/official-hyrox-perform-tread-4156781.webp",
+        gallery: [
+            "/Official Hyrox Perform Tread/official-hyrox-perform-tread-3157585.webp",
+            "/Official Hyrox Perform Tread/official-hyrox-perform-tread-4156781.webp",
+            "/Official Hyrox Perform Tread/official-hyrox-perform-tread-6822739.webp",
+            "/Official Hyrox Perform Tread/official-hyrox-perform-tread-7872911.webp",
+            "/Official Hyrox Perform Tread/official-hyrox-perform-tread-7883893.webp"
+        ],
+        description: [
+            "Motorless curved deck mimics natural stride and proper form.",
+            "Eight levels of magnetic resistance for customizable intensity.",
+            "Self-powered Treadmill - no electricity needed.",
+            "Multi-position handlebar converts to sled-push/pull station",
+            "Backlit LED display tracks speed, distance, watts, HR*, calories, & more"
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Centr x HYROX Perform Treadmill is a motorless running machine made for athletes and next-level performance. This motorless curved treadmill design encourages proper form, while the cushioned, shock-absorbing surface maximizes endurance and stamina so you can conquer your runs and sled-push simulations.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Resistance: 8 magnetic resistance settings",
+            "Running Area: 59” x 19” (1500mm x 480mm)",
+            "Slat Material: 6061 extruded aluminum with rubber top surface",
+            "Shock Absorption System : Rubber molded over an aluminum slat",
+            "Heart Rate : Bluetooth",
+            "Display : 4.8” LED Shows: Resistance, Time, Distance, Heart Rate, Watts, Calories, Speed, Bluetooth Connection",
+            "Uprights : Curved tubular steel",
+            "Water Bottle Holder : One (1) side-mounted",
+            "Maximum User Weight : 396.8 lb (180 kg)",
+            "Assembled Dimensions : 74 x 42.5 x 67.3 (187.6 x 108 x 170.95 cm)",
+            "Assembled Product Weight 400 lb (181.6 kg)"
+        ]
+    },
+    {
+        id: "40",
+        name: "Centr RUNR Treadmill",
+        price: "$000.00",
+        category: "Cardio & Endurance",
+        image: "/Centr RUNR Treadmill/centr-runr-985434.webp",
+        hoverImage: "/Centr RUNR Treadmill/centr-runr-533039.webp",
+        gallery: [
+            "/Centr RUNR Treadmill/centr-runr-985434.webp",
+            "/Centr RUNR Treadmill/centr-runr-533039.webp",
+            "/Centr RUNR Treadmill/centr-runr-treadmill-9650341.webp",
+        ],
+        description: [
+            "Space-saving design – Sleek, foldable frame fits easily into your home.",
+            "No-tools setup – Assemble quickly and start running right away.",
+            "Comfort in every step – Cloud Cushion deck reduces impact and supports joints.",
+            "Adaptive feel – Natural Stride Technology matches your pace automatically",
+            "Quiet power – 3.0 HP brushless motor for smooth, durable performance",
+            "Quick controls – Instantly adjust speed to 10 mph and incline to 12%",
+            "Heart-rate tracking – Bluetooth connectivity with 5-color zone display",
+            "Built to last – Lifetime frame & motor warranty, 2 years on parts"
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Lace up and go — the Centr Runr is built for home runners who want performance without the hassle. Its sleek, foldable design saves space, and tool-free setup means you can be up and running in minutes. Cloud Cushion Technology softens every step to reduce impact on your joints, while Natural Stride Technology adapts automatically to your pace for a smooth, outdoor-like feel. A quiet, energy-efficient 3.0 HP brushless motor delivers lasting performance mile after mile. Quick keys make it easy to reach speeds of 10 mph and inclines up to 12%, while the 20″ × 55″ running surface gives you room to move. Pair your Bluetooth heart-rate device to track effort in real time with the 5-color heart-rate zone display.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Console Display - LED Console + Tablet Holder",
+            "Heart Rate Monitoring - BT Device Compatibility",
+            "Drive System  - 3.0 HP Brushless DC",
+            "Speed - 1.0 to 10 mph (1.6 – 16 km/h) (0.1mph/.16 km/h increments)",
+            "Incline - 1-12% (1% increments)",
+            "Quick Keys  - Speed and Incline",
+            "Belt Maintenance  - Self-Lubricating",
+            "Running Surface Size - 20 x 55 (50.8 cm x 139.7 cm)",
+            "Max User Weight - 300 lb / 136 kg",
+            "Step Up Height  - 6.0” (15.24 cm)",
+            "Assembled Dimensions  - 70” x 35.7” x 47.5” (177.6 x 90.6 x 120.8cm)",
+            "Assembled Weight  - 194 lb. (88 kg)"
+        ]
+    },
+    {
+        id: "41",
+        name: `Centr Runr-S Treadmill with 10" Screen`,
+        price: "$000.00",
+        category: "Cardio & Endurance",
+        image: "/Centr Runr-S Treadmill with 10 Screen/1.webp",
+        hoverImage: "/Centr Runr-S Treadmill with 10 Screen/centr-runr-s-treadmill-with-10-screen-329907.webp",
+        gallery: [
+            "/Centr Runr-S Treadmill with 10 Screen/centr-runr-s-treadmill-with-10-screen-329907.webp",
+            "/Centr Runr-S Treadmill with 10 Screen/1.webp",
+            "/Centr Runr-S Treadmill with 10 Screen/centr-runr-s-treadmill-with-10-screen-329907.webp",
+        ],
+        description: [
+            " 20” x 55” running surface, speed up to 10 mph, & incline up to 12%",
+            "Quiet, energy-efficient, 3.0 HP brushless motor",
+            "Cloud Cushion Technology absorbs impact for smoother strides",
+            "Natural Stride Technology auto-adjusts deck to match your pace",
+            "10″ multimedia touchscreen with Netflix, YouTube, Disney+ & more",
+            "Bluetooth connectivity for heart-rate monitoring and audio streaming",
+            "Smartphone Mirroring",
+            "Foldable, tool - free assembly saves floor space when not in use",
+            "Tool - free installation"
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Make every mile a personal experience with the Centr Runr-S: perfect for runners seeking cushioned comfort and adaptive pacing. This touchscreen treadmill features a sleek, foldable treadmill with a 10” touchscreen display, 25 pre-built programs and entertainment apps, and seamless smartphone mirroring. Feel the difference with the comfort of Cloud Cushion Technology, engineered to soften the impact of each stride for a smooth and supportive run. The adaptive innovation of our Natural Stride Technology senses your speed and adjusts automatically—mimicking the feel of running outside. The Runr-S is engineered with a quiet, energy-efficient, 3.0 HP brushless motor that's easy to control with quick keys for speed and incline and has a spacious 20” x 55” running surface.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Console Display - 10” Multimedia Touchscreen",
+            "Device Mirroring - Seamlessly mirror your smartphone to the display",
+            "Pre-Built Programs - 25 Total Programs; Quick Start, HRC, Classic, Intervals, User Programs, Vision Run, Fitness Tests",
+            "Pre-Loaded Apps - Youtube, Netflix, Disney+, Amazon Prime Video, Facebook, Spotify, Kinomap",
+            "Internet Connection – Wireless",
+            "Audio - BT Audio + Speakers",
+            "Heart Rate Monitoring - BT Device Compatibility",
+            "Drive System - 3.0 HP Brushless DC",
+            "Speed - 1.0 to 10 mph(1.6 – 16 km / h)(0.1mph / .16 km / h increments)",
+            "Incline - 1 - 12 % (1 % increments)",
+            "Quick Keys - Speed and Incline",
+            "Belt Maintenance - Self - Lubricating ",
+            `Running Surface Size - 20" x 55"(50.8 cm x 139.7 cm)`,
+            "Max User Weight - 300 lb / 136 kg",
+            "Step Up Height - 6.0” (15.24 cm)",
+            "Assembled Dimensions - 70” x 35.7” x 47.5” (177.6 x 90.6 x 120.8cm)",
+            "Assembled Weight - 194 lb. (88 kg)"
+        ]
+    },
+    {
+        id: "42",
+        name: `SF6 Smith Functional Trainer`,
+        price: "$000.00",
+        category: "functional machine",
+        image: "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-8906567.webp",
+        hoverImage: "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-4566672.webp",
+        gallery: [
+            "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-8906567.webp",
+            "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-4566672.webp",
+            "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-7767862.webp",
+            "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-7502540.webp",
+            "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-3609916.webp",
+        ],
+        description: [
+            "Frame: Varies, 11-14 gauge steel",
+            "Color and Finish: Matte Black, Powder Coat",
+            "Weight Stacks: 2 x 165lb (upgradable)",
+            "Pull Up Bar: Multi-position, diamond knurled grip, adjustable height - 3 different positions",
+            "SF6 Pull Up Bar Max User Weight: 350 lb / 158.7kg",
+            "Resistance Ratio: 2:1",
+            "Storage: Built-in central storage for accessories, 2 x water bottle, and tablet",
+            "Included Attachments: Triceps Rope, Multi-Purpose Belt, 2 x D Handles, Dual Hook Curl Bar, Ankle Strap",
+            "SF6 Assembled Weight: 666.7 lb / 302.4 kg",
+            `SF6 Assembled Dimensions: 59.1" L x 54.8" W x 88.7” H`
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Engineered for serious results at home, the Centr Power Series SF6 Smith Functional Trainer delivers a complete full-body strength setup in a compact frame. The SF6 features a patented quick-change selectorized Smith Bar, a built-in weight multiplier for up to 350 lbs of resistance, dual 165 lb weight stacks, a frictionless 6-pulley cable system with 30 vertical positions, and an adjustable pull-up station. Built from heavy-duty, commercial-grade steel with a matte black powder-coated finish, it’s everything you need for real strength, every damn day.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Heavy-duty steel frame, 20 lb smith bar, and industrial-grade cables",
+            "Two 165 lb weight stacks (330 lb total)",
+            "6 total pulleys with 2 upper, 2 lower and 2 wide, dual swivel pulleys with 30 unique positions",
+            "Patented Selectorized Smith Bar (up to 350 lb of resistance)",
+            "Built-in multi-grip pull-up bar",
+            "6-piece accessory kit: D-Handles (x2), Triceps Rope, Curl Bar, Ankle Strap, Multi-Purpose Belt",
+            "Includes 3 Months of access to the Centr App"
+        ]
+    },
+    {
+        id: "43",
+        name: `Centr 2 Home Gym Functional Trainer`,
+        price: "$000.00",
+        category: "functional machine",
+        image: "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-002.webp",
+        hoverImage: "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-007.webp",
+        gallery: [
+            "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-002.webp",
+            "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-007.webp",
+            "/Centr 2 Home Gym Functional Trainer/ftx3-centr-functional-trainer-home-gym.webp",
+            "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-008.webp",
+            "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-004.webp",
+        ],
+        description: [
+            "Twin 165 lb weight stacks (330 lb total)",
+            "Dual swivel pulleys with 30 height settings and extended cable reach",
+            "Commercial-grade steel frame and cables for ultra-smooth action",
+            "Built-in multi-grip pull-up bar + phone/tablet dock",
+            "5-piece accessory kit: D-handles (×2), dual-hook curl bar, chin/dip belt, triceps rope",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Fuel your every day with a versatile home gym that makes getting in a dynamic full-body workout easier and more convenient than ever. Suitable for any level, this innovative cable machine is perfect for solo or partner full-body cable workout. Centr 2 is equipped with two 165 lb weight stacks, and has 30 vertical swivel pulley positions for unlimited workout variations.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            'Frame : Heavy-duty steel, matte black powder coated',
+            'Pulleys : (30) vertical pulley positions at 2.0-inch (51 mm) increments',
+            'Max User Weight : 300 lbs. / 136 kg',
+            'Included Accessories : Two (2) Dual Ring Soft Strap D-Handles, EZ Curl Bar, Triceps Rope, and Multipurpose Belt',
+            'Dimensions : 81.5”H x 51”W x 62”L',
+            'Weight : 544 lbs (246.8 kg)',
+        ]
+    },
+    {
+        id: "44",
+        name: `Centr Folding Adjustable Bench`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Centr Folding Adjustable Bench/centr-folding-adjustable-bench-362018.webp",
+        hoverImage: "/Centr Folding Adjustable Bench/centr-folding-adjustable-bench-801272.webp",
+        gallery: [
+            "/Centr Folding Adjustable Bench/centr-folding-adjustable-bench-362018.webp",
+            "/Centr Folding Adjustable Bench/centr-folding-adjustable-bench-801272.webp",
+            "/Centr Folding Adjustable Bench/centr-folding-adjustable-bench-522838.webp",
+            "/Centr Folding Adjustable Bench/centr-folding-adjustable-bench-438653.webp",
+        ],
+        description: [
+            "Six back-pad positions across incline, flat, and decline",
+            "Folds completely flat for under-bed or hook storage",
+            "Built-in wheels and handle for effortless transport",
+            "Heavy-duty steel frame with electrostatic powder-coat finish",
+            "Double-stitched, closed-cell foam pads for durability and comfort",
+            "No Assembly Required"
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Folding Workout Bench from Centr is perfect for full-body workouts and easy storage in small spaces. It declines, sits flat, inclines to 5 positions, and folds completely flat for easy storage. Roll it under a bed or hang from a hook. Use this adjustable workout bench with free weights or with any Centr home gym or functional trainer. Built-in wheels and a handle make moving and storing simple, while the heavy-duty steel frame and double-stitched pads ensure long-lasting durability.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Heavy-duty steel",
+            "Color: Matte black & chrome",
+            "Finish: Electrostatic Powder Coat",
+            "Bench Pads: Closed cell foam, double stitched high grade naugahyde",
+            "Back Pad Positions: 6 back",
+            "Transport Wheels: Rear",
+            "Weight Capacity: 500 lbs",
+            "Dimensions (W X L X H): 17 in x 52 in x (Max) 41 in",
+            "Weight: 33 lbs",
+        ]
+    },
+    {
+        id: "45",
+        name: `Centr Body Weight Home Gym Machine`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-767480.webp",
+        hoverImage: "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-511059.webp",
+        gallery: [
+            "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-767480.webp",
+            "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-511059.webp",
+            "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-858368.webp",
+        ],
+        description: [
+            "15 one-hand adjustable resistance levels (10–150% body weight)",
+            "High and low pulleys, fixed press arm, leg curl/extension station",
+            "Revolving straight bar and lat bar attachments",
+            "Compact footprint (43″ W × 55″ D)",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "This innovative, multi-functional home gym delivers a complete upper and lower body workout in a compact design and is perfect for quiet, plate-free strength training at home. With a single lever you can dial in 15 resistance levels—10 % to 150 % of your body weight—for personalized, whisper-quiet sessions. A fixed press arm, high-/low-pulleys, leg curl/extension station, and adjustable seat unlock hundreds of moves, while the included straight and lat bars add even more variety. All this power fits into just 43″ × 55″ of floor space.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame : Heavy-duty steel",
+            "Color : Matte black",
+            "Finish : Electrostatic Powder Coat",
+            "Resistance Adjustment : 15% of your body weight, adjusted with one-handed adjustment slide",
+            "Resistance : 10% of your body weight, or up to 150% of your body weight",
+            "Included Accessories : Revolving Curl Bar, Steel Lat Bar",
+            "Available Add-Ons : Sport Handle, Ab Bar",
+            "Muscle Groups : All",
+            "Dimensions : (W X L X H) - 43 in x 55 in x (Max) 89 in (110 cm x 140 cm x 226 cm)",
+            "Weight : 216 lbs",
+            "Included Accessories: Revolving Curl Bar, Steel Lat Bar",
+            "Available Add-Ons: Sport Handle, Ab Bar",
+            "Muscle Groups: All",
+            "Dimensions: (W X L X H) - 43 in x 55 in x (Max) 89 in (110 cm x 140 cm x 226 cm)",
+            "Weight: 216 lbs",
+        ]
+    },
+    {
+        id: "46",
+        name: `Black Steel Lat Bar`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Black Steel Lat Bar/black-steel-lat-bar-767480.webp",
+        hoverImage: "/Black Steel Lat Bar/black-steel-lat-bar-511059.webp",
+        gallery: [
+            "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-767480.webp",
+            "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-511059.webp",
+            "/Centr Body Weight Home Gym Machine/centr-body-weight-home-gym-machine-858368.webp",
+        ],
+        description: [
+            "High-grade black steel construction for lasting durability",
+            "Textured, ergonomic grip for secure handling",
+            "Universal pulldown bar design fits most cable pulleys and functional trainers",
+            "Versatile lat bar attachment for back, shoulder & arm exercises",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Steel Lat Bar attaches to any cable pulley and is perfect for lat pulldowns, seated rows and triceps push-downs.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame : Heavy-duty steel",
+            "Color : Matte black",
+            "Finish : Electrostatic Powder Coat",
+            "Resistance Adjustment : 15% of your body weight, adjusted with one-handed adjustment slide",
+            "Resistance : 10% of your body weight, or up to 150% of your body weight",
+            "Included Accessories : Revolving Curl Bar, Steel Lat Bar",
+            "Available Add-Ons : Sport Handle, Ab Bar",
+            "Muscle Groups : All",
+            "Dimensions : (W X L X H) - 43 in x 55 in x (Max) 89 in (110 cm x 140 cm x 226 cm)",
+            "Weight : 216 lbs",
+            "Included Accessories: Revolving Curl Bar, Steel Lat Bar",
+            "Available Add-Ons: Sport Handle, Ab Bar",
+            "Muscle Groups: All",
+            "Dimensions: (W X L X H) - 43 in x 55 in x (Max) 89 in (110 cm x 140 cm x 226 cm)",
+            "Weight: 216 lbs",
+        ]
+    },
+    {
+        id: "47",
+        name: `Black Steel Lat Bar`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Black Steel Lat Bar/black-steel-lat-bar-998957.webp",
+        // hoverImage: "/Black Steel Lat Bar/black-steel-lat-bar-511059.webp",
+        gallery: [
+            "/Black Steel Lat Bar/black-steel-lat-bar-998957.webp",
+        ],
+        description: [
+            "High-grade black steel construction for lasting durability",
+            "Textured, ergonomic grip for secure handling",
+            "Universal pulldown bar design fits most cable pulleys and functional trainers",
+            "Versatile lat bar attachment for back, shoulder & arm exercises",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Steel Lat Bar attaches to any cable pulley and is perfect for lat pulldowns, seated rows and triceps push-downs.",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color : Black",
+            "Material : Steel",
+            "Dimensions (W x L) : 3 in x 42 in",
+            "Weight : 5 lbs",
+        ]
+    },
 
 
 ]
