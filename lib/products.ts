@@ -1,3 +1,4 @@
+import { lb } from "date-fns/locale";
 import { Handle } from "vaul";
 
 export const ALL_PRODUCTS = [
@@ -1701,6 +1702,145 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Weight : 5 lbs",
         ]
     },
+    {
+        id: "47",
+        name: `Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-924559.webp",
+        hoverImage: "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-958332.webp",
+        gallery: [
+            "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-924559.webp",
+            "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-333081.webp",
+            "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-958332.webp",
+            "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-326533.webp",
+        ],
+        description: [
+            "Heavy-duty steel frame, 20 lb smith bar, and industrial-grade cables",
+            "Two 165 lb weight stacks (330 lb total)",
+            "Dual swivel pulleys with 30 unique positions",
+            "Patented Selectorized Smith Bar (up to 360 lb)",
+            "Built-in multi-grip pull-up bar",
+            "Integrated phone/tablet holder",
+            "7-piece accessory kit: D-handles (x2), triceps rope, curl bar, ankle strap, belt, 5 lb add-ons (x2)",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Our most popular home gym! The ultimate two-in-one home gym combines a functional cable machine for dynamic movements and a Selectorized Smith Machine for traditional exercises. Perfect for full-body strength and Smith-machine workouts, the Centr 3 is equipped with two 165 lb pin loaded weight stacks (330 lb in total). Our smooth-gliding pulley system will help you gain strength with nearly every dynamic movement or resistance training exercise you can imagine. ",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame  ",
+            "Heavy-duty steel, matte black powder coated",
+            "Pulleys  ",
+            "(39) vertical pulley positions at 1.5-inch (38 mm) increments , dual adjustable swivel pulley",
+            "Max User Weight : 300 lb / 136 kg",
+            "Weight Multiplier : Doubles weight resistance while using the smith bar",
+            "Included Accessories : EZ Curl Bar, Triceps Rope, (2) D-Handles, Multipurpose Belt, Ankle strap, (2) Add-on 5lb weights",
+            "Smith Bar : 20 lb",
+            "Storage : Built in storage for bench, accessories, and tablet",
+            "Dimensions : 84”H x 59”W x 46”L",
+            "Weight : 631 lb (286 kg)",
+            "Included Accessories : EZ Curl Bar, Triceps Rope, (2) D - Handles, Multipurpose Belt, Ankle strap, (2) Add - on 5lb weights",
+            "Smith Bar : 20 lb",
+            "Storage : Built in storage for bench, accessories, and tablet",
+            "Dimensions : 84”H x 59”W x 46”L",
+            "Weight : 631 lb(286 kg)",
+        ]
+    },
+    {
+        id: "48",
+        name: `FT1 Functional Trainer`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/FT1 Functional Trainer/ft1-functional-trainer-7407322.webp",
+        hoverImage: "/FT1 Functional Trainer/ft1-functional-trainer-1407437.webp",
+        gallery: [
+            "/FT1 Functional Trainer/ft1-functional-trainer-7407322.webp",
+            "/FT1 Functional Trainer/ft1-functional-trainer-1407437.webp",
+            "/FT1 Functional Trainer/ft1-functional-trainer-2383615.webp",
+            "/FT1 Functional Trainer/ft1-functional-trainer-9415775.webp",
+
+        ],
+        description: [
+            "Heavy-duty steel frame, 20 lb smith bar, and industrial-grade cables",
+            "Two 165 lb weight stacks (330 lb total)",
+            "6 total pulleys with 2 upper, 2 lower and 2 wide, dual swivel pulleys with 30 unique positions",
+            "Patented Selectorized Smith Bar (up to 350 lb of resistance)",
+            "Built-in multi-grip pull-up bar",
+            "6-piece accessory kit: D-Handles (x2), Triceps Rope, Curl Bar, Ankle Strap, Multi-Purpose Belt",
+            "Includes 3 Months of access to the Centr App",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Our most popular home gym! The ultimate two-in-one home gym combines a functional cable machine for dynamic movements and a Selectorized Smith Machine for traditional exercises. Perfect for full-body strength and Smith-machine workouts, the Centr 3 is equipped with two 165 lb pin loaded weight stacks (330 lb in total). Our smooth-gliding pulley system will help you gain strength with nearly every dynamic movement or resistance training exercise you can imagine. ",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Varies, 11-14 gauge steel",
+            "Color and Finish: Matte Black, Powder Coat",
+            "Weight Stacks: 2 x 165lb (upgradable)",
+            "Pull Up Bar: Multi-position, diamond knurled grip, adjustable height - 3 different positions",
+            "SF6 Pull Up Bar Max User Weight: 350 lb / 158.7kg",
+            "Resistance Ratio: 2:1",
+            "Storage: Built-in central storage for accessories, 2 x water bottle, and tablet",
+            "Included Attachments: Triceps Rope, Multi-Purpose Belt, 2 x D Handles, Dual Hook Curl Bar, Ankle Strap",
+            "SF6 Assembled Weight: 666.7 lb / 302.4 kg",
+            `SF6 Assembled Dimensions: 59.1" L x 54.8" W x 88.7” H`,
+        ]
+    },
+    {
+        id: "49",
+        name: `Inspire Series FT2 PRO Smith Functional Trainer`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-348567.webp",
+        hoverImage: "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-268643.webp",
+        gallery: [
+            "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-348567.webp",
+            "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-268643.webp",
+            "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-965121.webp",
+            // "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-9415775.webp",
+
+        ],
+        description: [
+            "Heavy-duty steel frame, 20 lb smith bar, and industrial-grade cables",
+            "Two 165 lb weight stacks (330 lb total)",
+            "6 total pulleys with 2 upper, 2 lower and 2 wide, dual swivel pulleys with 30 unique positions",
+            "Patented Selectorized Smith Bar (up to 350 lb of resistance)",
+            "Built-in multi-grip pull-up bar",
+            "6-piece accessory kit: D-Handles (x2), Triceps Rope, Curl Bar, Ankle Strap, Multi-Purpose Belt",
+            "Includes 3 Months of access to the Centr App",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Our most popular home gym! The ultimate two-in-one home gym combines a functional cable machine for dynamic movements and a Selectorized Smith Machine for traditional exercises. Perfect for full-body strength and Smith-machine workouts, the Centr 3 is equipped with two 165 lb pin loaded weight stacks (330 lb in total). Our smooth-gliding pulley system will help you gain strength with nearly every dynamic movement or resistance training exercise you can imagine. ",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Frame: Varies, 11-14 gauge steel",
+            "Color and Finish: Matte Black, Powder Coat",
+            "Weight Stacks: 2 x 165lb (upgradable)",
+            "Pull Up Bar: Multi-position, diamond knurled grip, adjustable height - 3 different positions",
+            "SF6 Pull Up Bar Max User Weight: 350 lb / 158.7kg",
+            "Resistance Ratio: 2:1",
+            "Storage: Built-in central storage for accessories, 2 x water bottle, and tablet",
+            "Included Attachments: Triceps Rope, Multi-Purpose Belt, 2 x D Handles, Dual Hook Curl Bar, Ankle Strap",
+            "SF6 Assembled Weight: 666.7 lb / 302.4 kg",
+            `SF6 Assembled Dimensions: 59.1" L x 54.8" W x 88.7” H`,
+        ]
+    },
+
+
+
 
 
 ]
+
+
