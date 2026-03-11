@@ -1512,7 +1512,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "42",
         name: `SF6 Smith Functional Trainer`,
         price: "$000.00",
-        category: "functional machine",
+        category: "Functional machine",
         image: "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-8906567.webp",
         hoverImage: "/SF6 Smith Functional Trainer/sf6-smith-functional-trainer-4566672.webp",
         gallery: [
@@ -1555,7 +1555,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "43",
         name: `Centr 2 Home Gym Functional Trainer`,
         price: "$000.00",
-        category: "functional machine",
+        category: "Functional machine",
         image: "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-002.webp",
         hoverImage: "/Centr 2 Home Gym Functional Trainer/centr2-1200x1200-007.webp",
         gallery: [
