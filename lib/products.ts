@@ -1878,7 +1878,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "52",
         name: `Centr 20 LB Weighted Vest`,
         price: "$000.00",
-        category: "Functional machine",
+        category: "Accessories",
         image: "/Centr 20 LB Weighted Vest/centr-20-lb-weighted-vest-435449 (1).webp",
         hoverImage: "/Centr 20 LB Weighted Vest/centr-20-lb-weighted-vest-562335.jpg",
         gallery: [
