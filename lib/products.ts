@@ -1706,7 +1706,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "47",
         name: `Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar`,
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Functional machine",
         image: "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-924559.webp",
         hoverImage: "/Centr 3 Home Gym Functional Trainer with Selectorized Smith Bar/centr-3-home-gym-functional-trainer-with-selectorized-smith-bar-958332.webp",
         gallery: [
@@ -1754,7 +1754,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "48",
         name: `FT1 Functional Trainer`,
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Functional machine",
         image: "/FT1 Functional Trainer/ft1-functional-trainer-7407322.webp",
         hoverImage: "/FT1 Functional Trainer/ft1-functional-trainer-1407437.webp",
         gallery: [
@@ -1797,7 +1797,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         id: "49",
         name: `Inspire Series FT2 PRO Smith Functional Trainer`,
         price: "$000.00",
-        category: "Racks, Rigs & Functional Frames",
+        category: "Functional machine",
         image: "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-348567.webp",
         hoverImage: "/Inspire Series FT2 PRO Smith Functional Trainer/inspire-series-ft2-pro-smith-functional-trainer-268643.webp",
         gallery: [
@@ -1836,7 +1836,86 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             `SF6 Assembled Dimensions: 59.1" L x 54.8" W x 88.7” H`,
         ]
     },
+    {
+        id: "51",
+        name: `Centr Fusion Bench`,
+        price: "$000.00",
+        category: "Racks, Rigs & Functional Frames",
+        image: "/Centr Fusion Bench/centr-fusion-bench-890976.webp",
+        hoverImage: "/Centr Fusion Bench/centr-fusion-bench-673780.webp",
+        gallery: [
+            "/Centr Fusion Bench/centr-fusion-bench-890976.webp",
+            "/Centr Fusion Bench/centr-fusion-bench-673780.webp",
+            "/Centr Fusion Bench/centr-fusion-bench-676617.webp",
+            "/Centr Fusion Bench/centr-fusion-bench-721785.webp",
 
+        ],
+        description: [
+            "3 seat & 6 back pad positions (0–75°) for diverse angles",
+            "Built-in dumbbell rack holds up to 6 pairs underneath the bench",
+            "Band anchor points for resistance-band workouts and accessories",
+            "Dual Velcro®-sealed inner bags prevent leaks and moisture",
+            "Compact footprint (45″×15″×18″) fits small spaces without sacrifice",
+            "Heavy-duty steel frame &amp; high-density pads for stability and comfort",
+            "Upgrade to the Fusion Bench today for space-saving, full-body workouts.",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "Centr Fusion Bench is an all-in-one, compact exercise bench for versatile workouts and sleek dumbbell storage in your home gym. Ideal for presses, rows, curls, dips and banded movements. Uncover a variety of exercises with ease as you adjust the Fusion Bench to multiple positions, allowing you to lay flat, incline, sit, lean, or even use it for step-ups. From bench presses to banded donkey kicks, this bench with dumbbell rack adapts to your every move, thanks to its fully adjustable seat and back positions, complete with hook anchors for resistance bands. ",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Seat Pad Positions (3) positions; 0° flat, 15°, 30°angle",
+            "Back Pad Positions (6) positions; 0° flat, 15°, 30°, 45°, 60° and 75°incline angles",
+            "Storage Up to 12 dumbbells (6 pairs) hanging and an open storage area for additional fitness equipment",
+            "Band Anchor Points (2) areas at the front of the bench for bands to attach",
+            "Dimensions 45 in / 114.3 cm L 15 in / 38.1 cm W 18 in / 45.7 cm H",
+        ]
+    },
+    {
+        id: "52",
+        name: `Centr 20 LB Weighted Vest`,
+        price: "$000.00",
+        category: "Functional machine",
+        image: "/Centr 20 LB Weighted Vest/centr-20-lb-weighted-vest-435449 (1).webp",
+        hoverImage: "/Centr 20 LB Weighted Vest/centr-20-lb-weighted-vest-562335.jpg",
+        gallery: [
+            "/Centr 20 LB Weighted Vest/centr-20-lb-weighted-vest-435449 (1).webp",
+            "/Centr 20 LB Weighted Vest/centr-20-lb-weighted-vest-562335.jpg",
+            "/Centr 20 LB Weighted Vest/centr-20-lb-weighted-vest-496807.webp",
+
+        ],
+        description: [
+            "Fully adjustable up to 20 lb with 16 removable sandbags",
+            "Balanced weight distribution with 8 front and 8 back pockets",
+            "Padded shoulder panels for enhanced comfort",
+            "Quick on/off with Velcro side straps",
+            "Durable, double-stitched construction",
+            "Unisex. Fit for all body types",
+            "Ideal for bodyweight training, rucking, or cardio workouts",
+        ],
+        descriptionTitle: "Description",
+        specs: [
+            { label: "Warranty", value: "2 Years" },
+            { label: "Build", value: "Premium" },
+        ],
+        longDescription: "The Centr 20-lb Weighted Vest is built for serious performance—perfect you’re training with bodyweight, rucking, or adding resistance to cardio sessions. Designed for comfort, durability, and versatility, this unisex vest features 16 removable 1.25 lb sandbags so you can adjust your load on the fly and train your way. ",
+        // featuresTitle: "Take your training to the next level with the Wall Balls",
+        productDetails: [
+            "Color: Black",
+            "Box Contents: 1 x Weighted Vest, 16 x 1.25 lb / 0.57 kg Sand Bags",
+            `Product Dimensions: 16.5" x 14.9" x 5.5" / 420 mm x 380 mm × 140 mm`,
+            `Dimensions of Sand Bag Pockets: 7.8" x 3" / 198.12 mm x 76.2 mm`,
+            `Product Weight: 21.68 lb. / 9.836 kg`,
+            `Shipping Weight: 22.9 lb. / 10.388 kg`,
+            `Product Dimensions "16.5" x 14.9" x 5.5" / 420 mm x 380 mm × 140 mm`,
+            `Dimensions of Sand Bag Pockets "7.8" x 3" / 198.12 mm x 76.2 mm`,
+            `Product Weight 21.68 lb. / 9.836 kg`,
+            `Shipping Weight 22.9 lb. / 10.388 kg`,
+        ]
+    },
 
 
 
