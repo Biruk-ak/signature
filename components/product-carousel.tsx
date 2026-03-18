@@ -36,22 +36,22 @@ export function ProductCarousel({ products }: ProductCarouselProps) {
     return (
         <div className="relative group">
             {/* Scroll Buttons */}
-            <div className="absolute left-0 top-1/2 -translate-y-1/2 -ml-2 z-20 hidden md:block">
+            <div className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 md:-ml-2 z-20">
                 <Button
                     variant="secondary"
                     size="icon"
-                    className="rounded-full shadow-lg border-2 border-border/50 hover:bg-primary hover:text-primary-foreground h-12 w-12 bg-background/80 backdrop-blur-sm"
+                    className="rounded-full shadow-lg border-2 border-border/50 hover:bg-primary hover:text-primary-foreground h-10 w-10 md:h-12 md:w-12 bg-background/80 backdrop-blur-sm"
                     onClick={() => scroll("left")}
                 >
                     <ChevronLeft className="h-6 w-6" />
                 </Button>
             </div>
 
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 -mr-2 z-20 hidden md:block">
+            <div className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 md:-mr-2 z-20">
                 <Button
                     variant="secondary"
                     size="icon"
-                    className="rounded-full shadow-lg border-2 border-border/50 hover:bg-primary hover:text-primary-foreground h-12 w-12 bg-background/80 backdrop-blur-sm"
+                    className="rounded-full shadow-lg border-2 border-border/50 hover:bg-primary hover:text-primary-foreground h-10 w-10 md:h-12 md:w-12 bg-background/80 backdrop-blur-sm"
                     onClick={() => scroll("right")}
                 >
                     <ChevronRight className="h-6 w-6" />
@@ -65,7 +65,7 @@ export function ProductCarousel({ products }: ProductCarouselProps) {
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
                 {products.map((product) => (
-                    <div key={product.id} className="min-w-[280px] sm:min-w-[320px] md:min-w-[350px] lg:min-w-[calc(25%-1.5rem)] snap-start">
+                    <div key={product.id} className="min-w-full sm:min-w-[320px] md:min-w-[350px] lg:min-w-[calc(25%-1.5rem)] snap-start">
                         <ProductCard {...product} />
                     </div>
                 ))}
