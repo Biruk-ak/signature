@@ -824,11 +824,11 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
         name: "Sports Handle",
         price: "$000.00",
         category: "Accessories",
-        image: "/Sports Handle/centr-sport-handle-538046.webp",
-        hoverImage: "/Sports Handle/Sports Handle.webp",
+        image: "/sports Handle/centr-sport-handle-538046.webp",
+        hoverImage: "/sports Handle/Sports Handle.webp",
         gallery: [
-            "/Sports Handle/centr-sport-handle-538046.webp",
-            "/Sports Handle/Sports Handle.webp",
+            "/sports Handle/centr-sport-handle-538046.webp",
+            "/sports Handle/Sports Handle.webp",
         ],
         description: [
             "Sport-focused training – Ideal for golf swings, baseball swings, and other rotational exercises.",
@@ -1983,6 +1983,7 @@ Available in weights from 5 kg to 25 kg, these dumbbells offer the flexibility t
             "Assembled Weight : 427 lb. (193.5 kg)",
         ]
     },
+
 
 
 
